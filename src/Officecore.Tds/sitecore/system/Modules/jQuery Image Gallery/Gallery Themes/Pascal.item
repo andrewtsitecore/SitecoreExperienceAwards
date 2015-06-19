@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {D8206847-1C32-49AB-A248-26FFF71D2DAF}
+database: master
+path: /sitecore/system/Modules/jQuery Image Gallery/Gallery Themes/Pascal
+parent: {465F0102-4941-4DEB-946B-1D095734FA80}
+name: Pascal
+master: {00000000-0000-0000-0000-000000000000}
+template: {03907979-5C9F-4B46-83EA-F18176300096}
+templatekey: Theme
+
+----field----
+field: {E9906D72-C934-4FF4-9E41-3C230394B193}
+name: CSS File
+key: css file
+content-length: 4
+
+dark
+----version----
+language: en
+version: 1
+revision: cb299a33-7199-4c03-84b8-0922898c17ef
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20120404T112323
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+cb299a33-7199-4c03-84b8-0922898c17ef
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140316T181149:635305903090191763
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

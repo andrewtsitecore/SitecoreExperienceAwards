@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {A2FC9896-8F5C-476B-85FD-B474B94ECCF1}
+database: master
+path: /sitecore/system/Marketing Control Panel/Profiles/Product Interest/Pattern Cards/Office buyer
+parent: {E410F753-2021-419D-A400-35D2830E433E}
+name: Office buyer
+master: {00000000-0000-0000-0000-000000000000}
+template: {4A6A7E36-2481-438F-A9BA-0453ECC638FA}
+templatekey: Pattern Card
+
+----field----
+field: {FE732790-2DDB-4657-A882-C2FCE1FBF0C9}
+name: Name
+key: name
+content-length: 12
+
+Office buyer
+----field----
+field: {98535F26-6C9D-4FD7-A7E2-392C7CB82D65}
+name: Image
+key: image
+content-length: 140
+
+<image mediaid="{6BAC0D5A-1D4C-4893-AE7A-98D98A4069E2}" mediapath="/Images/Categories/Office" src="~/media/Images/Categories/Office.ashx" />
+----field----
+field: {6DA71AD3-5849-4482-9317-D21390E5A348}
+name: Pattern
+key: pattern
+content-length: 304
+
+<tracking>
+  <profile id="{95056025-5410-43DF-BB8C-67F8FEC8F45E}" name="Product Interest">
+    <key name="Holiday" value="0" />
+    <key name="Home" value="0" />
+    <key name="Luxury" value="2" />
+    <key name="Office" value="5" />
+    <key name="Services" value="3" />
+  </profile>
+</tracking>
+----version----
+language: en
+version: 1
+revision: 8e339e95-4e34-4cd8-bcc3-2f73c4b8f805
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20120301T142703
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8e339e95-4e34-4cd8-bcc3-2f73c4b8f805
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20120917T133439:634834856798179622
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

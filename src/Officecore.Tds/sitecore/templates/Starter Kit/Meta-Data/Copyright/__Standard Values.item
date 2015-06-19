@@ -1,0 +1,210 @@
+----item----
+version: 1
+id: {F3085A71-2919-4A9F-ADF1-775871D04F89}
+database: master
+path: /sitecore/templates/Starter Kit/Meta-Data/Copyright/__Standard Values
+parent: {E938912D-7D71-4B3B-BD59-01268DE76255}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {E938912D-7D71-4B3B-BD59-01268DE76255}
+templatekey: Copyright
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 0
+
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 399
+
+<r xmlns:xsd="http://www.w3.org/2001/XMLSchema" ><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{BC88973F-D93B-47A4-85A0-D51034C457CF}"><r ds="" id="{54B791D9-F6B9-44CA-95CD-66A1D630E329}" par="" ph="page-columns" uid="{07C95606-3436-494E-BF01-C0747192E99B}" /><r ds="" id="{D2D5630A-72B7-4683-9E6A-819C9A3133C9}" par="" ph="column-content" uid="{780A22D3-B742-4F36-9DF8-00630261C5E8}" /></d></r>
+----version----
+language: en
+version: 1
+revision: 91aeda80-3ee4-4719-9c19-d95c286a0b2c
+
+----field----
+field: {0C491C24-279E-4A46-877A-56AC33F3D13E}
+name: Copyright Text
+key: copyright text
+content-length: 9
+
+Copyright
+----field----
+field: {2FC7A5BF-290D-40F7-A6B9-8EB00FDC40A6}
+name: Start Year
+key: start year
+content-length: 4
+
+2007
+----field----
+field: {6232C2E8-5AE3-4577-B83E-CEF63071414A}
+name: Copyright Holder
+key: copyright holder
+content-length: 8
+
+Sitecore
+----field----
+field: {63EB60A3-3D29-4061-99E7-2CDDE3E7EE81}
+name: Link Text
+key: link text
+content-length: 12
+
+Terms of Use
+----field----
+field: {6437B751-1E64-48D9-B549-C604ACE49732}
+name: Banner Image
+key: banner image
+content-length: 0
+
+
+----field----
+field: {4D396D25-9269-4C50-9E20-2DEB64C268D9}
+name: Banner Slogan
+key: banner slogan
+content-length: 0
+
+
+----field----
+field: {D5A4F329-B904-4D6D-8503-392BD87B18A6}
+name: Title
+key: title
+content-length: 12
+
+Terms of Use
+----field----
+field: {BAC5B3D4-5E16-47A0-A4DB-305B29BC7702}
+name: Text
+key: text
+content-length: 4374
+
+<p>The use of Sitecore Software is governed by the Sitecore License Agreement (which you accepted during installation).</p><p>The Starter Kit, which has been pre-installed into the Sitecore Software mentioned above, is governed by the following shared source license agreement:</p><h2>Starter Kit Shared Source License Agreement</h2><p>This License governs use of the accompanying Software, and your use of the Software constitutes acceptance of this license. <br><br>Subject to the restrictions in this license, you may use this Software for any commercial or non-commercial purpose in Sitecore solutions only. You may also distribute this Software with books or other teaching materials, or publish the Software on websites, that are intended to teach the use of the Software in relation to Sitecore. <br><br>You may not use or distribute this Software or any derivative works in any form for uses other than with Sitecore. <br><br>You may modify this Software and distribute the modified Software as long as it relates to Sitecore, however, you may not grant rights to the Software or derivative works that are broader than those provided by this License. For example, you may not distribute modifications of the Software under terms that would permit uses not relating to Sitecore, or under terms that purport to require the Software or derivative works to be sublicensed to others. <br><br>You may use any information in intangible form that you remember after accessing the Software. However, this right does not grant you a license to any of Sitecore's copyrights or patents for anything you might create using such information. <br><br>In return, we simply require that you agree: </p><ol><li class="normal">Not to remove any copyright or other notices from the Software. </li><li class="normal">That if you distribute the Software in source or object form, you will include a verbatim copy of this license. </li><li class="normal">That if you distribute derivative works of the Software in source code form you do so only under a license that includes all of the provisions of this License, and if you distribute derivative works of the Software solely in object form you do so only under a license that complies with this License. </li><li class="normal">That if you have modified the Software or created derivative works, and distribute such modifications or derivative works, you will cause the modified files to carry prominent notices so that recipients know that they are not receiving the original Software. Such notices must state: (i) that you have changed the Software; and (ii) the date of any changes. </li><li class="normal">THAT THE SOFTWARE COMES "AS IS", WITH NO WARRANTIES. THIS MEANS NO EXPRESS, IMPLIED OR STATUTORY WARRANTY, INCLUDING WITHOUT LIMITATION, WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR ANY WARRANTY OF TITLE OR NON-INFRINGEMENT. ALSO, YOU MUST PASS THIS DISCLAIMER ON WHENEVER YOU DISTRIBUTE THE SOFTWARE OR DERIVATIVE WORKS. </li><li class="normal">THAT SITECORE WILL NOT BE LIABLE FOR ANY DAMAGES RELATED TO THE SOFTWARE OR THIS LICENSE, INCLUDING DIRECT, INDIRECT, SPECIAL, CONSEQUENTIAL OR INCIDENTAL DAMAGES, TO THE MAXIMUM EXTENT THE LAW PERMITS, NO MATTER WHAT LEGAL THEORY IT IS BASED ON. ALSO, YOU MUST PASS THIS LIMITATION OF LIABILITY ON WHENEVER YOU DISTRIBUTE THE SOFTWARE OR DERIVATIVE WORKS. </li><li class="normal">That if you sue anyone over patents that you think may apply to the Software or anyone's use of the Software, your license to the Software ends automatically. </li><li class="normal">That your rights under the License end automatically if you breach it in any way. </li><li class="normal">Sitecore reserves all rights not expressly granted to you in this license. </li></ol><p class="normal">NOTE: You may remove the above license terms from your website, but you may not remove the Shared Source License.rtf file from the Sitecore Root folder, nor may you remove the license text from any of the supplied source code.</p><p class="normal">NOTE: Some of the images provided with this starter kit have been purchased from iStockPhoto for promotional purposes and are not licensed for use on websites produced with this starter kit. Therefore, we recommend that you purchase rights to any images that you wish to use on your website directly from an authorized image dealer.</p>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20071123T115401
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+91aeda80-3ee4-4719-9c19-d95c286a0b2c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150312T140104:635617656640863104Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 22
+
+sitecore\virtualssuser
+----version----
+language: ja-JP
+version: 1
+revision: 0d66cc2f-87ca-4f7a-a5bc-b2b70324457d
+
+----field----
+field: {0C491C24-279E-4A46-877A-56AC33F3D13E}
+name: Copyright Text
+key: copyright text
+content-length: 3
+
+著作権
+----field----
+field: {2FC7A5BF-290D-40F7-A6B9-8EB00FDC40A6}
+name: Start Year
+key: start year
+content-length: 4
+
+2007
+----field----
+field: {6232C2E8-5AE3-4577-B83E-CEF63071414A}
+name: Copyright Holder
+key: copyright holder
+content-length: 8
+
+Sitecore
+----field----
+field: {63EB60A3-3D29-4061-99E7-2CDDE3E7EE81}
+name: Link Text
+key: link text
+content-length: 4
+
+利用規約
+----field----
+field: {6437B751-1E64-48D9-B549-C604ACE49732}
+name: Banner Image
+key: banner image
+content-length: 0
+
+
+----field----
+field: {D5A4F329-B904-4D6D-8503-392BD87B18A6}
+name: Title
+key: title
+content-length: 4
+
+利用規約
+----field----
+field: {BAC5B3D4-5E16-47A0-A4DB-305B29BC7702}
+name: Text
+key: text
+content-length: 2272
+
+<p> Sitecoreソフトウェアの使用はSitecoreライセンス契約で（これはインストール時に可）に準拠します。 </p><p>スターターキットは、中古Sitecoreソフトウェアに、上記のインストールされて、次の共有ソースライセンス契約が適用されます： </p><h2>スターターキットには、ソース使用許諾契約書を共有</h2><p>このライセンスの支配は、付属のソフトウェア、およびソフトウェアの使用方法このライセンスの受諾を構成する。 <br><br>サブジェクトは、このライセンスの制限するには、Sitecoreソリューションのいずれか、または非商用目的のためにのみ、このソフトウェアを使用することがあります。また、本やその他の教育材料、またはウェブサイト上のソフトウェアを公開すると、そのSitecore to関係inソフトウェアの使用を教えることを意図、このソフトウェアを配布すること。 <br><br>あなたが使用することは本ソフトウェアまたは任意の形式ですべての派生作品を配布する他のSitecoreより使用します。 <br><br>あなたが変更されたソフトウェアは、本ソフトウェアおよび配布を変更することがお客様が本ソフトウェアまたはそれらの本ライセンスで提供されるよりも広いです派生する権利を付与することができないとして、それがSitecoreに関連する長期しかし、このよう。たとえば、あなたがSitecore、ソフトウェア、または派生物を必要とする趣旨条件の下で関係がない使用を許可する条件の下で他の人にサブライセンスするソフトウェアの変更を配布することはできません。 <br><br>あなたは無形のフォーム内の任意の情報を、あなたは覚えて使用することがソフトウェアにアクセスした後。ただし、この権利はあなたにSitecoreの著作権は、そのような情報を使用して作成することが何のための特許のライセンスを付与されません。 <br><br>その見返りに、我々は単に、あなたが同意する必要が： </p><ol><li class="normal">まだソフトウェアの著作権、またはその他の通知を削除します。 </li><li class="normal">それはお客様が本ソフトウェアのソースまたはオブジェクトの形で配布する場合は、このライセンスの逐語的なコピーが含まれます。 </li><li class="normal">それはあなたのソフトウェアの派生物を配布する場合ソースコードをフォームにしかすべての本ライセンスの規定を含みますライセンスの下で、としない場合は、フォームオブジェクトのみの場合はので、このライセンスに準拠してライセンスの下で行うソフトウェアの派生作品を配布します。 </li><li class="normal">お客様が本ソフトウェアを変更した場合または派生作品を作成し、このような修正または派生物を配布することは、あなたが変更されたファイルは、その受信者は、彼らが元のソフトウェアを受けていない知っている著名な通知を行うことになります。このような通知する必要があります状態：（i）その場合は、ソフトウェア、および（ii）を変更した日変更されました。 </li><li class="normal">これは、ソフトウェアが来れば"黙示ISはAS"は、WITH。この制限は、無含めて、明示、明示または黙示の保証を意味する、特定の目的または職種または非侵害の保証、商品性または適合性の保証。また、あなたはソフトウェアまたは派生作品を配布するたびONに本免責事項を渡す必要があります。</li><li class="normal">そのSITECOREも責を負わない直接的、間接的、特別、間接的または付随的損害を含むソフトウェア本契約に関連するため、最大限に法の許す範囲、どんな法理論が元になってもいけないでしょう。また、あなたはソフトウェアまたは派生作品を配布するたびにおける責任のこの制限を渡す必要があります。 </li><li class="normal">あなたはソフトウェアまたはソフトウェアの誰もが使える、ソフトウェアライセンスに適用されるかもしれないと思う以上の特許を誰にも訴える場合それは自動的に終了します。 </li><li class="normal">これはライセンスエンドの下にお客様の権利は自動的にどのような方法でそれを違反した場合。 </li><li class="normal"> Sitecoreのすべての権利を明示的にあなたにこのライセンスで許可されていません。 </li></ol><p class="normal">注：あなたのサイトから上記のライセンス条件削除することが、しかし、あなたはSitecoreルートのfolderファイルから共有Source License.rtfを削除notこと、また、あなたはどのofからライセンスtextを削除すること指定されたソースコードです。 </p><p class="normal">注：いくつかのイメージは、このスターターキットに付属のプロモーション目的のためにiStockPhotoのから購入されているウェブサイトこのスターターキットを生産で使用するためのライセンスされていません。したがって、我々はあなたがあなたのサイトに直接認定イメージから使用する任意の画像の権利を購入することをお勧めディーラー。 </p>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20071123T115401
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+0d66cc2f-87ca-4f7a-a5bc-b2b70324457d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150312T140104:635617656641173125Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 22
+
+sitecore\virtualssuser

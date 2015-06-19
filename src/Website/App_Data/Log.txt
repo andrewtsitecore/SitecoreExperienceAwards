@@ -1,0 +1,6 @@
+2013-06-25T12:28:48.2952727Z - 3936 - Info - Creating provider from binary data file 'D:\Websites\_dev\officecoresource\src\Officecore.Website\App_Data\51Degrees.mobi-Premium-2013.03.20.dat'.
+2013-06-25T12:28:49.0754627Z - 3936 - Info - Created provider from binary data file 'D:\Websites\_dev\officecoresource\src\Officecore.Website\App_Data\51Degrees.mobi-Premium-2013.03.20.dat'.
+2013-07-11T13:21:30.6005101Z - 8788 - Info - Creating provider from binary data file 'D:\Websites\_dev\officecore_project\src\Officecore.Website\App_Data\51Degrees.mobi-Premium-2013.03.20.dat'.
+2013-07-11T13:21:31.5465101Z - 8788 - Info - Created provider from binary data file 'D:\Websites\_dev\officecore_project\src\Officecore.Website\App_Data\51Degrees.mobi-Premium-2013.03.20.dat'.
+2013-08-31T17:19:03.8693442Z - 17080 - Info - Creating provider from binary data file 'D:\Websites\_dev\officecore_project\src\Officecore.Website\App_Data\51Degrees.mobi-Premium-2013.03.20.dat'.
+2013-08-31T17:19:04.8433999Z - 17080 - Info - Created provider from binary data file 'D:\Websites\_dev\officecore_project\src\Officecore.Website\App_Data\51Degrees.mobi-Premium-2013.03.20.dat'.

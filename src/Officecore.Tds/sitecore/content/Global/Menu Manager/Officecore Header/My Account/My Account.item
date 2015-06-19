@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {5544D601-E086-4E22-AD91-68F82F51E99A}
+database: master
+path: /sitecore/content/Global/Menu Manager/Officecore Header/My Account/My Account
+parent: {CE5A84AC-4CC8-46A8-8136-B65A832EDC23}
+name: My Account
+master: {00000000-0000-0000-0000-000000000000}
+template: {E5E970DD-272E-4111-9712-AD99E30E6023}
+templatekey: Menu Category
+
+----version----
+language: en
+version: 1
+revision: dbffb117-b0f5-43b1-b0bc-9d9ffc3b036d
+
+----field----
+field: {576C48FB-4F81-4118-9B11-830E29155259}
+name: Link Text
+key: link text
+content-length: 10
+
+My Account
+----field----
+field: {80DCB938-939F-4604-881E-E80FE5CC07B9}
+name: Link
+key: link
+content-length: 113
+
+<link text="" linktype="internal" class="" title="" querystring="" id="{9B0EFB29-61C2-4771-9E01-1A8471D695A6}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150124T132734Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+dbffb117-b0f5-43b1-b0bc-9d9ffc3b036d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150131T211604:635583357643815398Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

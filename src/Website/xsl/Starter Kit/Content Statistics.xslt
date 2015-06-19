@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!--=============================================================
+    File: Content Statistics.xslt                                                   
+    Created by: sitecore\admin                                       
+    Created: 1/8/2008 12:53:57 PM                                               
+    Copyright notice at bottom of file
+==============================================================-->
+
+<xsl:stylesheet version="1.0"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
+  xmlns:sc="http://www.sitecore.net/sc" 
+  xmlns:dot="http://www.sitecore.net/dot"
+  exclude-result-prefixes="dot sc">
+
+<!-- output directives -->
+<xsl:output method="html" indent="no" encoding="UTF-8" />
+
+<!-- parameters -->
+<xsl:param name="lang" select="'en'"/>
+<xsl:param name="id" select="''"/>
+<xsl:param name="sc_item"/>
+<xsl:param name="sc_currentitem"/>
+
+<!-- variables -->
+<xsl:variable name="home" select="$sc_item/ancestor-or-self::item[@template='site root']" />  
+
+<!-- entry point -->
+<xsl:template match="*">
+  <xsl:apply-templates select="$sc_item" mode="main"/>
+</xsl:template>
+
+<!--==============================================================-->
+<!-- main                                                         -->
+<!--==============================================================-->
+<xsl:template match="*" mode="main">
+  <table cellpadding="10px">
+    <tr><td><strong>Site Section</strong></td><td><strong>Statistics</strong></td></tr>
+    <xsl:for-each select="sc:GetItemsOfType('site section',$home/item)">
+      <tr>
+        <td><sc:text field="title"/></td>
+        <td><xsl:number value="count(sc:item(@id,.)//item)+1"/> pages</td>
+      </tr>
+    </xsl:for-each>
+  </table>
+</xsl:template>
+
+</xsl:stylesheet>

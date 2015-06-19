@@ -1,0 +1,51 @@
+# Build Folders (you can keep bin if you'd like, to store dlls and pdbs)
+/src/bin
+/src/obj
+
+#ignore thumbnails created by windows
+Thumbs.db
+Web.*.config
+ConnectionStrings.*.config
+
+#Ignore files build by Visual Studio
+*.user
+*.ncb
+*.suo
+*.bak
+*.cache
+*.ilk
+*.log
+[Bb]in
+[Dd]ebug*/
+*.sbr
+obj/
+[Rr]elease*/
+_ReSharper*/
+TestResults
+
+# NuGet Packages
+*.nupkg
+
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+
+/src/Officecore.Website/App_Config/ConnectionStrings.config
+/src/packages
+
+# Build ignores
+/msbuild.log
+/artifacts
+
+node_modules/
+
+IconCache
+BuiltFiles_Debug.txt
+
+/trafficdata/officecorebetaSitecore.Analytics_distributed.zip
+/trafficdata/officecorebetaSitecore.Analytics_spike_complete.zip
+/src/Officecore.Tds/BuiltFiles_Debug.txt
+/output.txt
+

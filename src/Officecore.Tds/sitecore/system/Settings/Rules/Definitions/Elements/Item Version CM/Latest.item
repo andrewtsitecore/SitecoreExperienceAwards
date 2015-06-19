@@ -1,0 +1,72 @@
+----item----
+version: 1
+id: {7411B5B3-16A2-4EA2-98D5-63B20834D275}
+database: master
+path: /sitecore/system/Settings/Rules/Definitions/Elements/Item Version CM/Latest
+parent: {1A869B04-F1F3-409A-866E-0050AFB972C8}
+name: Latest
+master: {00000000-0000-0000-0000-000000000000}
+template: {F0D16EEE-3A05-4E43-A082-795A32B873C0}
+templatekey: Condition
+
+----field----
+field: {AB51C8B2-F0E1-4471-9AAE-CC080D774923}
+name: Type
+key: type
+content-length: 76
+
+Officecore.Website.code.Rules.Conditions.IsLatestVersion, Officecore.Website
+----version----
+language: en
+version: 1
+revision: 13fa3011-5e0e-4ebd-b1d5-b007c0978443
+
+----field----
+field: {AF321234-4EB9-4EF5-9197-65903351939C}
+name: Text
+key: text
+content-length: 44
+
+where the item version is the latest version
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150130T130047Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+13fa3011-5e0e-4ebd-b1d5-b007c0978443
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150130T130232:635582197529139117Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

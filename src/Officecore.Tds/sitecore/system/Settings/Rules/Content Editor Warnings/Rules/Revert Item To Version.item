@@ -1,0 +1,74 @@
+----item----
+version: 1
+id: {C8EC09E6-2FF5-4A10-88C9-3440EF4EDDED}
+database: master
+path: /sitecore/system/Settings/Rules/Content Editor Warnings/Rules/Revert Item To Version
+parent: {2F33CE60-C3D9-45C3-A391-3C22F2F63FB5}
+name: Revert Item To Version
+master: {00000000-0000-0000-0000-000000000000}
+template: {71A2C881-FBB3-4A23-A187-7FD50A20F924}
+templatekey: Content Editor Warning Rule
+
+----field----
+field: {52A38DF4-8193-4BDD-896E-FB4C9AC48F5B}
+name: Rule
+key: rule
+content-length: 614
+
+<ruleset>
+  <rule uid="{3C45564D-0B5A-4541-B828-600A49F33A49}">
+    <conditions>
+      <condition id="{7411B5B3-16A2-4EA2-98D5-63B20834D275}" uid="BF43BE0F28F645159558D9FAB4759778" except="true" />
+    </conditions>
+    <actions>
+      <action id="{B7F73976-7586-4E9C-A5F2-1E2BC68C5BE3}" uid="1B805953D17F4FC5B9773A1243B66095" title="Revert item" text="&lt;a href=&quot;#&quot; title=&quot;Add a version of the selected item.&quot; onclick=&quot;javascript:return scForm.postEvent(this,event,'item:addversion(id=)')&quot;&gt;Revert to the selected version&lt;/a&gt;" />
+    </actions>
+  </rule>
+</ruleset>
+----version----
+language: en
+version: 1
+revision: 26f6e468-f7f8-4b1c-aafc-e85a63e72850
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150130T130431Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+26f6e468-f7f8-4b1c-aafc-e85a63e72850
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150130T130656:635582200166830872Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

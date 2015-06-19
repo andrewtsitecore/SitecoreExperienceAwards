@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {B78D43E9-3BC4-4BFC-95C4-5690BFC03E0C}
+database: master
+path: /sitecore/templates/Branches/Starter Kit/News - One Column/$name
+parent: {A2633C18-C682-4393-9CBF-3B2A9C8D3368}
+name: $name
+master: {00000000-0000-0000-0000-000000000000}
+template: {788EF1BE-B71E-4D59-9276-50519BD4F641}
+templatekey: News Article
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 186
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{F52C6CFC-3C88-49D9-967D-1B0DA2CB081E}" s:id="{54B791D9-F6B9-44CA-95CD-66A1D630E329}" /></d></r>
+----version----
+language: en
+version: 1
+revision: 694ec915-6a14-47d1-bf62-44cd9eb3e535
+
+----field----
+field: {C8F0CF43-0D0F-457D-8E59-568815CCD2FC}
+name: Menu Tooltip
+key: menu tooltip
+content-length: 4
+
+lkjh
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20121004T164500
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+694ec915-6a14-47d1-bf62-44cd9eb3e535
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20121005T110242:634850317621658377
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

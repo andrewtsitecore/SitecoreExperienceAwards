@@ -1,0 +1,70 @@
+/****** General ******/
+.center {
+  text-align: center;
+}
+
+#switcher-panel {  
+  height: 400px;
+  background: white;
+}
+
+#switcher-panel2 {  
+  height: 400px;
+  background: white;
+}
+
+.nav_buttons {
+  position: relative;
+  top: 13px;
+  left: 15px;
+  height: 30px;
+}
+
+.nav_buttons a {
+  margin: 0px 10px;
+}
+
+.header {
+  height: 50px;
+  width: 100%;
+  position: relative;
+  top: 0px;
+  
+  background-color: white; 
+
+/* outer shadows  (note the rgba is red, green, blue, alpha) */
+-webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4); 
+-moz-box-shadow: 0px 1px 6px rgba(23, 69, 88, .5);
+
+/* rounded corners */
+-webkit-border-radius: 12px;
+-moz-border-radius: 7px; 
+border-radius: 7px;
+
+/* gradients */
+background: -webkit-gradient(linear, left top, left bottom, 
+color-stop(0%, white), color-stop(15%, white), color-stop(100%, lightgrey)); 
+background: -moz-linear-gradient(top, white 0%, white 15%, lightgrey 130%); 
+}
+
+.block {
+  min-height: 400px;
+  height: 400px;
+}
+
+.grayborder {  min-height:100px; padding:10px;}  
+.grayborder img { max-height: 105px; }  
+.grayborder .content p {margin:7px;}
+.grayborder .content img { float:left; margin-right:10px; }
+.grayborder table { padding: 5px; width:100%;}
+/* Set to 49.9% bug in stupid ie*/
+.grayborder td { width:49.9%; }
+.grayborder .alternate { background-color: #D8D8D8; }
+
+.divAlternate {
+    background-color: #D8D8D8;
+}
+
+/* PROFILE TABS */
+
+.profile-table { font-size:12px;}

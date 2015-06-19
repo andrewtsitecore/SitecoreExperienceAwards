@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {AC192AD9-D66F-40C3-B884-768944652F77}
+database: master
+path: /sitecore/layout/Placeholder Settings/mobilepagecontent
+parent: {1CE3B36C-9B0C-4EB5-A996-BFCB4EAA5287}
+name: mobilepagecontent
+master: {00000000-0000-0000-0000-000000000000}
+template: {5C547D4E-7111-4995-95B0-6B561751BF2E}
+templatekey: Placeholder
+
+----field----
+field: {7256BDAB-1FD2-49DD-B205-CB4873D2917C}
+name: Placeholder Key
+key: placeholder key
+content-length: 17
+
+mobilepagecontent
+----field----
+field: {E391B526-D0C5-439D-803E-17512EAE6222}
+name: Allowed Controls
+key: allowed controls
+content-length: 389
+
+{4A8095ED-DE0A-4DAD-A4A7-D6D63E70616A}|{A038BF88-A024-4902-9354-3F1A4E26C730}|{5A6394F1-33DA-41D4-A39A-AD1045B9DD67}|{D06E9628-B322-474C-8AFE-3918CF7BEF33}|{30738779-AE65-4394-BED0-11B886279C9A}|{26892530-829E-41A5-AF7D-1E695061494C}|{D7819740-BD7E-495E-89BF-2917735550BE}|{FFB96835-0D00-405F-B00E-D57237146708}|{1DAF34CF-BF8D-4442-802F-C9B212376DFE}|{76A23860-8627-435D-843A-587BC9112E4B}
+----version----
+language: en
+version: 1
+revision: 391f6482-2073-4f87-ba94-1d4a09ce9544
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140207T113356
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+391f6482-2073-4f87-ba94-1d4a09ce9544
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150125T185313:635578087938255716Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

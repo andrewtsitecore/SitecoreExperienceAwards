@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<appcmd>
+
+    <SITE SITE.NAME="develop.officecore.net" SITE.ID="2" bindings="http/*:80:develop.officecore.net,http/*:80:demo.officecore.google,http/*:80:demo.officecore.bing" state="Stopped">
+
+        <site name="develop.officecore.net" id="2" serverAutoStart="true">
+
+            <bindings>
+
+                <binding protocol="http" bindingInformation="*:80:develop.officecore.net" />
+
+                <binding protocol="http" bindingInformation="*:80:develop.officecore.google" />
+
+                <binding protocol="http" bindingInformation="*:80:develop.officecore.bing" />
+
+            </bindings>
+
+            <limits />
+
+            <logFile />
+
+            <traceFailedRequestsLogging />
+
+            <applicationDefaults />
+
+            <virtualDirectoryDefaults />
+
+            <ftpServer>
+
+                <connections />
+
+                <security>
+
+                    <dataChannelSecurity />
+
+                    <commandFiltering>
+
+                    </commandFiltering>
+
+                    <ssl />
+
+                    <sslClientCertificates />
+
+                    <authentication>
+
+                        <anonymousAuthentication />
+
+                        <basicAuthentication />
+
+                        <clientCertAuthentication />
+
+                        <customAuthentication>
+
+                            <providers>
+
+                            </providers>
+
+                        </customAuthentication>
+
+                    </authentication>
+
+                </security>
+
+                <customFeatures>
+
+                    <providers>
+
+                    </providers>
+
+                </customFeatures>
+
+                <messages />
+
+                <fileHandling />
+
+                <firewallSupport />
+
+                <userIsolation>
+
+                    <activeDirectory />
+
+                </userIsolation>
+
+                <directoryBrowse />
+
+                <logFile />
+
+            </ftpServer>
+
+            <application path="/" applicationPool="develop.officecore.net">
+
+                <virtualDirectoryDefaults />
+
+                <virtualDirectory path="/" physicalPath="C:\Websites\develop.officecore.net\Website" />
+
+            </application>
+
+        </site>
+
+    </SITE>
+
+</appcmd>

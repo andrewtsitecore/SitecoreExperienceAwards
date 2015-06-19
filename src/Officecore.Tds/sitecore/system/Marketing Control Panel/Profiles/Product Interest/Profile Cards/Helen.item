@@ -1,0 +1,108 @@
+----item----
+version: 1
+id: {894D8433-3FC4-43B7-B3C6-24AAD2B8848C}
+database: master
+path: /sitecore/system/Marketing Control Panel/Profiles/Product Interest/Profile Cards/Helen
+parent: {0EB89243-55B7-4F4E-A1C7-372ABA11378A}
+name: Helen
+master: {00000000-0000-0000-0000-000000000000}
+template: {448C4D57-F0F1-4278-8AB8-93DB46C94F1B}
+templatekey: Profile Card - Persona
+
+----field----
+field: {709B879B-7264-49C7-8864-E254D9129302}
+name: Image
+key: image
+content-length: 134
+
+<image mediaid="{5A3AD858-0F94-4A72-9EE7-DBBD229BA931}" mediapath="/Images/People/Nonummy" src="~/media/Images/People/Nonummy.ashx" />
+----field----
+field: {85970AB7-22EA-4206-BE86-C0167178860B}
+name: Profile Card Value
+key: profile card value
+content-length: 304
+
+<tracking>
+  <profile id="{95056025-5410-43DF-BB8C-67F8FEC8F45E}" name="Product Interest">
+    <key name="Holiday" value="5" />
+    <key name="Home" value="2" />
+    <key name="Luxury" value="5" />
+    <key name="Office" value="0" />
+    <key name="Services" value="0" />
+  </profile>
+</tracking>
+----version----
+language: en
+version: 1
+revision: 8e9be007-45f2-4420-b8c8-a5a5a4c0a723
+
+----field----
+field: {A26FC256-1DB0-44AA-BA3D-1C830BF882A2}
+name: Name
+key: name
+content-length: 5
+
+Helen
+----field----
+field: {462C9EA6-1BC7-4131-9D65-9976801DAA48}
+name: Title
+key: title
+content-length: 3
+
+Mrs
+----field----
+field: {54F11D48-20C6-4955-88B9-9D74B1FF015D}
+name: Details
+key: details
+content-length: 34
+
+Mostly interested in home products
+----field----
+field: {6F5B9EB7-D444-4E28-BB7A-12D3B03A8F7C}
+name: Age
+key: age
+content-length: 2
+
+36
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 12
+
+Helen (home)
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20120301T142551
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8e9be007-45f2-4420-b8c8-a5a5a4c0a723
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20120928T175344:634844516241244630
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

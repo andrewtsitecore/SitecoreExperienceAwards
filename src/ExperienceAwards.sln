@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "ExperienceAwards.Tds", "Officecore.Tds\ExperienceAwards.Tds.scproj", "{B2EB52F3-7F9A-452D-BCA6-B7886DA5DC69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Website", "Website\Website.csproj", "{69513B80-4CF7-4186-958F-5EC3D371DFE2}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "ExperienceAwards.Tds.Core", "officecore.core.tds\ExperienceAwards.Tds.Core.scproj", "{DAF64838-D891-4A61-96E3-B3B0CBD6B304}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2EB52F3-7F9A-452D-BCA6-B7886DA5DC69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2EB52F3-7F9A-452D-BCA6-B7886DA5DC69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2EB52F3-7F9A-452D-BCA6-B7886DA5DC69}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B2EB52F3-7F9A-452D-BCA6-B7886DA5DC69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2EB52F3-7F9A-452D-BCA6-B7886DA5DC69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2EB52F3-7F9A-452D-BCA6-B7886DA5DC69}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{69513B80-4CF7-4186-958F-5EC3D371DFE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69513B80-4CF7-4186-958F-5EC3D371DFE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69513B80-4CF7-4186-958F-5EC3D371DFE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69513B80-4CF7-4186-958F-5EC3D371DFE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAF64838-D891-4A61-96E3-B3B0CBD6B304}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAF64838-D891-4A61-96E3-B3B0CBD6B304}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAF64838-D891-4A61-96E3-B3B0CBD6B304}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DAF64838-D891-4A61-96E3-B3B0CBD6B304}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAF64838-D891-4A61-96E3-B3B0CBD6B304}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAF64838-D891-4A61-96E3-B3B0CBD6B304}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

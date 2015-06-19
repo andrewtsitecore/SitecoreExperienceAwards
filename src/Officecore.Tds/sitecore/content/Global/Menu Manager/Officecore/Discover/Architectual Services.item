@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {7A760DBB-3A6B-448C-8854-CA6AF2E3FB04}
+database: master
+path: /sitecore/content/Global/Menu Manager/Officecore/Discover/Architectual Services
+parent: {03BC08A2-BC4B-4D7B-99F3-F81E43BBAE38}
+name: Architectual Services
+master: {00000000-0000-0000-0000-000000000000}
+template: {49EA1038-7CD6-4EA8-A270-F76007764DB8}
+templatekey: Menu Item
+
+----version----
+language: en
+version: 1
+revision: a7f15a04-2b42-4cfc-b9c6-bdc2c503735a
+
+----field----
+field: {576C48FB-4F81-4118-9B11-830E29155259}
+name: Link Text
+key: link text
+content-length: 21
+
+Architectual Services
+----field----
+field: {80DCB938-939F-4604-881E-E80FE5CC07B9}
+name: Link
+key: link
+content-length: 114
+
+<link text="" linktype="internal" class="" title=""  querystring="" id="{7F0A4C0A-083D-4D21-BA63-C3F1051BA6D6}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140711T103506
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a7f15a04-2b42-4cfc-b9c6-bdc2c503735a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140711T113904:635406755441095879
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

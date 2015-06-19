@@ -1,0 +1,119 @@
+----item----
+version: 1
+id: {6A88257C-0648-469B-8843-E3257353F957}
+database: master
+path: /sitecore/system/Social/Obsolete Messages/6/A/8/8/Home_en
+parent: {E0A3B7C4-7FA4-450D-A78F-BD0774DC4AE7}
+name: Home_en
+master: {00000000-0000-0000-0000-000000000000}
+template: {3DB83AE0-D2AD-4505-AA0D-0A89092E8924}
+templatekey: Message Container
+
+----field----
+field: {C2FC7A6C-624A-4609-983F-76802E5871A8}
+name: Item
+key: item
+content-length: 70
+
+sitecore://master/{4E7AB8B1-6A39-4C8C-BF5B-816F8105BFFD}?lang=en&ver=4
+----version----
+language: en
+version: 1
+revision: 5789d769-b741-472e-a493-bd9721ccc1fe
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 34
+
+20130619T143640:635072494002880855
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5789d769-b741-472e-a493-bd9721ccc1fe
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20130619T143640:635072494002880855
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 2
+revision: 8ff9e49d-2023-4354-8e98-1076c9cc4148
+
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 15
+
+20130619T143640
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130619T143640
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8ff9e49d-2023-4354-8e98-1076c9cc4148
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20130619T143640:635072494002790855
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

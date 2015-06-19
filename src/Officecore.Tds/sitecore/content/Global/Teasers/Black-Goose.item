@@ -1,0 +1,194 @@
+----item----
+version: 1
+id: {BF1C7613-559C-4894-B0AE-B1B57101B080}
+database: master
+path: /sitecore/content/Global/Teasers/Black-Goose
+parent: {E56F5900-2B26-4CD5-ADDF-B3040FD70E15}
+name: Black-Goose
+master: {00000000-0000-0000-0000-000000000000}
+template: {C44FD938-38CD-4DC5-9579-6CDAFF8AAEAB}
+templatekey: Teaser
+
+----field----
+field: {AD9F67A7-3FF7-4FD2-B8B1-30916EA231DA}
+name: Teaser Link
+key: teaser link
+content-length: 118
+
+<link text="Black Goose Lamp" linktype="external" url="/office-products/black-goose/c-24/p-105" anchor="" target="" />
+----field----
+field: {37E6518C-434A-410D-9DD2-94DDEA09F643}
+name: Teaser Image
+key: teaser image
+content-length: 58
+
+<image mediaid="{FC5A18A7-E6BD-4000-B845-C5AD27F69547}" />
+----version----
+language: 
+version: 1
+revision: c3995266-fc34-457c-ab28-b8dbed5757e0
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 34
+
+20120820T165343:634810784232478657
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c3995266-fc34-457c-ab28-b8dbed5757e0
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140326T115656:635314318168257436
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: caac4637-6d43-47ed-b818-c2c44f6935fb
+
+----field----
+field: {FBE55328-57C5-4DE2-8132-4294EC60715C}
+name: Teaser Title
+key: teaser title
+content-length: 11
+
+Black Goose
+----field----
+field: {0C1C4412-EB8B-464A-9EA6-3E67FEB7E0A0}
+name: Teaser Abstract
+key: teaser abstract
+content-length: 75
+
+Funny name, serious lamp. An awesome bit of kit, just right for your desks.
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110912T160100
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+caac4637-6d43-47ed-b818-c2c44f6935fb
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140331T162230:635318797509974509
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
+----version----
+language: ja-JP
+version: 1
+revision: d461fcf2-0287-4711-9437-f9bd666972c1
+
+----field----
+field: {FBE55328-57C5-4DE2-8132-4294EC60715C}
+name: Teaser Title
+key: teaser title
+content-length: 7
+
+ブラックグース
+----field----
+field: {0C1C4412-EB8B-464A-9EA6-3E67FEB7E0A0}
+name: Teaser Abstract
+key: teaser abstract
+content-length: 14
+
+おかしな名前の真面目なランプ
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20121003T100337
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d461fcf2-0287-4711-9437-f9bd666972c1
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140326T115656:635314318168067417
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,194 @@
+﻿.teasersection {
+    clear: both;
+    padding: 0px;
+    margin: 0px;
+    position:relative;
+    border: 6px solid white;
+    height:411px;
+    z-index: 4;
+    background-color: white;
+}
+.teasercol {
+    color: rgb(34, 34, 34);
+    display: block;
+    float: left;
+    font-family: sans-serif;
+    font-size: 16px;
+    height: 411px;
+    line-height: 22.3999996185303px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    width: 316px;
+    zoom: 1;
+}
+
+.tile {
+    color: rgb(34, 34, 34);
+    display: block;
+    font-family: sans-serif;
+    font-size: 16px;
+    height: 275px;
+    line-height: 22.3999996185303px;
+    max-height: 275px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 100%;
+    zoom: 1;
+    padding: 0px;
+}
+
+.inner2-tile {
+    color: rgb(34, 34, 34);
+    display: block;
+    font-family: sans-serif;
+    font-size: 16px;
+    height: 275px;
+    line-height: 22.3999996185303px;
+    max-height: 275px;
+    position: relative;
+     width: 100%;
+    zoom: 1;
+}
+
+    .inner2-tile h3 {
+        color: #fff;
+        display: block;
+        font-size: 30px;
+        font-weight: bold;
+        height: 123px;
+        left: 10px;
+        line-height: 41px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        position: absolute;
+        text-shadow: #fff 00px 0px 10px;
+        -webkit-font-smoothing: antialiased;
+        text-transform: uppercase;
+        top: 10px;
+         width: 100%;
+        zoom: 1;
+    }
+
+    .inner2-tile image {
+        border-bottom-color: rgb(34, 34, 34);
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-image-outset: 0px;
+        border-image-repeat: stretch;
+        border-image-slice: 100%;
+        border-image-source: none;
+        border-image-width: 1;
+        border-left-color: rgb(34, 34, 34);
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: rgb(34, 34, 34);
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: rgb(34, 34, 34);
+        border-top-style: none;
+        border-top-width: 0px;
+        color: rgb(34, 34, 34);
+        display: block;
+        font-family: sans-serif;
+        font-size: 16px;
+        height: 293px;
+        line-height: 22.3999996185303px;
+        vertical-align: middle;
+        width: 100%;
+        zoom: 1;
+    }
+
+.tile-link {
+    bottom: 10px;
+    color: rgb(255, 255, 255);
+    display: block;
+    font-family: Arial;
+    font-size: 26px;
+    height: 56px;
+    left: 10px;
+    line-height: 26px;
+    padding-right: 10px;
+    position: absolute;
+    width: 288px;
+    zoom: 1;
+}
+
+    .tile-link a {
+        -webkit-background-clip: border-box;
+        -webkit-background-origin: padding-box;
+        -webkit-background-size: 100%;
+        background-attachment: scroll;
+        background-clip: border-box;
+        background-color: rgba(0, 0, 0, 0);
+        background-image: url(http://demo.vodafone.net/assets/img/more-arrow-right.png);
+        background-origin: padding-box;
+        background-size: 100%;
+        color: rgb(0, 0, 238);
+        cursor: auto;
+        display: block;
+        float: right;
+        font-family: Arial;
+        font-size: 26px;
+        height: 30px;
+        line-height: 26px;
+        outline-color: rgb(0, 0, 238);
+        outline-style: none;
+        outline-width: 0px;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        text-decoration: underline;
+        text-indent: -1000px;
+        width: 30px;
+        zoom: 1;
+    }
+
+.body-copy {
+    color: rgb(34, 34, 34);
+    display: block;
+    font-family: sans-serif;
+    font-size: 16px;
+    height: 136px;
+    line-height: 22.3999996185303px;
+    min-height: 75px;
+    width: 100%;
+    zoom: 1;
+    padding-bottom: 15px;
+}
+
+.inner2 {
+    color: rgb(34, 34, 34);
+    display: block;
+    font-family: sans-serif;
+    font-size: 16px;
+    height: 96px;
+    line-height: 22.3999996185303px;
+     width: 100%;
+    zoom: 1;
+    text-align: center;
+}
+
+    .inner2 p {
+        color: rgb(51, 51, 51);
+        display: block;
+        font-family: Arial;
+        font-size: 18px;
+        height: 120px;
+        line-height: 25px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        width: 100%;
+        zoom: 1;
+    }
+
+.teaserimage {
+    height: 100%;
+    width: 100%;
+}

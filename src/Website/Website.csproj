@@ -1,0 +1,1421 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{69513B80-4CF7-4186-958F-5EC3D371DFE2}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Officecore.Website</RootNamespace>
+    <AssemblyName>Officecore.Website</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+    <PublishDatabases>false</PublishDatabases>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DDay.iCal, Version=1.0.2.575, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\DDay.iCal.1.0.2.575\lib\DDay.iCal.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook">
+      <HintPath>..\packages\Facebook.6.8.0\lib\net45\Facebook.dll</HintPath>
+    </Reference>
+    <Reference Include="Hammock, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c148cfba29ed1a4d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\TweetSharp-Unofficial.2.3.1.2\lib\4.0\Hammock.dll</HintPath>
+    </Reference>
+    <Reference Include="Humanizer, Version=1.28.0.0, Culture=neutral, PublicKeyToken=979442b78dfc278e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Humanizer.1.28.0\lib\portable-win+net40+sl50+wp8+wpa81\Humanizer.dll</HintPath>
+    </Reference>
+    <Reference Include="LumenWorks.Framework.IO, Version=3.8.0.0, Culture=neutral, PublicKeyToken=5ad3ea2f85776344, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\LumenWorks.Framework.IO.3.8.0\lib\net20\LumenWorks.Framework.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MongoDB.Bson">
+      <HintPath>..\..\lib\Sitecore\MongoDB.Bson.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Driver">
+      <HintPath>..\..\lib\Sitecore\MongoDB.Driver.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Ninject">
+      <HintPath>..\..\lib\Sitecore\Social\Ninject.dll</HintPath>
+    </Reference>
+    <Reference Include="Raven.Client.Lightweight, Version=2.5.0.0, Culture=neutral, PublicKeyToken=37f41c7f99471593, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\Sitecore\Raven.Client.Lightweight.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Analytics, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\Sitecore\Sitecore.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Analytics.Automation">
+      <HintPath>..\..\lib\Sitecore\Sitecore.Analytics.Automation.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Analytics.Core">
+      <HintPath>..\..\lib\Sitecore\Sitecore.Analytics.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Analytics.DataAccess">
+      <HintPath>..\..\lib\Sitecore\Sitecore.Analytics.DataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Analytics.Model">
+      <HintPath>..\..\lib\Sitecore\Sitecore.Analytics.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Analytics.MongoDB">
+      <HintPath>..\..\lib\Sitecore\Sitecore.Analytics.MongoDB.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Analytics.Processing">
+      <HintPath>..\..\lib\Sitecore\Sitecore.Analytics.Processing.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Buckets, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\Sitecore\Sitecore.Buckets.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Client">
+      <HintPath>..\..\lib\Sitecore\Sitecore.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.ContentSearch, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\Sitecore\Sitecore.ContentSearch.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.ContentSearch.Linq, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\Sitecore\Sitecore.ContentSearch.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.CrmCampaignIntegration">
+      <HintPath>..\..\..\..\www.sitecoreexperienceawards.net\Website\bin\Sitecore.CrmCampaignIntegration.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.ExperienceEditor">
+      <HintPath>..\..\lib\Sitecore\Sitecore.ExperienceEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.ExperienceEditor.Speak">
+      <HintPath>..\..\lib\Sitecore\Sitecore.ExperienceEditor.Speak.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Forms.Core, Version=2.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\Sitecore\Sitecore.Forms.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Forms.Custom">
+      <HintPath>..\..\lib\Sitecore\Sitecore.Forms.Custom.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Kernel, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\Sitecore\Sitecore.Kernel.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.SharedSource.MobileDeviceDetector">
+      <HintPath>..\..\lib\Sitecore\Sitecore.SharedSource.MobileDeviceDetector.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Social">
+      <HintPath>..\..\lib\Sitecore\Sitecore.Social.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Social.Client.Api">
+      <HintPath>..\..\lib\Sitecore\Sitecore.Social.Client.Api.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Social.Domain">
+      <HintPath>..\..\lib\Sitecore\Sitecore.Social.Domain.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Social.Infrastructure">
+      <HintPath>..\..\lib\Sitecore\Sitecore.Social.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Speak">
+      <HintPath>..\..\lib\Sitecore\Sitecore.Speak.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Support.341763">
+      <HintPath>..\..\lib\Sitecore.Support\Sitecore.Support.341763.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.WFFM">
+      <HintPath>..\..\..\..\www.sitecoreexperienceawards.net\Website\bin\Sitecore.WFFM.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.WFFM.Analytics">
+      <HintPath>..\..\lib\Sitecore\Sitecore.WFFM.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="TweetSharp, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c148cfba29ed1a4d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\TweetSharp-Unofficial.2.3.1.2\lib\4.0\TweetSharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="404.aspx" />
+    <Content Include="assets\CSS\blue.css" />
+    <Content Include="assets\CSS\bootstrap\3.1.1\bootstrap.min.css" />
+    <Content Include="assets\CSS\bootstrap\3.2.0\bootstrap.css" />
+    <Content Include="assets\CSS\rd\bootstrap\bootstrap-switch.min.css" />
+    <Content Include="assets\CSS\bootstrap\bootstrap.min.css" />
+    <Content Include="assets\CSS\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="assets\CSS\bootstrap\FormSlider\styles.css" />
+    <Content Include="assets\CSS\brown.css" />
+    <Content Include="assets\CSS\burgundy.css" />
+    <Content Include="assets\CSS\images\arrow-white.png" />
+    <Content Include="assets\CSS\images\checkout_btn_sml_green.gif" />
+    <Content Include="assets\CSS\images\icon-search-grey.gif" />
+    <Content Include="assets\CSS\images\jquery-social-stream\bdr1.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\bdr2.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\bg_shadow.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\comments.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\controls.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\controls1.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-dark-1\delicious.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-dark-1\deviantart.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-dark-1\digg.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-dark-1\dribbble.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-dark-1\facebook.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-dark-1\flickr.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-dark-1\google.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-dark-1\lastfm.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-dark-1\pinterest.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-dark-1\rss.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-dark-1\stumbleupon.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-dark-1\temp.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-dark-1\tumblr.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-dark-1\twitter.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-dark-1\vimeo.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-dark-1\youtube.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-dark\delicious.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-dark\deviantart.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-dark\digg.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-dark\dribbble.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-dark\facebook.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-dark\flickr.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-dark\google.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-dark\instagram.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-dark\lastfm.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-dark\pinterest.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-dark\rss.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-dark\stumbleupon.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-dark\tumblr.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-dark\twitter.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-dark\vimeo.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-dark\youtube.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-light-1\delicious.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-light-1\deviantart.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-light-1\digg.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-light-1\dribbble.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-light-1\facebook.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-light-1\flickr.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-light-1\google.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-light-1\instagram.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-light-1\lastfm.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-light-1\pinterest.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-light-1\rss.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-light-1\stumbleupon.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-light-1\temp.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-light-1\tumblr.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-light-1\twitter.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-light-1\vimeo.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-light-1\youtube.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-light\delicious.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-light\deviantart.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-light\digg.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-light\dribbble.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-light\facebook.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-light\flickr.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-light\google.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-light\instagram.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-light\lastfm.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-light\rss.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-light\stumbleupon.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-light\tumblr.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-light\twitter.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-light\vimeo.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\dcsns-light\youtube.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\hot.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\likes.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\loading.gif" />
+    <Content Include="assets\CSS\images\jquery-social-stream\loading_dark.gif" />
+    <Content Include="assets\CSS\images\jquery-social-stream\loading_light.gif" />
+    <Content Include="assets\CSS\images\jquery-social-stream\loves.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\noize.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\profile.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\share.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\shares.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\tracks.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\users.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\videos.png" />
+    <Content Include="assets\CSS\images\jquery-social-stream\views.png" />
+    <Content Include="assets\CSS\images\s1.png" />
+    <Content Include="assets\CSS\images\s2.png" />
+    <Content Include="assets\CSS\images\s3.png" />
+    <Content Include="assets\CSS\rd\analysevisit\fancybox\fancybox_loading.gif" />
+    <Content Include="assets\CSS\rd\christmas.css" />
+    <Content Include="assets\CSS\rd\font-awesome\css\font-awesome.css" />
+    <Content Include="assets\CSS\rd\font-awesome\css\font-awesome.min.css" />
+    <Content Include="assets\CSS\rd\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="assets\CSS\rd\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="assets\CSS\rd\fonts\MonoSocialIconsFont-1.10.svg" />
+    <Content Include="assets\CSS\images\animated-overlay.gif" />
+    <Content Include="assets\CSS\images\arrow-grey.png" />
+    <Content Include="assets\CSS\images\bg-my-account.gif" />
+    <Content Include="assets\CSS\images\bg_menu.png" />
+    <Content Include="assets\CSS\images\btn-sign-up.gif" />
+    <Content Include="assets\CSS\images\btn-ssml-search.gif" />
+    <Content Include="assets\CSS\images\checkout_btn_sml.gif" />
+    <Content Include="assets\CSS\images\checkout_inactive.gif" />
+    <Content Include="assets\CSS\images\chk-star.gif" />
+    <Content Include="assets\CSS\images\close.png" />
+    <Content Include="assets\CSS\images\footer-bck-white.gif" />
+    <Content Include="assets\CSS\images\footer-fade.png" />
+    <Content Include="assets\CSS\images\footer-top.gif" />
+    <Content Include="assets\CSS\images\header-bck.gif" />
+    <Content Include="assets\CSS\images\hexagon.png" />
+    <Content Include="assets\CSS\images\hori-2.gif" />
+    <Content Include="assets\CSS\images\icon-search.gif" />
+    <Content Include="assets\CSS\images\ios-cross.png" />
+    <Content Include="assets\CSS\images\loader.gif" />
+    <Content Include="assets\CSS\images\mini-basket-empty.gif" />
+    <Content Include="assets\CSS\images\mini-basket.gif" />
+    <Content Include="assets\CSS\images\pattern.png" />
+    <Content Include="assets\CSS\images\pentagon.png" />
+    <Content Include="assets\CSS\images\prim-nav-close.png" />
+    <Content Include="assets\CSS\images\round.png" />
+    <Content Include="assets\CSS\images\search-results-preview-top.gif" />
+    <Content Include="assets\CSS\images\share_email_icon.gif" />
+    <Content Include="assets\CSS\images\socialvector.png" />
+    <Content Include="assets\CSS\images\spice-social-gadget-sprite.png" />
+    <Content Include="assets\CSS\images\split.gif" />
+    <Content Include="assets\CSS\images\sprite-icons-cms-ie6.gif" />
+    <Content Include="assets\CSS\images\sprite-icons-cms.png" />
+    <Content Include="assets\CSS\images\ui-bg_diagonals-thick_18_b81900_40x40.png" />
+    <Content Include="assets\CSS\images\ui-bg_diagonals-thick_20_666666_40x40.png" />
+    <Content Include="assets\CSS\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="assets\CSS\images\ui-bg_flat_10_000000_40x100.png" />
+    <Content Include="assets\CSS\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="assets\CSS\images\ui-bg_glass_100_f6f6f6_1x400.png" />
+    <Content Include="assets\CSS\images\ui-bg_glass_100_fdf5ce_1x400.png" />
+    <Content Include="assets\CSS\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="assets\CSS\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="assets\CSS\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="assets\CSS\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="assets\CSS\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="assets\CSS\images\ui-bg_gloss-wave_35_f6a828_500x100.png" />
+    <Content Include="assets\CSS\images\ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+    <Content Include="assets\CSS\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="assets\CSS\images\ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+    <Content Include="assets\CSS\images\ui-icons_222222_256x240.png" />
+    <Content Include="assets\CSS\images\ui-icons_228ef1_256x240.png" />
+    <Content Include="assets\CSS\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="assets\CSS\images\ui-icons_454545_256x240.png" />
+    <Content Include="assets\CSS\images\ui-icons_888888_256x240.png" />
+    <Content Include="assets\CSS\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="assets\CSS\images\ui-icons_ef8c08_256x240.png" />
+    <Content Include="assets\CSS\images\ui-icons_ffd27a_256x240.png" />
+    <Content Include="assets\CSS\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="assets\CSS\images\vert-2.gif" />
+    <Content Include="assets\CSS\rd\bootstrap\bootstrap.min.css" />
+    <Content Include="assets\CSS\rd\common1.css" />
+    <Content Include="assets\CSS\rd\common2.css" />
+    <Content Include="assets\CSS\rd\common3.css" />
+    <Content Include="assets\CSS\rd\content1.css" />
+    <Content Include="assets\CSS\rd\footer.css" />
+    <Content Include="assets\CSS\rd\home.css" />
+    <Content Include="assets\CSS\rd\jquery-social-stream\dcsns_dark.css" />
+    <Content Include="assets\CSS\rd\jquery-social-stream\dcsns_light.css" />
+    <Content Include="assets\CSS\rd\jquery-social-stream\dcsns_wall.css" />
+    <Content Include="assets\CSS\rd\masked.css" />
+    <Content Include="assets\CSS\rd\nav1.css" />
+    <Content Include="assets\CSS\rd\news.css" />
+    <Content Include="assets\CSS\rd\prod1.css" />
+    <Content Include="assets\CSS\rd\social.css" />
+    <Content Include="assets\CSS\rd\style.css" />
+    <Content Include="assets\CSS\rd\teasers.css" />
+    <Content Include="assets\CSS\rd\jquery-ui.css" />
+    <Content Include="assets\CSS\nivo\bar\arrows.png" />
+    <Content Include="assets\CSS\nivo\bar\bar.css" />
+    <Content Include="assets\CSS\nivo\bar\bullets.png" />
+    <Content Include="assets\CSS\nivo\bar\loading.gif" />
+    <Content Include="assets\CSS\nivo\dark\arrows.png" />
+    <Content Include="assets\CSS\nivo\dark\bullets.png" />
+    <Content Include="assets\CSS\nivo\dark\dark.css" />
+    <Content Include="assets\CSS\nivo\dark\loading.gif" />
+    <Content Include="assets\CSS\nivo\light\arrows.png" />
+    <Content Include="assets\CSS\nivo\light\bullets.png" />
+    <Content Include="assets\CSS\nivo\light\light.css" />
+    <Content Include="assets\CSS\nivo\light\loading.gif" />
+    <Content Include="assets\CSS\rd\officecore-desktop.css" />
+    <Content Include="assets\CSS\rd\officecore-forms.css" />
+    <Content Include="assets\CSS\rd\officecore-mobile.css" />
+    <Content Include="assets\CSS\rd\pageslide\jquery.pageslide.css" />
+    <Content Include="assets\CSS\print.css" />
+    <Content Include="assets\CSS\profiles.css" />
+    <Content Include="assets\CSS\green.css" />
+    <Content Include="assets\CSS\mobile-blue.css" />
+    <Content Include="assets\CSS\mobile-default.css" />
+    <Content Include="assets\CSS\nivo\default\arrows.png" />
+    <Content Include="assets\CSS\nivo\default\bullets.png" />
+    <Content Include="assets\CSS\nivo\default\default.css" />
+    <Content Include="assets\CSS\nivo\default\loading.gif" />
+    <Content Include="assets\CSS\nivo\nivo-slider.css" />
+    <Content Include="assets\CSS\rd\officecore-base.css" />
+    <Content Include="assets\CSS\officecore-reset.css" />
+    <Content Include="assets\CSS\pink.css" />
+    <Content Include="assets\CSS\rd\sitemap\qtip2\jquery.qtip.min.css" />
+    <Content Include="assets\CSS\red.css" />
+    <Content Include="assets\CSS\violet.css" />
+    <Content Include="assets\CSS\yellow.css" />
+    <Content Include="assets\CSS\rd\eventCalendar.css" />
+    <Content Include="assets\CSS\rd\eventCalendar_theme_responsive.css" />
+    <Content Include="assets\js\rd\jquery.eventCalendar.js" />
+    <Content Include="assets\facebook.html" />
+    <Content Include="assets\facebook\FacebookOffline.htm" />
+    <Content Include="assets\facebook\FacebookOffline_files\-Ip34MM4ep2.css" />
+    <Content Include="assets\facebook\FacebookOffline_files\-k9bkwUX5WY.js" />
+    <Content Include="assets\facebook\FacebookOffline_files\0IQ6Ietedaj.png" />
+    <Content Include="assets\facebook\FacebookOffline_files\1VqySnduM9Z.js" />
+    <Content Include="assets\facebook\FacebookOffline_files\230440_168248623312578_864856053_n.jpg" />
+    <Content Include="assets\facebook\FacebookOffline_files\256677_168248383312602_1651776836_o.jpg" />
+    <Content Include="assets\facebook\FacebookOffline_files\264255_168248609979246_720132162_n.jpg" />
+    <Content Include="assets\facebook\FacebookOffline_files\276240_1447968871_649171169_q.jpg" />
+    <Content Include="assets\facebook\FacebookOffline_files\276640_168247546646019_2062905070_q.jpg" />
+    <Content Include="assets\facebook\FacebookOffline_files\298492_168628009941306_973238760_a.png" />
+    <Content Include="assets\facebook\FacebookOffline_files\298492_168628009941306_973238760_n.png" />
+    <Content Include="assets\facebook\FacebookOffline_files\2RMTjplPOBv.png" />
+    <Content Include="assets\facebook\FacebookOffline_files\49m8F1A7Vhy.js" />
+    <Content Include="assets\facebook\FacebookOffline_files\4Qz6ETRJezd.js" />
+    <Content Include="assets\facebook\FacebookOffline_files\546192_168248383312602_1651776836_n.jpg" />
+    <Content Include="assets\facebook\FacebookOffline_files\6mg5K92m1Uj.js" />
+    <Content Include="assets\facebook\FacebookOffline_files\6MKDCYdiUz1.css" />
+    <Content Include="assets\facebook\FacebookOffline_files\6QYRgUTqURn.js" />
+    <Content Include="assets\facebook\FacebookOffline_files\8TlF57UwWvS.css" />
+    <Content Include="assets\facebook\FacebookOffline_files\9ybtpoP-w9p.js" />
+    <Content Include="assets\facebook\FacebookOffline_files\ahaJM_DuUU1.js" />
+    <Content Include="assets\facebook\FacebookOffline_files\aoGVaWCuzdk.png" />
+    <Content Include="assets\facebook\FacebookOffline_files\aS75qnMk1se.js" />
+    <Content Include="assets\facebook\FacebookOffline_files\aWD8eWtmE89.css" />
+    <Content Include="assets\facebook\FacebookOffline_files\AX4b_jShEFJ.png" />
+    <Content Include="assets\facebook\FacebookOffline_files\bNGpk1uPDIw.css" />
+    <Content Include="assets\facebook\FacebookOffline_files\brsbz78y8Q6.css" />
+    <Content Include="assets\facebook\FacebookOffline_files\ccexDxJM6Dm.css" />
+    <Content Include="assets\facebook\FacebookOffline_files\CXfPMMHwvvH.css" />
+    <Content Include="assets\facebook\FacebookOffline_files\dEtDbeA_dxm.png" />
+    <Content Include="assets\facebook\FacebookOffline_files\dQ0ZZE38IWH.css" />
+    <Content Include="assets\facebook\FacebookOffline_files\eEh8PKwCG_2.js" />
+    <Content Include="assets\facebook\FacebookOffline_files\ey_asLk5Wu2.css" />
+    <Content Include="assets\facebook\FacebookOffline_files\F5ClCglWAZR.css" />
+    <Content Include="assets\facebook\FacebookOffline_files\FmGPrmrnv6M.js" />
+    <Content Include="assets\facebook\FacebookOffline_files\fTlMMkGaEM2.js" />
+    <Content Include="assets\facebook\FacebookOffline_files\G9vcuKGycqX.js" />
+    <Content Include="assets\facebook\FacebookOffline_files\GsNJNwuI-UM.gif" />
+    <Content Include="assets\facebook\FacebookOffline_files\iYxPaZPX35F.png" />
+    <Content Include="assets\facebook\FacebookOffline_files\jZBV2CzYMZK.png" />
+    <Content Include="assets\facebook\FacebookOffline_files\KjdssbQLwKH.css" />
+    <Content Include="assets\facebook\FacebookOffline_files\Ktb4LXaHiTY.css" />
+    <Content Include="assets\facebook\FacebookOffline_files\L1idPnp92EJ.png" />
+    <Content Include="assets\facebook\FacebookOffline_files\lHljPLpABCs.js" />
+    <Content Include="assets\facebook\FacebookOffline_files\LOOn0JtHNzb.gif" />
+    <Content Include="assets\facebook\FacebookOffline_files\MufPRh3Y9L0.js" />
+    <Content Include="assets\facebook\FacebookOffline_files\N8eF8pLkCCD %281%29.png" />
+    <Content Include="assets\facebook\FacebookOffline_files\N8eF8pLkCCD.png" />
+    <Content Include="assets\facebook\FacebookOffline_files\ogYrclupeJV %281%29.png" />
+    <Content Include="assets\facebook\FacebookOffline_files\ogYrclupeJV.png" />
+    <Content Include="assets\facebook\FacebookOffline_files\ptFI39Hhhcl.js" />
+    <Content Include="assets\facebook\FacebookOffline_files\pyglbekaU5e.css" />
+    <Content Include="assets\facebook\FacebookOffline_files\Qdv04UHuWZa.png" />
+    <Content Include="assets\facebook\FacebookOffline_files\Qjgmo5Vxb0u.js" />
+    <Content Include="assets\facebook\FacebookOffline_files\QYljgrU-Eo8.js" />
+    <Content Include="assets\facebook\FacebookOffline_files\rfFO0dqI-dD.png" />
+    <Content Include="assets\facebook\FacebookOffline_files\safe_image.php" />
+    <Content Include="assets\facebook\FacebookOffline_files\seUDdFWNaZ_.png" />
+    <Content Include="assets\facebook\FacebookOffline_files\SPEmly1W9ov.js" />
+    <Content Include="assets\facebook\FacebookOffline_files\svhh826BLKd.png" />
+    <Content Include="assets\facebook\FacebookOffline_files\T45Mt9Ona7K.css" />
+    <Content Include="assets\facebook\FacebookOffline_files\tRSTEfPG5vX.png" />
+    <Content Include="assets\facebook\FacebookOffline_files\UfBe2xR93Pm.js" />
+    <Content Include="assets\facebook\FacebookOffline_files\uIGYePqTQj3.png" />
+    <Content Include="assets\facebook\FacebookOffline_files\v9y92rsUvEH.js" />
+    <Content Include="assets\facebook\FacebookOffline_files\VctjjLR0rnO.js" />
+    <Content Include="assets\facebook\FacebookOffline_files\VximzNmqywk.png" />
+    <Content Include="assets\facebook\FacebookOffline_files\wyUJpAs1Jud.js" />
+    <Content Include="assets\facebook\FacebookOffline_files\xBIThdKoqQf.js" />
+    <Content Include="assets\facebook\FacebookOffline_files\XHt_zZ6p-vN.css" />
+    <Content Include="assets\facebook\FacebookOffline_files\xQ0DwmqUr-m %281%29.png" />
+    <Content Include="assets\facebook\FacebookOffline_files\xQ0DwmqUr-m.png" />
+    <Content Include="assets\facebook\FacebookOffline_files\XUMYpIqJ6VO.js" />
+    <Content Include="assets\facebook\FacebookOffline_files\Z3mvSeYyyN9.js" />
+    <Content Include="assets\facebook\FacebookOffline_files\ZelpZxXBFkm.js" />
+    <Content Include="assets\facebook\FacebookOffline_files\ZWvAgFWgfHn %281%29.png" />
+    <Content Include="assets\facebook\FacebookOffline_files\ZWvAgFWgfHn.png" />
+    <Content Include="assets\js\rd\analysevisit\fancybox\source\fancybox_loading%402x.gif" />
+    <Content Include="assets\CSS\rd\analysevisit\fancybox\fancybox_overlay.png" />
+    <Content Include="assets\js\rd\analysevisit\fancybox\source\fancybox_sprite%402x.png" />
+    <Content Include="assets\images\Appetizers.jpg" />
+    <Content Include="assets\images\background-content.jpg" />
+    <Content Include="assets\images\bg_content_shadow.png" />
+    <Content Include="assets\images\bg_main.jpg" />
+    <Content Include="assets\images\bg_menu.png" />
+    <Content Include="assets\images\Bing\sw_mg_l_4d_lg.png" />
+    <Content Include="assets\images\border-right-blue.png" />
+    <Content Include="assets\images\border-right-brown.png" />
+    <Content Include="assets\images\border-right-burgundy.png" />
+    <Content Include="assets\images\border-right-green.png" />
+    <Content Include="assets\images\border-right-pink.png" />
+    <Content Include="assets\images\border-right-red.png" />
+    <Content Include="assets\images\border-right-violet.png" />
+    <Content Include="assets\images\close.png" />
+    <Content Include="assets\images\comps\content.jpg" />
+    <Content Include="assets\images\comps\footer.jpg" />
+    <Content Include="assets\images\comps\header.jpg" />
+    <Content Include="assets\images\comps\hero.jpg" />
+    <Content Include="assets\images\comps\menu.jpg" />
+    <Content Include="assets\images\comps\toolbar.jpg" />
+    <Content Include="assets\images\Default.jpg" />
+    <Content Include="assets\images\Desserts.jpg" />
+    <Content Include="assets\images\disabled.png" />
+    <Content Include="assets\images\Google\chrome-48.png" />
+    <Content Include="assets\images\Google\close_sm.gif" />
+    <Content Include="assets\images\Google\logo3w.png" />
+    <Content Include="assets\images\Google\mgyhp_sm.png" />
+    <Content Include="assets\images\Google\nav_logo170.png" />
+    <Content Include="assets\images\Google\nav_logo170_hr.png" />
+    <Content Include="assets\images\Google\nav_logo83.png" />
+    <Content Include="assets\images\Google\map.gif" />
+    <Content Include="assets\images\icons\menu.png" />
+    <Content Include="assets\images\icons\search.png" />
+    <Content Include="assets\images\icons\shopping_cart2.png" />
+    <Content Include="assets\images\icons\Twitter_logo_white.png" />
+    <Content Include="assets\images\jquery-gallery.jpg" />
+    <Content Include="assets\images\jwplayer.jpg" />
+    <Content Include="assets\images\loader.gif" />
+    <Content Include="assets\images\magic-wand.png" />
+    <Content Include="assets\images\MainCourse.jpg" />
+    <Content Include="assets\images\menu.png" />
+    <Content Include="assets\images\minus-icon-sml.gif" />
+    <Content Include="assets\images\overlay-grey.png" />
+    <Content Include="assets\images\pattern.png" />
+    <Content Include="assets\images\plus-icon-sml.gif" />
+    <Content Include="assets\images\Specials.jpg" />
+    <Content Include="assets\images\sprite-social.png" />
+    <Content Include="assets\images\Wines.jpg" />
+    <Content Include="assets\js\bootstrap\3.1.1\bootstrap.min.js" />
+    <Content Include="assets\js\rd\bootstrap-switch.min.js" />
+    <Content Include="assets\js\rd\bootstrap.min.js" />
+    <Content Include="assets\js\rd\analysevisit\browser-fixed-inline.js" />
+    <Content Include="assets\js\imagesloaded.pkgd.min.js" />
+    <Content Include="assets\js\rd\content.js" />
+    <Content Include="assets\js\rd\head.js" />
+    <Content Include="assets\js\rd\jquery-social-stream\jquery.social.stream.1.5.7.min.js" />
+    <Content Include="assets\js\rd\jquery-social-stream\jquery.social.stream.wall.1.5.js" />
+    <Content Include="assets\js\rd\jquery-social-stream\social.wall.js" />
+    <Content Include="assets\js\rd\megamenu.js" />
+    <Content Include="assets\js\rd\jquery-ui.min.js" />
+    <Content Include="assets\js\rd\jquery.elevateZoom-3.0.8.min.js" />
+    <Content Include="assets\js\jquery.etalage.js" />
+    <Content Include="assets\js\jquery.responsiveimageloader.js" />
+    <Content Include="assets\js\rd\sitemap\jquery.zoomer.js" />
+    <Content Include="assets\js\rd\officecore-mobile.js" />
+    <Content Include="assets\js\rd\jquery.pageslide.min.js" />
+    <Content Include="assets\CSS\rd\pageslide\pageslide.css" />
+    <Content Include="assets\js\rd\sitemap\qtip2\jquery.qtip.min.js" />
+    <Content Include="assets\js\rd\sitemap\qtip2\sitemappreview.js" />
+    <Content Include="assets\js\rd\toastr\toastr.js" />
+    <Content Include="assets\js\searchengine\SearchEngine.js" />
+    <Content Include="assets\js\rd\sitemap\sitemap.js" />
+    <Content Include="assets\js\vegas\images\loading.gif" />
+    <Content Include="assets\js\vegas\jquery.vegas.css" />
+    <Content Include="assets\js\vegas\jquery.vegas.js" />
+    <Content Include="assets\js\vegas\overlays\01.png" />
+    <Content Include="assets\js\vegas\overlays\02.png" />
+    <Content Include="assets\js\vegas\overlays\03.png" />
+    <Content Include="assets\js\vegas\overlays\04.png" />
+    <Content Include="assets\js\vegas\overlays\05.png" />
+    <Content Include="assets\js\vegas\overlays\06.png" />
+    <Content Include="assets\js\vegas\overlays\07.png" />
+    <Content Include="assets\js\vegas\overlays\08.png" />
+    <Content Include="assets\js\vegas\overlays\09.png" />
+    <Content Include="assets\js\vegas\overlays\10.png" />
+    <Content Include="assets\js\vegas\overlays\11.png" />
+    <Content Include="assets\js\vegas\overlays\12.png" />
+    <Content Include="assets\js\vegas\overlays\13.png" />
+    <Content Include="assets\js\vegas\overlays\14.png" />
+    <Content Include="assets\js\vegas\overlays\15.png" />
+    <Content Include="assets\projekktor\projekktor-1.3.09.min.js" />
+    <Content Include="assets\projekktor\swf\Jarisplayer\jarisplayer.swf" />
+    <Content Include="assets\projekktor\swf\Jarisplayer\license.txt" />
+    <Content Include="assets\projekktor\swf\StrobeMediaPlayback\license.txt" />
+    <Content Include="assets\projekktor\swf\StrobeMediaPlayback\StrobeMediaPlayback.swf" />
+    <Content Include="assets\projekktor\swf\StrobeMediaPlayback\StrobeMediaPlayback_hls.swf" />
+    <Content Include="assets\projekktor\swf\StrobeMediaPlayback\StrobeMediaPlayback_hls_mss.swf" />
+    <Content Include="assets\projekktor\swf\StrobeMediaPlayback\StrobeMediaPlayback_mss.swf" />
+    <Content Include="assets\projekktor\themes\design.html" />
+    <Content Include="assets\projekktor\themes\layout-grid.gif" />
+    <Content Include="assets\projekktor\themes\maccaco\buffering.gif" />
+    <Content Include="assets\projekktor\themes\maccaco\maccaco-load-static.png" />
+    <Content Include="assets\projekktor\themes\maccaco\maccaco-load.gif" />
+    <Content Include="assets\projekktor\themes\maccaco\maccaco.png" />
+    <Content Include="assets\projekktor\themes\maccaco\noise.gif" />
+    <Content Include="assets\projekktor\themes\maccaco\projekktor.style.css" />
+    <Content Include="assets\projekktor\themes\maccaco\start.png" />
+    <Content Include="assets\CSS\rd\toastr\toastr.css" />
+    <Content Include="layouts\ExperienceAwards\WebForm.ascx" />
+    <Content Include="layouts\Officecore\Controls\Desktop\Desktop-Social-Share.ascx" />
+    <Content Include="layouts\Officecore\Controls\Desktop\Desktop-Social-Stream.ascx" />
+    <Content Include="layouts\Officecore\Controls\Desktop\Page-Title-Text.ascx" />
+    <Content Include="layouts\Officecore\Controls\Desktop\Desktop-Overview.ascx" />
+    <Content Include="layouts\Officecore\Controls\Mobile\Mobile-ContactUs.ascx" />
+    <Content Include="layouts\Officecore\Controls\Mobile\Mobile-Content.ascx" />
+    <Content Include="layouts\Officecore\Controls\Mobile\Mobile-Home.ascx" />
+    <Content Include="layouts\Officecore\Controls\Mobile\Mobile-Logo.ascx" />
+    <Content Include="layouts\Officecore\Controls\Mobile\Mobile-Menu.ascx" />
+    <Content Include="layouts\Officecore\Controls\Notification.ascx" />
+    <Content Include="layouts\Officecore\Layouts\ExternalSites\LinkedIn.aspx" />
+    <Content Include="layouts\Officecore\Layouts\Smartphone.aspx" />
+    <Content Include="layouts\scripts\ContactGenerator.aspx" />
+    <Content Include="layouts\scripts\DeployGoalsAndCampaigns.aspx" />
+    <Content Include="layouts\scripts\FillXfile.aspx" />
+    <Content Include="layouts\scripts\RebuildUcommerceIndexes.aspx" />
+    <Content Include="layouts\scripts\RebuildSearchIndexes.aspx" />
+    <Content Include="layouts\scripts\RebuildLinkDatabases.aspx" />
+    <Content Include="layouts\scripts\WriteToXdb.aspx" />
+    <Content Include="OfficecoreComponents\SitecoreEditor\LaunchFieldEditor.js" />
+    <Content Include="sitecore\shell\Override\RulesManager.xml" />
+    <Content Include="assets\CSS\rd\sitemap\sitemap.css" />
+    <Content Include="assets\js\rd\analysevisit\fancybox\source\blank.gif" />
+    <Content Include="assets\CSS\rd\analysevisit\fancybox\fancybox_sprite.png" />
+    <Content Include="assets\js\rd\analysevisit\fancybox\source\helpers\fancybox_buttons.png" />
+    <Content Include="assets\CSS\rd\analysevisit\fancybox\jquery.fancybox-buttons.css" />
+    <Content Include="assets\js\rd\analysevisit\fancybox\source\helpers\jquery.fancybox-buttons.js" />
+    <Content Include="assets\js\rd\analysevisit\fancybox\source\helpers\jquery.fancybox-media.js" />
+    <Content Include="assets\CSS\rd\analysevisit\fancybox\jquery.fancybox-thumbs.css" />
+    <Content Include="assets\js\rd\analysevisit\fancybox\source\helpers\jquery.fancybox-thumbs.js" />
+    <Content Include="assets\CSS\rd\analysevisit\fancybox\jquery.fancybox.css" />
+    <Content Include="assets\js\rd\analysevisit\fancybox\source\jquery.fancybox.js" />
+    <Content Include="assets\js\rd\analysevisit\fancybox\source\jquery.fancybox.pack.js" />
+    <Content Include="assets\images\3col_bg.gif" />
+    <Content Include="assets\images\help.gif" />
+    <Content Include="assets\images\HideHelp.gif" />
+    <Content Include="assets\images\arrow.gif" />
+    <Content Include="assets\images\between.gif" />
+    <Content Include="assets\images\blue\helpmenu_between.gif" />
+    <Content Include="assets\images\blue\helpmenu_bg.jpg" />
+    <Content Include="assets\images\blue\helpmenu_first.gif" />
+    <Content Include="assets\images\blue\helpmenu_hover.jpg" />
+    <Content Include="assets\images\blue\mainmenu_between.gif" />
+    <Content Include="assets\images\blue\mainmenu_bg.jpg" />
+    <Content Include="assets\images\blue\mainmenu_hover.jpg" />
+    <Content Include="assets\images\blue\mainmenu_last.gif" />
+    <Content Include="assets\images\blue\mainmenu_selected.jpg" />
+    <Content Include="assets\images\blue\mainmenu_selected_2level.jpg" />
+    <Content Include="assets\images\blue\second_level_active.gif" />
+    <Content Include="assets\images\blue\second_level_active.jpg" />
+    <Content Include="assets\images\blue\second_level_between.gif" />
+    <Content Include="assets\images\blue\second_level_bg.jpg" />
+    <Content Include="assets\images\blue\slogan_bg.jpg" />
+    <Content Include="assets\images\divider.gif" />
+    <Content Include="assets\images\ShowHelp.gif" />
+    <Content Include="assets\images\ShowHints.gif" />
+    <Content Include="assets\images\menu_bg.gif" />
+    <Content Include="assets\images\minus.gif" />
+    <Content Include="assets\images\plus.gif" />
+    <Content Include="assets\images\Point.gif" />
+    <Content Include="assets\images\quote-bg.png" />
+    <Content Include="assets\images\search.gif" />
+    <Content Include="assets\images\simple_bg.gif" />
+    <Content Include="assets\images\smbottom.gif" />
+    <Content Include="assets\images\smhoriz.gif" />
+    <Content Include="assets\images\smitem.gif" />
+    <Content Include="assets\images\smtop.gif" />
+    <Content Include="assets\images\smvertical.gif" />
+    <Content Include="assets\images\spacer.gif" />
+    <Content Include="assets\images\HideHints.gif" />
+    <Content Include="assets\images\tool.gif" />
+    <Content Include="assets\images\topmenu_selected.jpg" />
+    <Content Include="assets\js\jquery-1.7.1.min.js" />
+    <Content Include="assets\js\rd\jquery-1.8.0.min.js" />
+    <Content Include="assets\js\jquery.nivo.slider.pack.js" />
+    <Content Include="assets\js\swfobject.js" />
+    <Content Include="layouts\Officecore\Controls\Desktop-Banner-Video.ascx" />
+    <Content Include="layouts\Officecore\Controls\DownloadFile.ascx" />
+    <Content Include="layouts\Officecore\Controls\SiteMap.ascx" />
+    <Content Include="layouts\Officecore\Controls\SocialLogin.ascx" />
+    <Content Include="layouts\Officecore\Controls\TwitterFeed.ascx" />
+    <Content Include="layouts\Officecore\Layouts\LogOut.aspx" />
+    <Content Include="layouts\Officecore\Controls\Desktop\MyAccount\Account-ChangeDetails.ascx" />
+    <Content Include="layouts\Officecore\Controls\Desktop\MyAccount\Desktop-Account-Address.ascx" />
+    <Content Include="layouts\Officecore\Controls\Desktop\MyAccount\Desktop-Account-Details.ascx" />
+    <Content Include="layouts\Officecore\Controls\Desktop\MyAccount\Desktop-Account.ascx" />
+    <Content Include="layouts\Officecore\Controls\Desktop\Global\Desktop-SidebarText.ascx" />
+    <Content Include="layouts\Officecore\Controls\Desktop-Banner.ascx" />
+    <Content Include="layouts\Officecore\Controls\Desktop-Footer.ascx" />
+    <Content Include="layouts\Officecore\Controls\Desktop-Header.ascx" />
+    <Content Include="layouts\Officecore\Controls\Desktop-Menu.ascx" />
+    <Content Include="layouts\Officecore\Controls\Desktop-SideMenu.ascx" />
+    <Content Include="layouts\Officecore\Controls\Desktop\Desktop-ContactUs-Region.ascx" />
+    <Content Include="layouts\Officecore\Controls\Desktop\Desktop-ContactUs.ascx" />
+    <Content Include="layouts\Officecore\Controls\Desktop\Global\Desktop-Slideshow.ascx" />
+    <Content Include="layouts\Officecore\Controls\Desktop\Test Search Results.ascx" />
+    <Content Include="layouts\Officecore\Controls\Responsive-Twitter.ascx" />
+    <Content Include="layouts\Officecore\EmailCampaign\EmailPromoSpot.ascx" />
+    <Content Include="layouts\Officecore\Layouts\SearchEngines\Bing\Bing.aspx" />
+    <Content Include="assets\images\Bing\GreenIguana_EN-GB8036748010_1366x768.jpg" />
+    <Content Include="assets\images\Bing\hpc12.png" />
+    <Content Include="layouts\Officecore\Layouts\SearchEngines\Bing\mortgages.aspx" />
+    <Content Include="layouts\Officecore\Layouts\SearchEngines\Bing\office-supplies.aspx" />
+    <Content Include="layouts\Officecore\Layouts\SearchEngines\Google\Google.aspx" />
+    <Content Include="layouts\Officecore\Layouts\SearchEngines\Google\mortgages.aspx" />
+    <Content Include="layouts\Officecore\Layouts\SearchEngines\Google\office-supplies.aspx" />
+    <Content Include="layouts\Officecore\Sublayouts\Virtual\Anonymous.ascx" />
+    <Content Include="layouts\Officecore\Sublayouts\Virtual\LoggedIn.ascx" />
+    <Content Include="layouts\scripts\Publish.aspx" />
+    <Content Include="layouts\Starter Kit\DesktopBrowser.aspx" />
+    <Content Include="layouts\profiles.aspx" />
+    <Content Include="layouts\Starter Kit\Controls\Embed Social Login.ascx" />
+    <Content Include="layouts\Officecore\Layouts\Browser Fixed.aspx" />
+    <Content Include="layouts\Starter Kit\Sublayouts\Breadcrumb.ascx" />
+    <Content Include="layouts\Starter Kit\Sublayouts\Columns Front Page.ascx" />
+    <Content Include="layouts\Starter Kit\Sublayouts\Columns Left and Content.ascx" />
+    <Content Include="layouts\Starter Kit\Sublayouts\Columns Left Content and Right.ascx" />
+    <Content Include="layouts\Starter Kit\Sublayouts\Columns Content and Right.ascx" />
+    <Content Include="layouts\Starter Kit\Sublayouts\Columns Content Only.ascx" />
+    <Content Include="layouts\Starter Kit\Sublayouts\Content Area.ascx" />
+    <Content Include="layouts\Starter Kit\Sublayouts\Header Fixed.ascx" />
+    <Content Include="layouts\Starter Kit\Sublayouts\Columns Front Page Fixed.ascx" />
+    <Content Include="layouts\Starter Kit\Sublayouts\Content with Image Left.ascx" />
+    <Content Include="layouts\Starter Kit\Sublayouts\Content with Image Right.ascx" />
+    <Content Include="layouts\Officecore\Layouts\Printer.aspx" />
+    <Content Include="layouts\Starter Kit\Controls\Search Box.ascx" />
+    <Content Include="layouts\Starter Kit\Sublayouts\Content with Two Columns.ascx" />
+    <Content Include="layouts\Starter Kit\Sublayouts\Content with Two Rows.ascx" />
+    <Content Include="layouts\system\Social\Connector\Login with Facebook.ascx" />
+    <Content Include="layouts\system\Social\Connector\Login with Google.ascx" />
+    <Content Include="layouts\system\Social\Connector\Login with LinkedIn.ascx" />
+    <Content Include="layouts\system\Social\Connector\Login with Twitter.ascx" />
+    <Content Include="layouts\system\VisitorIdentification.aspx" />
+    <Content Include="layouts\system\VisitorIdentificationExtension.aspx" />
+    <Content Include="assets\starterkit.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="xsl\Starter Kit\Content Details.xslt" />
+    <Content Include="xsl\Starter Kit\Content Image mw100.xslt" />
+    <Content Include="xsl\Starter Kit\Content Image mw150.xslt" />
+    <Content Include="xsl\Starter Kit\Content Image mw200.xslt" />
+    <Content Include="xsl\Starter Kit\Content Image.xslt" />
+    <Content Include="xsl\Starter Kit\Content Statistics.xslt" />
+    <Content Include="xsl\Starter Kit\Footer.xslt" />
+    <Content Include="xsl\Starter Kit\Html head include.xslt" />
+    <Content Include="xsl\Starter Kit\Html head title.xslt" />
+    <Content Include="xsl\Starter Kit\IEcompat.xslt" />
+    <Content Include="xsl\Starter Kit\jquery-gallery.xslt" />
+    <Content Include="xsl\Starter Kit\Mobile html head include.xslt" />
+    <Content Include="xsl\Starter Kit\mobile-menu.xslt" />
+    <Content Include="xsl\Starter Kit\mobile-news-item.xslt" />
+    <Content Include="xsl\Starter Kit\mobile-news-list.xslt" />
+    <Content Include="xsl\Starter Kit\mobile-page-content.xslt" />
+    <Content Include="xsl\Starter Kit\Page Title and Text Tag.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="xsl\Starter Kit\Page Title and Text.xslt" />
+    <Content Include="xsl\Starter Kit\Popup Tutorial.xslt" />
+    <Content Include="xsl\Starter Kit\Powered By.xslt" />
+    <Content Include="xsl\Starter Kit\Print Header.xslt" />
+    <Content Include="xsl\Starter Kit\Promotion Spot.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="xsl\Starter Kit\Recent News.xslt" />
+    <Content Include="xsl\Starter Kit\Render Contact Location.xslt" />
+    <Content Include="xsl\Starter Kit\Render Executive Profile.xslt" />
+    <Content Include="xsl\Starter Kit\Render Job Description.xslt" />
+    <Content Include="xsl\Starter Kit\Render News Article.xslt" />
+    <Content Include="xsl\Starter Kit\Render Product.xslt" />
+    <Content Include="xsl\Starter Kit\Render Reference.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="xsl\Starter Kit\Show Help Link.xslt" />
+    <Content Include="xsl\Starter Kit\Show Image.xslt" />
+    <Content Include="xsl\Starter Kit\Show Title.xslt" />
+    <Content Include="xsl\Starter Kit\Side Menu.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="xsl\Starter Kit\Sidebar Text.xslt" />
+    <Content Include="xsl\Starter Kit\Site Logo.xslt" />
+    <Content Include="xsl\Starter Kit\Site Map.xslt" />
+    <Content Include="xsl\Starter Kit\Subitem Common Fields.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="xsl\Starter Kit\Subitem Contact Location.xslt" />
+    <Content Include="xsl\Starter Kit\Subitem Content Item.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="xsl\Starter Kit\Subitem Executive Profile.xslt" />
+    <Content Include="xsl\Starter Kit\Subitem Job Description.xslt" />
+    <Content Include="xsl\Starter Kit\Subitem Overview.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="xsl\Starter Kit\Subitem Product.xslt" />
+    <Content Include="xsl\Starter Kit\Subitem Reference.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="xsl\Starter Kit\Subitem Service.xslt" />
+    <Content Include="xsl\Starter Kit\Teasers Horizontal.xslt" />
+    <Content Include="xsl\Starter Kit\Teasers.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="xsl\Starter Kit\Theme.xslt" />
+    <Content Include="xsl\Starter Kit\Toolbox.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="xsl\Starter Kit\Top Header.xslt" />
+    <Content Include="xsl\Starter Kit\Top Menu.xslt" />
+    <Content Include="xsl\Starter Kit\version.xslt" />
+    <Content Include="xsl\Starter Kit\video-player.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="404.aspx.cs">
+      <DependentUpon>404.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="404.aspx.designer.cs">
+      <DependentUpon>404.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="code\Analytics\Profiles\RadarChartHelper.cs" />
+    <Compile Include="code\Analytics\Profiles\RadarChartOptions.cs" />
+    <Compile Include="code\ComputedIndex\ComputedIndexFieldBase.cs" />
+    <Compile Include="code\ComputedIndex\Interests.cs" />
+    <Compile Include="code\ComputedIndex\HitCount.cs" />
+    <Compile Include="code\ComputedIndex\IsIndexableItemOptions.cs" />
+    <Compile Include="code\ComputedIndex\ItemUrl.cs" />
+    <Compile Include="code\ComputedIndex\TagsFacet.cs" />
+    <Compile Include="code\ComputedIndex\ThumbnailImage.cs" />
+    <Compile Include="code\Constants\AnalyticsConstants.cs" />
+    <Compile Include="code\Constants\MarketingConstants.cs" />
+    <Compile Include="code\Constants\CssConstants.cs" />
+    <Compile Include="code\Constants\DataRepositoryConstants.cs" />
+    <Compile Include="code\Constants\FieldConstants.cs" />
+    <Compile Include="code\Constants\ItemConstants.cs" />
+    <Compile Include="code\Constants\StoreConstants.cs" />
+    <Compile Include="code\Constants\TemplateConstants.cs" />
+    <Compile Include="code\Controls\ContentDetails.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="code\Controls\DatasourceLocations.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="code\DataRepositories\ContactUsRepository.cs" />
+    <Compile Include="code\DataRepositories\ItemRepositoryBase.cs" />
+    <Compile Include="code\EventHandlers\Social\UpdateXfilePicture.cs" />
+    <Compile Include="code\Extensions\CollectionExtensions.cs" />
+    <Compile Include="code\Extensions\ItemExtensions.cs" />
+    <Compile Include="code\Helpers\ContactHelper.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="code\Helpers\SocialHelper.cs" />
+    <Compile Include="code\SaveActions\CreateItem.cs" />
+    <Compile Include="code\SaveActions\Folders.cs" />
+    <Compile Include="code\SPEAK\GenerateFieldEditorUrl.cs" />
+    <Compile Include="code\Helpers\AnalyticsHelper.cs" />
+    <Compile Include="code\Helpers\FacebookHelper.cs" />
+    <Compile Include="code\Helpers\ItemNameHelper.cs" />
+    <Compile Include="code\Helpers\ProfileHelper.cs" />
+    <Compile Include="code\Helpers\SearchHelpers.cs" />
+    <Compile Include="code\Helpers\TranslationHelper.cs" />
+    <Compile Include="code\Helpers\TwitterHelper.cs" />
+    <Compile Include="code\Model\Category.cs" />
+    <Compile Include="code\Model\Image.cs" />
+    <Compile Include="code\Model\Notification.cs" />
+    <Compile Include="code\Model\NotificationType.cs" />
+    <Compile Include="code\Model\ResultItem.cs" />
+    <Compile Include="code\Model\StoreCategory.cs" />
+    <Compile Include="code\Model\SubItem.cs" />
+    <Compile Include="code\MyContext.cs" />
+    <Compile Include="code\MySession.cs" />
+    <Compile Include="code\Pipelines\GetAboutInformation\GetVersion.cs" />
+    <Compile Include="code\Pipelines\GetMediaStream\CenterCropImageProcessor.cs" />
+    <Compile Include="code\Pipelines\HttpRequest\ExecuteRequest.cs" />
+    <Compile Include="code\Pipelines\RenderField\ExpandAnalyticsTokens.cs" />
+    <Compile Include="code\Pipelines\RenderField\GetImageFieldValue.cs" />
+    <Compile Include="code\Rules\Actions\ReadFromContextItemField.cs" />
+    <Compile Include="code\Rules\Conditions\HasCampaignEverTriggered.cs" />
+    <Compile Include="code\Rules\Conditions\IsLatestVersion.cs" />
+    <Compile Include="code\Rules\Conditions\IsOnline.cs" />
+    <Compile Include="code\Rules\Conditions\HasProfileInterest.cs" />
+    <Compile Include="code\Rules\Conditions\QueryStringCondition.cs" />
+    <Compile Include="code\SaveActions\SaveInSession.cs" />
+    <Compile Include="code\SaveActions\UpdateContactDetails.cs" />
+    <Compile Include="code\Search\CommentResultItem.cs" />
+    <Compile Include="code\Search\SearchOperations\AddTag.cs" />
+    <Compile Include="code\Search\SearchOperations\RemoveTag.cs" />
+    <Compile Include="code\Search\TagsResultItem.cs" />
+    <Compile Include="code\Search\ProductResultItem.cs" />
+    <Compile Include="code\Search\SearchHelper.cs" />
+    <Compile Include="code\DateComparer.cs" />
+    <Compile Include="code\Helpers\DictionaryHelper.cs" />
+    <Compile Include="code\Helpers\ExtensionHelpers.cs" />
+    <Compile Include="code\Helpers\ItemHelper.cs" />
+    <Compile Include="code\Service\CustomerService.cs" />
+    <Compile Include="code\ServerControls\TextEnforceParagraph.cs" />
+    <Compile Include="code\Service\EventService.cs" />
+    <Compile Include="code\Service\IdeaService.cs" />
+    <Compile Include="code\Service\NewsService.cs" />
+    <Compile Include="code\Service\SiteService.cs" />
+    <Compile Include="code\Sheer\CustomButtons.cs" />
+    <Compile Include="layouts\ExperienceAwards\WebForm.ascx.cs">
+      <DependentUpon>WebForm.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\ExperienceAwards\WebForm.ascx.designer.cs">
+      <DependentUpon>WebForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\Desktop\Desktop-Social-Share.ascx.cs">
+      <DependentUpon>Desktop-Social-Share.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\Desktop\Desktop-Social-Share.ascx.designer.cs">
+      <DependentUpon>Desktop-Social-Share.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\Desktop\Desktop-Social-Stream.ascx.cs">
+      <DependentUpon>Desktop-Social-Stream.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\Desktop\Desktop-Social-Stream.ascx.designer.cs">
+      <DependentUpon>Desktop-Social-Stream.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\Desktop\Page-Title-Text.ascx.cs">
+      <DependentUpon>Page-Title-Text.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\Desktop\Page-Title-Text.ascx.designer.cs">
+      <DependentUpon>Page-Title-Text.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\Desktop\Desktop-Overview.ascx.cs">
+      <DependentUpon>Desktop-Overview.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\Desktop\Desktop-Overview.ascx.designer.cs">
+      <DependentUpon>Desktop-Overview.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\Desktop-Banner-Video.ascx.cs">
+      <DependentUpon>Desktop-Banner-Video.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\Desktop-Banner-Video.ascx.designer.cs">
+      <DependentUpon>Desktop-Banner-Video.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\Mobile\Mobile-ContactUs.ascx.cs">
+      <DependentUpon>Mobile-ContactUs.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\Mobile\Mobile-ContactUs.ascx.designer.cs">
+      <DependentUpon>Mobile-ContactUs.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\Mobile\Mobile-Content.ascx.cs">
+      <DependentUpon>Mobile-Content.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\Mobile\Mobile-Content.ascx.designer.cs">
+      <DependentUpon>Mobile-Content.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\Mobile\Mobile-Home.ascx.cs">
+      <DependentUpon>Mobile-Home.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\Mobile\Mobile-Home.ascx.designer.cs">
+      <DependentUpon>Mobile-Home.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\Mobile\Mobile-Logo.ascx.cs">
+      <DependentUpon>Mobile-Logo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\Mobile\Mobile-Logo.ascx.designer.cs">
+      <DependentUpon>Mobile-Logo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\Mobile\Mobile-Menu.ascx.cs">
+      <DependentUpon>Mobile-Menu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\Mobile\Mobile-Menu.ascx.designer.cs">
+      <DependentUpon>Mobile-Menu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\DownloadFile.ascx.cs">
+      <DependentUpon>DownloadFile.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\DownloadFile.ascx.designer.cs">
+      <DependentUpon>DownloadFile.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\DownloadFile.ashx.cs">
+      <DependentUpon>DownloadFile.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\Notification.ascx.cs">
+      <DependentUpon>Notification.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\Notification.ascx.designer.cs">
+      <DependentUpon>Notification.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\SiteMap.ascx.cs">
+      <DependentUpon>SiteMap.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\SiteMap.ascx.designer.cs">
+      <DependentUpon>SiteMap.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\SocialLogin.ascx.cs">
+      <DependentUpon>SocialLogin.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\SocialLogin.ascx.designer.cs">
+      <DependentUpon>SocialLogin.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\TwitterFeed.ascx.cs">
+      <DependentUpon>TwitterFeed.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\TwitterFeed.ascx.designer.cs">
+      <DependentUpon>TwitterFeed.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\Officecore\Layouts\ExternalSites\LinkedIn.aspx.cs">
+      <DependentUpon>LinkedIn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\Officecore\Layouts\ExternalSites\LinkedIn.aspx.designer.cs">
+      <DependentUpon>LinkedIn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\Officecore\Layouts\SearchEngines\Bing\mortgages.aspx.cs">
+      <DependentUpon>mortgages.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\Officecore\Layouts\SearchEngines\Bing\mortgages.aspx.designer.cs">
+      <DependentUpon>mortgages.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\Officecore\Layouts\SearchEngines\Bing\office-supplies.aspx.cs">
+      <DependentUpon>office-supplies.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\Officecore\Layouts\SearchEngines\Bing\office-supplies.aspx.designer.cs">
+      <DependentUpon>office-supplies.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\Officecore\Layouts\SearchEngines\Google\mortgages.aspx.cs">
+      <DependentUpon>mortgages.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\Officecore\Layouts\SearchEngines\Google\mortgages.aspx.designer.cs">
+      <DependentUpon>mortgages.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\Officecore\Sublayouts\Virtual\LoggedIn.ascx.cs">
+      <DependentUpon>LoggedIn.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\Officecore\Sublayouts\Virtual\LoggedIn.ascx.designer.cs">
+      <DependentUpon>LoggedIn.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\scripts\ContactGenerator.aspx.cs">
+      <DependentUpon>ContactGenerator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\scripts\ContactGenerator.aspx.designer.cs">
+      <DependentUpon>ContactGenerator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\scripts\FacebookAvatars.ashx.cs">
+      <DependentUpon>FacebookAvatars.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\scripts\FillXfile.aspx.cs">
+      <DependentUpon>FillXfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\scripts\FillXfile.aspx.designer.cs">
+      <DependentUpon>FillXfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\scripts\ImportContent.ashx.cs">
+      <DependentUpon>ImportContent.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\Officecore\Layouts\LogOut.aspx.cs">
+      <DependentUpon>LogOut.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\Officecore\Layouts\LogOut.aspx.designer.cs">
+      <DependentUpon>LogOut.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\Desktop\MyAccount\Account-ChangeDetails.ascx.cs">
+      <DependentUpon>Account-ChangeDetails.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\Desktop\MyAccount\Account-ChangeDetails.ascx.designer.cs">
+      <DependentUpon>Account-ChangeDetails.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\Desktop\MyAccount\Desktop-Account-Address.ascx.cs">
+      <DependentUpon>Desktop-Account-Address.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\Desktop\MyAccount\Desktop-Account-Address.ascx.designer.cs">
+      <DependentUpon>Desktop-Account-Address.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\Desktop\MyAccount\Desktop-Account-Details.ascx.cs">
+      <DependentUpon>Desktop-Account-Details.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\Desktop\MyAccount\Desktop-Account-Details.ascx.designer.cs">
+      <DependentUpon>Desktop-Account-Details.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\Desktop\MyAccount\Desktop-Account.ascx.cs">
+      <DependentUpon>Desktop-Account.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\Desktop\MyAccount\Desktop-Account.ascx.designer.cs">
+      <DependentUpon>Desktop-Account.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="code\Controls\ContactUs.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\Desktop\Global\Desktop-SidebarText.ascx.cs">
+      <DependentUpon>Desktop-SidebarText.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\Desktop\Global\Desktop-SidebarText.ascx.designer.cs">
+      <DependentUpon>Desktop-SidebarText.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\Desktop\Desktop-ContactUs-Region.ascx.cs">
+      <DependentUpon>Desktop-ContactUs-Region.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\Desktop\Desktop-ContactUs-Region.ascx.designer.cs">
+      <DependentUpon>Desktop-ContactUs-Region.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\Desktop\Desktop-ContactUs.ascx.cs">
+      <DependentUpon>Desktop-ContactUs.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\Desktop\Desktop-ContactUs.ascx.designer.cs">
+      <DependentUpon>Desktop-ContactUs.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\Desktop\Global\Desktop-Slideshow.ascx.cs">
+      <DependentUpon>Desktop-Slideshow.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\Desktop\Global\Desktop-Slideshow.ascx.designer.cs">
+      <DependentUpon>Desktop-Slideshow.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\Desktop\Test Search Results.ascx.cs">
+      <DependentUpon>Test Search Results.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\Desktop\Test Search Results.ascx.designer.cs">
+      <DependentUpon>Test Search Results.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\Desktop-Banner.ascx.cs">
+      <DependentUpon>Desktop-Banner.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\Desktop-Banner.ascx.designer.cs">
+      <DependentUpon>Desktop-Banner.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\Desktop-Footer.ascx.cs">
+      <DependentUpon>Desktop-Footer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\Desktop-Footer.ascx.designer.cs">
+      <DependentUpon>Desktop-Footer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\Desktop-Header.ascx.cs">
+      <DependentUpon>Desktop-Header.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\Desktop-Header.ascx.designer.cs">
+      <DependentUpon>Desktop-Header.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\Desktop-Menu.ascx.cs">
+      <DependentUpon>Desktop-Menu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\Desktop-Menu.ascx.designer.cs">
+      <DependentUpon>Desktop-Menu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\Desktop-SideMenu.ascx.cs">
+      <DependentUpon>Desktop-SideMenu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\Desktop-SideMenu.ascx.designer.cs">
+      <DependentUpon>Desktop-SideMenu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\Responsive-Twitter.ascx.cs">
+      <DependentUpon>Responsive-Twitter.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\Officecore\Controls\Responsive-Twitter.ascx.designer.cs">
+      <DependentUpon>Responsive-Twitter.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\Officecore\EmailCampaign\EmailPromoSpot.ascx.cs">
+      <DependentUpon>EmailPromoSpot.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\Officecore\EmailCampaign\EmailPromoSpot.ascx.designer.cs">
+      <DependentUpon>EmailPromoSpot.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\Officecore\Layouts\SearchEngines\Google\office-supplies.aspx.cs">
+      <DependentUpon>office-supplies.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\Officecore\Layouts\SearchEngines\Google\office-supplies.aspx.designer.cs">
+      <DependentUpon>office-supplies.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\scripts\DeployGoalsAndCampaigns.aspx.cs">
+      <DependentUpon>DeployGoalsAndCampaigns.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\scripts\DeployGoalsAndCampaigns.aspx.designer.cs">
+      <DependentUpon>DeployGoalsAndCampaigns.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\scripts\RebuildUcommerceIndexes.aspx.cs">
+      <DependentUpon>RebuildUcommerceIndexes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\scripts\RebuildUcommerceIndexes.aspx.designer.cs">
+      <DependentUpon>RebuildUcommerceIndexes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\scripts\RebuildSearchIndexes.aspx.cs">
+      <DependentUpon>RebuildSearchIndexes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\scripts\RebuildSearchIndexes.aspx.designer.cs">
+      <DependentUpon>RebuildSearchIndexes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\scripts\RebuildLinkDatabases.aspx.cs">
+      <DependentUpon>RebuildLinkDatabases.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\scripts\RebuildLinkDatabases.aspx.designer.cs">
+      <DependentUpon>RebuildLinkDatabases.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\scripts\Publish.aspx.cs">
+      <DependentUpon>Publish.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\scripts\Publish.aspx.designer.cs">
+      <DependentUpon>Publish.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\scripts\SessionEnd.ashx.cs">
+      <DependentUpon>SessionEnd.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\scripts\TestContentReturnedFromLucene.ashx.cs">
+      <DependentUpon>TestContentReturnedFromLucene.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\scripts\WriteToXdb.aspx.cs">
+      <DependentUpon>WriteToXdb.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\scripts\WriteToXdb.aspx.designer.cs">
+      <DependentUpon>WriteToXdb.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\Starter Kit\DesktopBrowser.aspx.cs">
+      <DependentUpon>DesktopBrowser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\Starter Kit\DesktopBrowser.aspx.designer.cs">
+      <DependentUpon>DesktopBrowser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\profiles.aspx.cs">
+      <DependentUpon>profiles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\Starter Kit\Controls\Embed Social Login.ascx.cs">
+      <DependentUpon>Embed Social Login.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\Starter Kit\Controls\Embed Social Login.ascx.designer.cs">
+      <DependentUpon>Embed Social Login.ascx</DependentUpon>
+    </Compile>
+    <Content Include="assets\CSS\rd\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="assets\CSS\rd\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="assets\CSS\rd\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="App_Config\Include\zOfficecore\zOfficecore.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="App_Config\Include\zOfficecore\ship.config.disabled">
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="App_Config\Include\zOfficecore\ImageCropper.config" />
+    <Compile Include="layouts\Starter Kit\Controls\Search Box.ascx.cs">
+      <DependentUpon>Search Box.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\Starter Kit\Controls\Search Box.ascx.designer.cs">
+      <DependentUpon>Search Box.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="code\Search\SearchSettings.cs" />
+    <Compile Include="layouts\Officecore\Layouts\Browser Fixed.aspx.cs">
+      <DependentUpon>Browser Fixed.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\Officecore\Layouts\Browser Fixed.aspx.designer.cs">
+      <DependentUpon>Browser Fixed.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\Starter Kit\Sublayouts\Breadcrumb.ascx.cs">
+      <DependentUpon>Breadcrumb.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\Starter Kit\Sublayouts\Breadcrumb.ascx.designer.cs">
+      <DependentUpon>Breadcrumb.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\Starter Kit\Sublayouts\Header Fixed.ascx.cs">
+      <DependentUpon>Header Fixed.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\Starter Kit\Sublayouts\Header Fixed.ascx.designer.cs">
+      <DependentUpon>Header Fixed.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App_Config\Include\zOfficecore\ASR.config.disabled" />
+    <Content Include="App_Config\Include\zOfficecore\XCore.SharedSource.SpecializedTreeList.config" />
+    <Content Include="App_Config\Include\zOfficecore\XslExtension.config" />
+    <Content Include="App_Config\Security\Domains.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="assets\js\bootstrap\FormSlider\" />
+    <Folder Include="assets\js\pageslide\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\51Degrees.mobi-Premium-2014.06.13.dat" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\facebook\FacebookOffline_files\safe_image.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="layouts\scripts\ImportContent.ashx" />
+    <Content Include="packages.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="layouts\Officecore\Controls\DownloadFile.ashx" />
+    <Content Include="assets\CSS\bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="assets\CSS\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="assets\CSS\bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="assets\projekktor\projekktor-1.3.09.min.map" />
+    <Content Include="assets\projekktor\swf\StrobeMediaPlayback\SmoothStreamingPlugin_EULA.rtf" />
+    <Content Include="assets\projekktor\themes\maccaco\maccaco.psd" />
+    <Content Include="assets\CSS\rd\fonts\MonoSocialIconsFont-1.10.eot" />
+    <Content Include="assets\CSS\rd\fonts\MonoSocialIconsFont-1.10.otf" />
+    <Content Include="assets\CSS\rd\fonts\MonoSocialIconsFont-1.10.ttf" />
+    <Content Include="assets\CSS\rd\fonts\MonoSocialIconsFont-1.10.woff" />
+    <Content Include="layouts\scripts\SessionEnd.ashx" />
+    <Content Include="assets\CSS\rd\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="assets\CSS\rd\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="assets\CSS\rd\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="assets\CSS\rd\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <Content Include="assets\CSS\rd\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="assets\CSS\rd\font-awesome\less\animated.less" />
+    <Content Include="assets\CSS\rd\font-awesome\less\bordered-pulled.less" />
+    <Content Include="assets\CSS\rd\font-awesome\less\core.less" />
+    <Content Include="assets\CSS\rd\font-awesome\less\fixed-width.less" />
+    <Content Include="assets\CSS\rd\font-awesome\less\font-awesome.less" />
+    <Content Include="assets\CSS\rd\font-awesome\less\icons.less" />
+    <Content Include="assets\CSS\rd\font-awesome\less\larger.less" />
+    <Content Include="assets\CSS\rd\font-awesome\less\list.less" />
+    <Content Include="assets\CSS\rd\font-awesome\less\mixins.less" />
+    <Content Include="assets\CSS\rd\font-awesome\less\path.less" />
+    <Content Include="assets\CSS\rd\font-awesome\less\rotated-flipped.less" />
+    <Content Include="assets\CSS\rd\font-awesome\less\stacked.less" />
+    <Content Include="assets\CSS\rd\font-awesome\less\variables.less" />
+    <Content Include="assets\CSS\rd\font-awesome\scss\font-awesome.scss" />
+    <Content Include="assets\CSS\rd\font-awesome\scss\_animated.scss" />
+    <Content Include="assets\CSS\rd\font-awesome\scss\_bordered-pulled.scss" />
+    <Content Include="assets\CSS\rd\font-awesome\scss\_core.scss" />
+    <Content Include="assets\CSS\rd\font-awesome\scss\_fixed-width.scss" />
+    <Content Include="assets\CSS\rd\font-awesome\scss\_icons.scss" />
+    <Content Include="assets\CSS\rd\font-awesome\scss\_larger.scss" />
+    <Content Include="assets\CSS\rd\font-awesome\scss\_list.scss" />
+    <Content Include="assets\CSS\rd\font-awesome\scss\_mixins.scss" />
+    <Content Include="assets\CSS\rd\font-awesome\scss\_path.scss" />
+    <Content Include="assets\CSS\rd\font-awesome\scss\_rotated-flipped.scss" />
+    <Content Include="assets\CSS\rd\font-awesome\scss\_stacked.scss" />
+    <Content Include="assets\CSS\rd\font-awesome\scss\_variables.scss" />
+    <Content Include="layouts\scripts\FacebookAvatars.ashx" />
+    <Content Include="layouts\scripts\TestContentReturnedFromLucene.ashx" />
+    <None Include="Properties\PublishProfiles\Deploy to .web.pubxml" />
+    <Content Include="assets\CSS\rd\jquery-social-stream\twitter.php" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>60740</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/starterkit</IISUrl>
+          <OverrideIISAppRootUrl>True</OverrideIISAppRootUrl>
+          <IISAppRootUrl>http://localhost/starterkit</IISAppRootUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

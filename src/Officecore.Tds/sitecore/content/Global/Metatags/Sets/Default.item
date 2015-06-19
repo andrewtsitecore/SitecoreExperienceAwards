@@ -1,0 +1,147 @@
+----item----
+version: 1
+id: {A1CE1432-955C-4FC7-9F4C-7B235864B876}
+database: master
+path: /sitecore/content/Global/Metatags/Sets/Default
+parent: {08B10BF0-1EE2-4DF8-8DC6-451D7F6873D0}
+name: Default
+master: {00000000-0000-0000-0000-000000000000}
+template: {6AF49708-A685-4040-B99E-C993870D095C}
+templatekey: Metatag Set
+
+----field----
+field: {47BFF4AC-42F8-4284-B895-9B514EB5A595}
+name: Metatags
+key: metatags
+content-length: 0
+
+
+----field----
+field: {E9FBCF57-FE1D-4510-8279-9C07F8A0D4A5}
+name: Predefined keywords
+key: predefined keywords
+content-length: 194
+
+{DDD2F091-4F64-4145-9C8A-780175D887A9}|{DC39B701-977F-4BB7-9993-7992760302A7}|{2D926CFB-43F6-43F5-930F-7561D79DE8C1}|{C1F4E28A-3F63-493E-AA32-7CAB50DF1A40}|{706F757F-29BC-4979-A984-87FDEB17BA4F}
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 0
+
+
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 0
+
+
+----version----
+language: 
+version: 1
+revision: a71a15b5-157b-4475-90ff-342cb282d49d
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20080717T144715
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a71a15b5-157b-4475-90ff-342cb282d49d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20080717T144715:633519028355059598
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: f9390a8e-6ab2-4323-85a5-e4d84344199e
+
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 15
+
+20051115T101500
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20051115T101500
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f9390a8e-6ab2-4323-85a5-e4d84344199e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20130702T101710:635083570301791143
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 0
+
+
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

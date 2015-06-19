@@ -1,0 +1,125 @@
+----item----
+version: 1
+id: {417E281E-3917-42C3-A137-78545BD9AFC8}
+database: master
+path: /sitecore/system/Marketing Center/Engagement Plans/Data Gather Plan
+parent: {4497A9BE-0A00-4EE4-9AE0-50D6CBB4FAB2}
+name: Data Gather Plan
+master: {00000000-0000-0000-0000-000000000000}
+template: {6E5B63D6-2401-4A52-8B4D-CFEF5E4E9752}
+templatekey: Engagement Plan
+
+----field----
+field: {C36D22D2-94FC-46AC-91DB-2CF322C66895}
+name: Flow designer items
+key: flow designer items
+content-length: 21266
+
+<flowDesignerItems>
+  <connectors>
+    <connector itemId="a912f3ed-50d0-4fba-9d7e-a6cef5722a92" originId="00000000-0000-0000-0000-000000000000" designerId="29156e7e-70de-4e11-a723-96260d31a84f" name="New item" description="Description" startItemId="f7199822-8997-4417-9a3f-57794360f236" endItemId="d5f0ac3a-3cb1-469d-972b-83fee3dfa386" points="14,10 23,9" />
+    <connector itemId="d7714762-ba52-478c-8950-6b12ba63dd2b" originId="00000000-0000-0000-0000-000000000000" designerId="95d441e4-b5a4-4ce5-80c7-5b3465af6f66" name="New item" description="Description" startItemId="d5f0ac3a-3cb1-469d-972b-83fee3dfa386" endItemId="3001d915-8cdc-4a56-ac01-6c40f48c5158" points="28,12 20,21" />
+    <connector itemId="9973b397-1055-4536-be46-68e53a3962bb" originId="00000000-0000-0000-0000-000000000000" designerId="776070db-d356-495d-a0c0-b3b5a73efe21" name="New item" description="Description" startItemId="3001d915-8cdc-4a56-ac01-6c40f48c5158" endItemId="ecbee9aa-7486-49f5-8b50-0d13751b60a7" points="32,21 45,9" />
+    <connector itemId="aa827391-8c1b-461b-8256-eb00299bdd85" originId="00000000-0000-0000-0000-000000000000" designerId="92f2d6b3-a420-496b-a486-df9e6b8dbf9f" name="New item" description="Description" startItemId="ecbee9aa-7486-49f5-8b50-0d13751b60a7" endItemId="6dd70ffb-92dc-46e5-9ff0-b00ea23e83e7" points="50,12 43,21" />
+    <connector itemId="611ef744-9de0-434c-98e3-1ab84d3fde31" originId="00000000-0000-0000-0000-000000000000" designerId="67d303aa-c364-4b50-8a66-cf8343153021" name="New item" description="Description" startItemId="6dd70ffb-92dc-46e5-9ff0-b00ea23e83e7" endItemId="ab6d3461-0e27-4df0-9899-c14de7f9bcf7" points="55,21 65,9" />
+    <connector itemId="aee3beb8-5272-4a13-a19a-689537d5420b" originId="00000000-0000-0000-0000-000000000000" designerId="acec01e6-b51e-40a4-8f93-b728cbacf4ca" name="New item" description="Description" startItemId="ab6d3461-0e27-4df0-9899-c14de7f9bcf7" endItemId="18f82a7f-4724-4988-a39d-3852bce2ecd2" points="70,12 64,21" />
+    <connector itemId="45946dfa-4b1a-4fcd-9cb9-f43a9eb00d67" originId="00000000-0000-0000-0000-000000000000" designerId="6dd11e30-6b62-40b6-b140-21bc8bba3ad4" name="New item" description="Description" startItemId="18f82a7f-4724-4988-a39d-3852bce2ecd2" endItemId="77aaeb42-177d-4bcd-8387-49369eb93dab" points="76,21 86,9" />
+    <connector itemId="00f9c719-aa92-4dd1-b0ac-5d2ed911fea4" originId="00000000-0000-0000-0000-000000000000" designerId="27f187ae-328f-43d1-9dac-a35d54714667" name="New item" description="Description" startItemId="77aaeb42-177d-4bcd-8387-49369eb93dab" endItemId="8d1db97e-6eaa-455f-ad39-8091b8f01723" points="91,12 85,21" />
+    <connector itemId="5875d6b8-b31c-4128-b5f3-41373b3c0e43" originId="00000000-0000-0000-0000-000000000000" designerId="7194d9c4-5ee1-4d4c-8e0a-e94a71eb7f76" name="New item" description="Description" startItemId="8d1db97e-6eaa-455f-ad39-8091b8f01723" endItemId="fdab4c28-2e69-4126-8a5c-54b696e618af" points="91,24 91,36" />
+    <connector itemId="6ba025e2-cc34-4b84-a9c5-8fbd79a7c217" originId="00000000-0000-0000-0000-000000000000" designerId="377a3570-81a1-4e79-85c0-f167a28da48c" name="New item" description="Description" startItemId="fdab4c28-2e69-4126-8a5c-54b696e618af" endItemId="97263721-13fa-4017-b9bb-a5b3af31050d" points="86,39 50,39" />
+  </connectors>
+  <groups>
+    <group itemId="4b981c8a-987b-4dc5-8bef-429954df7e17" originId="00000000-0000-0000-0000-000000000000" designerId="c13462cf-8c3f-41e7-b418-3ff6b673745b" name="Stage 1 - Viewed Infographic" description="Description" />
+    <group itemId="dce6406a-a3a8-4501-84dd-365fd3863a24" originId="00000000-0000-0000-0000-000000000000" designerId="dde89d0f-9daf-4bf1-8891-6c61b554c147" name="Step 2 - Viewed Case Study" description="Description" />
+    <group itemId="58b6525e-ed04-4dc1-9d97-025b481bacdc" originId="00000000-0000-0000-0000-000000000000" designerId="866c0725-5684-4436-96e3-83975011332a" name="Step 3 - Viewed White Paper" description="Description" />
+    <group itemId="0c2c6c18-6843-46fb-a4f8-5f876f2f8eb4" originId="00000000-0000-0000-0000-000000000000" designerId="91247b26-f724-4fcc-9c04-ec152ba226fc" name="Step 4 - Viewed Research Report" description="Description" />
+    <group itemId="11466a56-6cb9-4ffd-92b0-dc53dca71f8e" originId="00000000-0000-0000-0000-000000000000" designerId="83a86e9d-b800-484d-a09f-4ab5f394ec8d" name="Move user to SalesForce" description="Description" />
+    <group itemId="e468e491-726f-45e0-873d-3eeb71c84645" originId="00000000-0000-0000-0000-000000000000" designerId="0649cf29-1f5d-4b0f-b171-6a178c83ba50" name="Initial Engagement State" description="Description" />
+  </groups>
+  <disconnectedItems />
+  <flowRenderedItemsValues>
+    <flowRenderedItemValues itemId="f7199822-8997-4417-9a3f-57794360f236" x="2" y="7" width="12" height="6" zIndex="13" backgroundColor="#FF00344E" foregroundColor="#FFFFFFFF" iconUri="/temp/IconCache/Software/32x32/shape_square.png" showIcon="false" fieldEditorValues="&lt;fields itemId=&quot;{18D35134-DA71-49A5-80F7-096852A86248}&quot;&gt;&#xD;&#xA;  &lt;field id=&quot;{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}&quot; value=&quot;Customer Trigger&quot; name=&quot;__Display name&quot; /&gt;&#xD;&#xA;  &lt;field id=&quot;{06F2D72A-1924-4B9A-BA1E-186CE4E57EFD}&quot; value=&quot;Visitor has entered engagement plan from first low level activity.&quot; name=&quot;Description&quot; /&gt;&#xD;&#xA;&lt;/fields&gt;" />
+    <flowRenderedItemValues itemId="d5f0ac3a-3cb1-469d-972b-83fee3dfa386" x="18" y="9" width="10" height="6" zIndex="16" backgroundColor="#FF00767E" foregroundColor="#FFFFFFFF" iconUri="/temp/IconCache/Software/32x32/shape_rhomb.png" showIcon="false" fieldEditorValues="&lt;fields itemId=&quot;{E5B0CD1D-2548-418D-9D5C-DA17759C3824}&quot;&gt;&#xD;&#xA;  &lt;field id=&quot;{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}&quot; value=&quot;Customer has viewed infographic.&quot; name=&quot;__Display name&quot; /&gt;&#xD;&#xA;  &lt;field id=&quot;{06F2D72A-1924-4B9A-BA1E-186CE4E57EFD}&quot; value=&quot;&quot; name=&quot;Description&quot; /&gt;&#xD;&#xA;  &lt;field id=&quot;{E13DCD09-D9BB-43C9-8D7D-438C79D714CA}&quot; value=&quot;{B81C1F4C-8B83-44D9-902F-448463DBCCBC}&quot; name=&quot;Evaluate&quot; /&gt;&#xD;&#xA;  &lt;field id=&quot;{21F3482B-BB14-4555-BA5D-AF20D400D5B9}&quot; value=&quot;&amp;lt;ruleset&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;rule uid=&amp;quot;{EB537171-06C3-47B5-BDFB-E1AB07FB8ED9}&amp;quot;&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;conditions&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;condition id=&amp;quot;{4D290FF3-1587-4FEE-AB37-88768766A9D9}&amp;quot; uid=&amp;quot;3D6987147E43442DB33BFD8F43DFC9C4&amp;quot; GoalId=&amp;quot;{A1300871-E454-401F-B8EE-85FA500E1A75}&amp;quot; /&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;/conditions&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;/rule&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;/ruleset&amp;gt;&quot; name=&quot;Rule&quot; /&gt;&#xD;&#xA;&lt;/fields&gt;" />
+    <flowRenderedItemValues itemId="8d1db97e-6eaa-455f-ad39-8091b8f01723" x="85" y="18" width="12" height="6" zIndex="45" backgroundColor="#FF00344E" foregroundColor="#FFFFFFFF" iconUri="/temp/IconCache/Software/32x32/shape_square.png" showIcon="false" fieldEditorValues="&lt;fields itemId=&quot;{775FE04E-D66E-447C-9BE2-C6A58897289A}&quot;&gt;&#xD;&#xA;  &lt;field id=&quot;{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}&quot; value=&quot;Viewed Research Report&quot; name=&quot;__Display name&quot; /&gt;&#xD;&#xA;  &lt;field id=&quot;{06F2D72A-1924-4B9A-BA1E-186CE4E57EFD}&quot; value=&quot;Visitors in the state have viewed the research reports page.&quot; name=&quot;Description&quot; /&gt;&#xD;&#xA;&lt;/fields&gt;" />
+    <flowRenderedItemValues itemId="fdab4c28-2e69-4126-8a5c-54b696e618af" x="86" y="36" width="10" height="6" zIndex="44" backgroundColor="#FF00767E" foregroundColor="#FFFFFFFF" iconUri="/temp/IconCache/Software/32x32/shape_rhomb.png" showIcon="false" fieldEditorValues="&lt;fields itemId=&quot;{73A22B6F-AA3C-4FF4-8B42-00270E6279FA}&quot;&gt;&#xD;&#xA;  &lt;field id=&quot;{06F2D72A-1924-4B9A-BA1E-186CE4E57EFD}&quot; name=&quot;Description&quot; value=&quot;Has user completed the gate criteria?&quot; /&gt;&#xD;&#xA;  &lt;field id=&quot;{E13DCD09-D9BB-43C9-8D7D-438C79D714CA}&quot; name=&quot;Evaluate&quot; value=&quot;{B81C1F4C-8B83-44D9-902F-448463DBCCBC}&quot; /&gt;&#xD;&#xA;  &lt;field id=&quot;{21F3482B-BB14-4555-BA5D-AF20D400D5B9}&quot; name=&quot;Rule&quot; value=&quot;&amp;lt;ruleset&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;rule uid=&amp;quot;{F6499050-A6D8-4B35-BEA0-3D15F95C8DE3}&amp;quot;&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;conditions&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;condition id=&amp;quot;{4D290FF3-1587-4FEE-AB37-88768766A9D9}&amp;quot; uid=&amp;quot;1162F038E50442ABA929EE2F7E07AB2E&amp;quot; GoalId=&amp;quot;{C27F8E01-12B1-4D26-BB11-E8E41FB30E7D}&amp;quot; /&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;/conditions&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;/rule&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;/ruleset&amp;gt;&quot; /&gt;&#xD;&#xA;  &lt;field id=&quot;{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}&quot; name=&quot;__Display name&quot; value=&quot;Has user completed all gate criteria?&quot; /&gt;&#xD;&#xA;&lt;/fields&gt;" />
+    <flowRenderedItemValues itemId="d0ed99ad-5276-4bd3-9abc-5ef73164a424" x="10" y="10" width="8" height="4" zIndex="0" backgroundColor="#FF00344E" foregroundColor="#FFFFFFFF" iconUri="/temp/IconCache/Imaging/32x32/line_straight_blue_h.png" showIcon="true" fieldEditorValues="&lt;fields itemId=&quot;{D0ED99AD-5276-4BD3-9ABC-5EF73164A424}&quot;&gt;&#xD;&#xA;  &lt;field id=&quot;{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}&quot; value=&quot;&quot; name=&quot;__Display name&quot; /&gt;&#xD;&#xA;&lt;/fields&gt;" />
+    <flowRenderedItemValues itemId="acda3f11-7301-414b-b4df-fbf7ba29588a" x="10" y="10" width="8" height="4" zIndex="0" backgroundColor="#FF00344E" foregroundColor="#FFFFFFFF" iconUri="/temp/IconCache/Imaging/32x32/line_straight_blue_h.png" showIcon="true" fieldEditorValues="&lt;fields itemId=&quot;{ACDA3F11-7301-414B-B4DF-FBF7BA29588A}&quot;&gt;&#xD;&#xA;  &lt;field id=&quot;{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}&quot; value=&quot;&quot; name=&quot;__Display name&quot; /&gt;&#xD;&#xA;&lt;/fields&gt;" />
+    <flowRenderedItemValues itemId="6dd70ffb-92dc-46e5-9ff0-b00ea23e83e7" x="43" y="18" width="12" height="6" zIndex="27" backgroundColor="#FF00344E" foregroundColor="#FFFFFFFF" iconUri="/temp/IconCache/Software/32x32/shape_square.png" showIcon="false" fieldEditorValues="&lt;fields itemId=&quot;{E844AC27-864F-4307-8F53-7E51BCFA237D}&quot;&gt;&#xD;&#xA;  &lt;field id=&quot;{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}&quot; value=&quot;Viewed Case Study&quot; name=&quot;__Display name&quot; /&gt;&#xD;&#xA;  &lt;field id=&quot;{06F2D72A-1924-4B9A-BA1E-186CE4E57EFD}&quot; value=&quot;Visitors in the state have viewed the case study page.&quot; name=&quot;Description&quot; /&gt;&#xD;&#xA;&lt;/fields&gt;" />
+    <flowRenderedItemValues itemId="ab6d3461-0e27-4df0-9899-c14de7f9bcf7" x="60" y="9" width="10" height="6" zIndex="30" backgroundColor="#FF00767E" foregroundColor="#FFFFFFFF" iconUri="/temp/IconCache/Software/32x32/shape_rhomb.png" showIcon="false" fieldEditorValues="&lt;fields itemId=&quot;{2B43C927-B3C4-45F7-B440-58AACF4925E2}&quot;&gt;&#xD;&#xA;  &lt;field id=&quot;{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}&quot; value=&quot;Has customer viewed White Paper?&quot; name=&quot;__Display name&quot; /&gt;&#xD;&#xA;  &lt;field id=&quot;{06F2D72A-1924-4B9A-BA1E-186CE4E57EFD}&quot; value=&quot;&quot; name=&quot;Description&quot; /&gt;&#xD;&#xA;  &lt;field id=&quot;{E13DCD09-D9BB-43C9-8D7D-438C79D714CA}&quot; value=&quot;{B81C1F4C-8B83-44D9-902F-448463DBCCBC}&quot; name=&quot;Evaluate&quot; /&gt;&#xD;&#xA;  &lt;field id=&quot;{21F3482B-BB14-4555-BA5D-AF20D400D5B9}&quot; value=&quot;&amp;lt;ruleset&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;rule uid=&amp;quot;{557F9E0D-DBBC-4E6B-8E91-583B4E7493B5}&amp;quot;&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;conditions&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;condition id=&amp;quot;{4D290FF3-1587-4FEE-AB37-88768766A9D9}&amp;quot; uid=&amp;quot;C0D4EB896EC541298B81EB720EA48BD5&amp;quot; GoalId=&amp;quot;{24B2929E-A726-401E-A9E7-88DF4260BE0B}&amp;quot; /&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;/conditions&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;/rule&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;/ruleset&amp;gt;&quot; name=&quot;Rule&quot; /&gt;&#xD;&#xA;&lt;/fields&gt;" />
+    <flowRenderedItemValues itemId="97263721-13fa-4017-b9bb-a5b3af31050d" x="38" y="36" width="12" height="6" zIndex="43" backgroundColor="#FFB61F1C" foregroundColor="#FFFFFFFF" iconUri="/temp/IconCache/Software/32x32/shape_square.png" showIcon="false" fieldEditorValues="&lt;fields itemId=&quot;{ABD1FE02-F9F2-4393-8EE0-6DD88C79A8CE}&quot;&gt;&#xD;&#xA;  &lt;field id=&quot;{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}&quot; value=&quot;User is now in SalesForce&quot; name=&quot;__Display name&quot; /&gt;&#xD;&#xA;  &lt;field id=&quot;{06F2D72A-1924-4B9A-BA1E-186CE4E57EFD}&quot; value=&quot;Record created in SalesForce&quot; name=&quot;Description&quot; /&gt;&#xD;&#xA;&lt;/fields&gt;" />
+    <flowRenderedItemValues itemId="3001d915-8cdc-4a56-ac01-6c40f48c5158" x="20" y="18" width="12" height="6" zIndex="20" backgroundColor="#FF00344E" foregroundColor="#FFFFFFFF" iconUri="/temp/IconCache/Software/32x32/shape_square.png" showIcon="false" fieldEditorValues="&lt;fields itemId=&quot;{FFD7B672-39F8-428A-955C-AD174C5F431E}&quot;&gt;&#xD;&#xA;  &lt;field id=&quot;{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}&quot; value=&quot;Viewed Infographic&quot; name=&quot;__Display name&quot; /&gt;&#xD;&#xA;  &lt;field id=&quot;{06F2D72A-1924-4B9A-BA1E-186CE4E57EFD}&quot; value=&quot;Visitors in the state have viewed the infographic page.&quot; name=&quot;Description&quot; /&gt;&#xD;&#xA;&lt;/fields&gt;" />
+    <flowRenderedItemValues itemId="ecbee9aa-7486-49f5-8b50-0d13751b60a7" x="40" y="9" width="10" height="6" zIndex="23" backgroundColor="#FF00767E" foregroundColor="#FFFFFFFF" iconUri="/temp/IconCache/Software/32x32/shape_rhomb.png" showIcon="false" fieldEditorValues="&lt;fields itemId=&quot;{05447542-EBD2-41A5-8B93-2DA78B73A690}&quot;&gt;&#xD;&#xA;  &lt;field id=&quot;{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}&quot; value=&quot;Has customer viewed Case Study?&quot; name=&quot;__Display name&quot; /&gt;&#xD;&#xA;  &lt;field id=&quot;{06F2D72A-1924-4B9A-BA1E-186CE4E57EFD}&quot; value=&quot;&quot; name=&quot;Description&quot; /&gt;&#xD;&#xA;  &lt;field id=&quot;{E13DCD09-D9BB-43C9-8D7D-438C79D714CA}&quot; value=&quot;{B81C1F4C-8B83-44D9-902F-448463DBCCBC}&quot; name=&quot;Evaluate&quot; /&gt;&#xD;&#xA;  &lt;field id=&quot;{21F3482B-BB14-4555-BA5D-AF20D400D5B9}&quot; value=&quot;&amp;lt;ruleset&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;rule uid=&amp;quot;{FA205866-5EB6-47AE-9B44-382639BF9443}&amp;quot;&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;conditions&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;condition id=&amp;quot;{4D290FF3-1587-4FEE-AB37-88768766A9D9}&amp;quot; uid=&amp;quot;64E014672F804EBAB794DA0CC57432B4&amp;quot; GoalId=&amp;quot;{36B85411-B8BA-4696-9F9B-4C9143294B13}&amp;quot; /&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;/conditions&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;/rule&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;/ruleset&amp;gt;&quot; name=&quot;Rule&quot; /&gt;&#xD;&#xA;&lt;/fields&gt;" />
+    <flowRenderedItemValues itemId="18f82a7f-4724-4988-a39d-3852bce2ecd2" x="64" y="18" width="12" height="6" zIndex="34" backgroundColor="#FF00344E" foregroundColor="#FFFFFFFF" iconUri="/temp/IconCache/Software/32x32/shape_square.png" showIcon="false" fieldEditorValues="&lt;fields itemId=&quot;{E46CD89D-6719-4A60-AD9E-780AC89BB6A6}&quot;&gt;&#xD;&#xA;  &lt;field id=&quot;{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}&quot; value=&quot;Viewed White Paper&quot; name=&quot;__Display name&quot; /&gt;&#xD;&#xA;  &lt;field id=&quot;{06F2D72A-1924-4B9A-BA1E-186CE4E57EFD}&quot; value=&quot;Visitors in the state have viewed the white papers page.&quot; name=&quot;Description&quot; /&gt;&#xD;&#xA;&lt;/fields&gt;" />
+    <flowRenderedItemValues itemId="77aaeb42-177d-4bcd-8387-49369eb93dab" x="81" y="9" width="10" height="6" zIndex="37" backgroundColor="#FF00767E" foregroundColor="#FFFFFFFF" iconUri="/temp/IconCache/Software/32x32/shape_rhomb.png" showIcon="false" fieldEditorValues="&lt;fields itemId=&quot;{F4B81533-135D-42A0-839D-5B367C1FCFB6}&quot;&gt;&#xD;&#xA;  &lt;field id=&quot;{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}&quot; value=&quot;Has customer viewed Research Report?&quot; name=&quot;__Display name&quot; /&gt;&#xD;&#xA;  &lt;field id=&quot;{06F2D72A-1924-4B9A-BA1E-186CE4E57EFD}&quot; value=&quot;&quot; name=&quot;Description&quot; /&gt;&#xD;&#xA;  &lt;field id=&quot;{E13DCD09-D9BB-43C9-8D7D-438C79D714CA}&quot; value=&quot;{B81C1F4C-8B83-44D9-902F-448463DBCCBC}&quot; name=&quot;Evaluate&quot; /&gt;&#xD;&#xA;  &lt;field id=&quot;{21F3482B-BB14-4555-BA5D-AF20D400D5B9}&quot; value=&quot;&amp;lt;ruleset&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;rule uid=&amp;quot;{5FC1185E-D53F-4347-AB95-FE52DB75C644}&amp;quot;&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;conditions&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;condition id=&amp;quot;{4D290FF3-1587-4FEE-AB37-88768766A9D9}&amp;quot; uid=&amp;quot;E52D7604A11C47B38688BF2D29B9962C&amp;quot; GoalId=&amp;quot;{CAAD74E5-8CF3-4DFE-9F46-E63AE4DB03F8}&amp;quot; /&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;/conditions&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;/rule&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;/ruleset&amp;gt;&quot; name=&quot;Rule&quot; /&gt;&#xD;&#xA;&lt;/fields&gt;" />
+    <flowRenderedItemValues itemId="29156e7e-70de-4e11-a723-96260d31a84f" x="14" y="7" width="10" height="10" zIndex="12" backgroundColor="#00FFFFFF" foregroundColor="#FFFFFFFF" iconUri="" showIcon="false" fieldEditorValues="" />
+    <flowRenderedItemValues itemId="95d441e4-b5a4-4ce5-80c7-5b3465af6f66" x="31" y="11" width="10" height="10" zIndex="15" backgroundColor="#00FFFFFF" foregroundColor="#FFFFFFFF" iconUri="" showIcon="false" fieldEditorValues="" />
+    <flowRenderedItemValues itemId="776070db-d356-495d-a0c0-b3b5a73efe21" x="32" y="21" width="10" height="10" zIndex="19" backgroundColor="#00FFFFFF" foregroundColor="#FFFFFFFF" iconUri="" showIcon="false" fieldEditorValues="" />
+    <flowRenderedItemValues itemId="92f2d6b3-a420-496b-a486-df9e6b8dbf9f" x="52" y="11" width="10" height="10" zIndex="22" backgroundColor="#00FFFFFF" foregroundColor="#FFFFFFFF" iconUri="" showIcon="false" fieldEditorValues="" />
+    <flowRenderedItemValues itemId="67d303aa-c364-4b50-8a66-cf8343153021" x="54" y="21" width="10" height="10" zIndex="26" backgroundColor="#00FFFFFF" foregroundColor="#FFFFFFFF" iconUri="" showIcon="false" fieldEditorValues="" />
+    <flowRenderedItemValues itemId="acec01e6-b51e-40a4-8f93-b728cbacf4ca" x="74" y="11" width="10" height="10" zIndex="29" backgroundColor="#00FFFFFF" foregroundColor="#FFFFFFFF" iconUri="" showIcon="false" fieldEditorValues="" />
+    <flowRenderedItemValues itemId="6dd11e30-6b62-40b6-b140-21bc8bba3ad4" x="75" y="21" width="10" height="10" zIndex="33" backgroundColor="#00FFFFFF" foregroundColor="#FFFFFFFF" iconUri="" showIcon="false" fieldEditorValues="" />
+    <flowRenderedItemValues itemId="27f187ae-328f-43d1-9dac-a35d54714667" x="95" y="11" width="10" height="10" zIndex="36" backgroundColor="#00FFFFFF" foregroundColor="#FFFFFFFF" iconUri="" showIcon="false" fieldEditorValues="" />
+    <flowRenderedItemValues itemId="7194d9c4-5ee1-4d4c-8e0a-e94a71eb7f76" x="91" y="24" width="10" height="10" zIndex="40" backgroundColor="#00FFFFFF" foregroundColor="#FFFFFFFF" iconUri="" showIcon="false" fieldEditorValues="" />
+    <flowRenderedItemValues itemId="377a3570-81a1-4e79-85c0-f167a28da48c" x="86" y="37" width="10" height="10" zIndex="42" backgroundColor="#00FFFFFF" foregroundColor="#FFFFFFFF" iconUri="" showIcon="false" fieldEditorValues="" />
+    <flowRenderedItemValues itemId="c13462cf-8c3f-41e7-b418-3ff6b673745b" x="16" y="4" width="20" height="26" zIndex="-1000" backgroundColor="#FFAFE4BA" foregroundColor="#FFFFFFFF" iconUri="" showIcon="false" fieldEditorValues="" />
+    <flowRenderedItemValues itemId="dde89d0f-9daf-4bf1-8891-6c61b554c147" x="37" y="4" width="20" height="26" zIndex="-1000" backgroundColor="#FFAFE4BA" foregroundColor="#FFFFFFFF" iconUri="" showIcon="false" fieldEditorValues="" />
+    <flowRenderedItemValues itemId="866c0725-5684-4436-96e3-83975011332a" x="58" y="4" width="20" height="26" zIndex="-1000" backgroundColor="#FFAFE4BA" foregroundColor="#FFFFFFFF" iconUri="" showIcon="false" fieldEditorValues="" />
+    <flowRenderedItemValues itemId="91247b26-f724-4fcc-9c04-ec152ba226fc" x="79" y="4" width="20" height="44" zIndex="-1000" backgroundColor="#FFAFE4BA" foregroundColor="#FFFFFFFF" iconUri="" showIcon="false" fieldEditorValues="" />
+    <flowRenderedItemValues itemId="83a86e9d-b800-484d-a09f-4ab5f394ec8d" x="16" y="31" width="62" height="16" zIndex="-1000" backgroundColor="#FFBB8584" foregroundColor="#FFFFFFFF" iconUri="" showIcon="false" fieldEditorValues="" />
+    <flowRenderedItemValues itemId="0649cf29-1f5d-4b0f-b171-6a178c83ba50" x="1" y="4" width="14" height="42" zIndex="-1000" backgroundColor="#FF00344E" foregroundColor="#FFFFFFFF" iconUri="" showIcon="false" fieldEditorValues="" />
+  </flowRenderedItemsValues>
+</flowDesignerItems>
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 38
+
+{689E2994-4656-4C58-9112-7826CB46EE69}
+----version----
+language: en
+version: 1
+revision: 4240a1f7-f7fe-4508-9f72-1e25274ddcdb
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140729T182543
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4240a1f7-f7fe-4508-9f72-1e25274ddcdb
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140730T103135:635423130957862893
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{EDCBB550-BED3-490F-82B8-7B2F14CCD26E}
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

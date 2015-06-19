@@ -1,0 +1,278 @@
+----item----
+version: 1
+id: {D80D72A4-9812-4EC2-8497-EE53445EFE53}
+database: master
+path: /sitecore/content/Home/Contact
+parent: {4E7AB8B1-6A39-4C8C-BF5B-816F8105BFFD}
+name: Contact
+master: {00000000-0000-0000-0000-000000000000}
+template: {B2477E15-F54E-4DA1-B09D-825FF4D13F1D}
+templatekey: Site Section
+
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 23
+
+Network/32x32/mail2.png
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+100
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 353
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{61781571-B0BB-4E84-8186-726E680D79F2}"><p:d /></r></d><d id="{46D2F427-4CE5-4E1F-BA10-EF3636F43534}"><r uid="{8A4460DC-ACF7-4B90-81BA-976F9E859D2B}"><p:d /></r></d><d id="{74437005-A7E6-4450-B6CB-8354859FE1E8}" s:l="{10601177-0F1E-4E66-B25F-FC8B52ED552F}" /></r>
+----version----
+language: en
+version: 1
+revision: e4149771-f9c1-4ff4-9e15-0152841e9b84
+
+----field----
+field: {406635BF-4414-469E-9F97-C50FA925C1F4}
+name: Breadcrumb Title
+key: breadcrumb title
+content-length: 7
+
+Contact
+----field----
+field: {8E39CAF5-3021-4BB1-8FAB-E8B35C1C3722}
+name: Menu Title
+key: menu title
+content-length: 7
+
+Contact
+----field----
+field: {AAB5B980-A2D2-4034-9874-F07FC91F97C3}
+name: Show
+key: show
+content-length: 1
+
+1
+----field----
+field: {4004C407-9C9F-4F47-AA1A-D6BCEDF3C3C4}
+name: Browser Title
+key: browser title
+content-length: 10
+
+Contact Us
+----field----
+field: {A0FC3F87-C1AC-4660-8AC6-91A1AD923E89}
+name: Sidebar Title
+key: sidebar title
+content-length: 27
+
+How does this section work?
+----field----
+field: {3A4543F6-1FC9-41AF-8C43-FA5A748F93A9}
+name: Sidebar Text
+key: sidebar text
+content-length: 301
+
+
+		<p>Under the Contact section, you can create as many locations as you like and provide as much (or as little) information about each location as you like.</p>
+		<p>As this demonstration site shows, the contact page formats your contacts appropriately based on how much information you provide.</p>
+
+----field----
+field: {6437B751-1E64-48D9-B549-C604ACE49732}
+name: Banner Image
+key: banner image
+content-length: 0
+
+
+----field----
+field: {CEA2FFFE-AB8F-4166-83B8-1874DBC363BE}
+name: Banner Header
+key: banner header
+content-length: 0
+
+
+----field----
+field: {4D396D25-9269-4C50-9E20-2DEB64C268D9}
+name: Banner Slogan
+key: banner slogan
+content-length: 80
+
+[Get in touch] Our team will endeavour to respond to your query within 24 hours!
+----field----
+field: {D5A4F329-B904-4D6D-8503-392BD87B18A6}
+name: Title
+key: title
+content-length: 10
+
+Contact Us
+----field----
+field: {BAC5B3D4-5E16-47A0-A4DB-305B29BC7702}
+name: Text
+key: text
+content-length: 148
+
+
+		<p>Whether you have worldwide operations or a single office, create a Contact section to let people know how they can get in touch with you.</p>
+
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 1154
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{EB77BD61-AA77-42FD-BF1E-73B563C33848}" p:before="r[@uid='{D99FFFEE-2F10-4216-9255-E989F528316C}']" s:ds="{11D18A85-BE83-4226-A2EE-00DFD1BBAEBE}" s:id="{FF3D027B-1790-460A-ACC3-685E1757FA58}" s:ph="banner" /><r uid="{D99FFFEE-2F10-4216-9255-E989F528316C}" p:before="r[@uid='{F52C6CFC-3C88-49D9-967D-1B0DA2CB081E}']" s:id="{B5A9837C-BDDC-48F5-AD8B-64A0B789D8D1}" s:ph="/page-columns/column-content/content" /><r uid="{FD49A93A-63F7-461D-9A02-26E9936CE33E}"><p:d /></r><r uid="{DD0DB1AB-922A-4E36-8110-1DB47D199584}"><p:d /></r></d><d id="{74437005-A7E6-4450-B6CB-8354859FE1E8}"><r uid="{88AB7D78-10E6-4C1B-8865-8B5DA18DB65E}" p:before="r[@uid='{B0BFF9EF-A739-4766-9A5D-B6AFDDAC2D4C}']" s:id="{D06E9628-B322-474C-8AFE-3918CF7BEF33}" s:ph="mobilepagecontent" /><r uid="{B0BFF9EF-A739-4766-9A5D-B6AFDDAC2D4C}" p:before="r[@uid='{40619201-A3CF-472F-8770-71CD06BEEAB1}']" s:id="{83925305-1093-4067-9860-AB8D178C735F}" s:ph="mobilepagemenu" /><r uid="{40619201-A3CF-472F-8770-71CD06BEEAB1}" s:id="{1C6D4FB2-41EB-41F4-A132-4424FE553CA9}" s:ph="mobilepageheader" /></d></r>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20071206T133448
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e4149771-f9c1-4ff4-9e15-0152841e9b84
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150424T111508:635654709085892606Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
+----version----
+language: ja-JP
+version: 1
+revision: cf8e9ddd-d9f7-44c5-9038-cbdf08867445
+
+----field----
+field: {406635BF-4414-469E-9F97-C50FA925C1F4}
+name: Breadcrumb Title
+key: breadcrumb title
+content-length: 5
+
+コンタクト
+----field----
+field: {8E39CAF5-3021-4BB1-8FAB-E8B35C1C3722}
+name: Menu Title
+key: menu title
+content-length: 5
+
+コンタクト
+----field----
+field: {A0FC3F87-C1AC-4660-8AC6-91A1AD923E89}
+name: Sidebar Title
+key: sidebar title
+content-length: 20
+
+どのようにこのセクションの動作しますか？
+----field----
+field: {3A4543F6-1FC9-41AF-8C43-FA5A748F93A9}
+name: Sidebar Text
+key: sidebar text
+content-length: 134
+
+<p>お問い合わせセクションで、作成できるだけ多くの場所に好きなようにとの（または、少し多く提供する）好きなように、それぞれの場所についての情報を。 </p><p>このデモサイトを示し、連絡先のページの形式は、連絡先を適切に提供する方法多くの情報に基づいて。 </p>
+----field----
+field: {6437B751-1E64-48D9-B549-C604ACE49732}
+name: Banner Image
+key: banner image
+content-length: 152
+
+<image mediaid="{DEC7823F-4A51-4F16-A9F7-ED974BC0B6CD}" mediapath="/Images/Banners/typewriter keys" src="~/media/Images/Banners/typewriter keys.ashx" />
+----field----
+field: {4D396D25-9269-4C50-9E20-2DEB64C268D9}
+name: Banner Slogan
+key: banner slogan
+content-length: 32
+
+我々は、他人があなたの要求に応答するのを待ってのチームを持って！
+----field----
+field: {D5A4F329-B904-4D6D-8503-392BD87B18A6}
+name: Title
+key: title
+content-length: 13
+
+どのようにお問い合わせする
+----field----
+field: {BAC5B3D4-5E16-47A0-A4DB-305B29BC7702}
+name: Text
+key: text
+content-length: 78
+
+<p>場合は、お問い合わせセクションを人々がどのように連絡を取ることができる知っているように作成する世界的な操作や1つのオフィスを持ってかどうか。 </p>
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 149
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{46D2F427-4CE5-4E1F-BA10-EF3636F43534}"><r uid="{8A4460DC-ACF7-4B90-81BA-976F9E859D2B}"><p:d /></r></d></r>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 18
+
+sitecore\Anonymous
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20071206T133448
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 18
+
+sitecore\Anonymous
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+cf8e9ddd-d9f7-44c5-9038-cbdf08867445
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150312T140104:635617656646323422Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 22
+
+sitecore\virtualssuser
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

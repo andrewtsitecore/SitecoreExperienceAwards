@@ -1,0 +1,119 @@
+----item----
+version: 1
+id: {94028C69-68E6-4713-8B3F-EEF592250E62}
+database: master
+path: /sitecore/content/Global/Menu Manager/Officecore Header/My Account/My Account/Social Matrix
+parent: {5544D601-E086-4E22-AD91-68F82F51E99A}
+name: Social Matrix
+master: {00000000-0000-0000-0000-000000000000}
+template: {49EA1038-7CD6-4EA8-A270-F76007764DB8}
+templatekey: Menu Item
+
+----version----
+language: en
+version: 1
+revision: c839d14b-a38b-4cc5-bee5-d304d5bef3b6
+
+----field----
+field: {576C48FB-4F81-4118-9B11-830E29155259}
+name: Link Text
+key: link text
+content-length: 13
+
+Social Matrix
+----field----
+field: {80DCB938-939F-4604-881E-E80FE5CC07B9}
+name: Link
+key: link
+content-length: 113
+
+<link text="" linktype="internal" class="" title="" querystring="" id="{FF4722A8-ACFC-4EFF-B49D-239899B7E545}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140819T162637
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c839d14b-a38b-4cc5-bee5-d304d5bef3b6
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150131T211615:635583357752522056Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: e7c646dc-8dd2-49f9-b2c1-7c191c73c4a5
+
+----field----
+field: {576C48FB-4F81-4118-9B11-830E29155259}
+name: Link Text
+key: link text
+content-length: 11
+
+ソーシャルマトリックス
+----field----
+field: {80DCB938-939F-4604-881E-E80FE5CC07B9}
+name: Link
+key: link
+content-length: 129
+
+<link text="" linktype="internal" class="" title="" target='Custom' querystring="" id="{FF4722A8-ACFC-4EFF-B49D-239899B7E545}" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150124T004700Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e7c646dc-8dd2-49f9-b2c1-7c191c73c4a5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150124T004720:635576572406656123Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

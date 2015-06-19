@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {0EB89243-55B7-4F4E-A1C7-372ABA11378A}
+database: master
+path: /sitecore/system/Marketing Control Panel/Profiles/Product Interest/Profile Cards
+parent: {95056025-5410-43DF-BB8C-67F8FEC8F45E}
+name: Profile Cards
+master: {07624A03-BB2F-45D8-ABE1-15E2B1705FF3}
+template: {1AD02405-7207-4962-BA96-6D6C3BA30BA7}
+templatekey: Profile Cards
+
+----field----
+field: {A653241D-EDA4-49A4-A259-9F7C5613F2AC}
+name: Authoring Selection
+key: authoring selection
+content-length: 38
+
+{DF9486E3-C239-406E-83DD-7A30BEF2599D}
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: 9ddaf5ce-63d5-4d79-9907-89563839a59a
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20120301T141552
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9ddaf5ce-63d5-4d79-9907-89563839a59a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20120301T150831:634662113116254695
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

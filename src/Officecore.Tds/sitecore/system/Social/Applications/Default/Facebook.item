@@ -1,0 +1,79 @@
+----item----
+version: 1
+id: {3C596D2E-BB3A-498C-B976-81B714662B15}
+database: master
+path: /sitecore/system/Social/Applications/Default/Facebook
+parent: {8C053EB6-1535-4B4D-8755-1E10D027237A}
+name: Facebook
+master: {00000000-0000-0000-0000-000000000000}
+template: {8015BB44-6D50-4C56-980B-435A77AA5B09}
+templatekey: Application
+
+----field----
+field: {AED4D0D5-8642-43D1-9485-64387919BAA6}
+name: Application ID
+key: application id
+content-length: 15
+
+258090857645215
+----field----
+field: {379D5D91-C5BC-4DA9-920E-A001765B7ABD}
+name: Application Secret
+key: application secret
+content-length: 32
+
+a119b2add8cdb9ab9315c5704e66feef
+----field----
+field: {D0EBF5C0-E9B9-4615-A761-D68CD8108341}
+name: Network
+key: network
+content-length: 38
+
+{D7429409-D6DA-46CD-91DD-8702781AE3C4}
+----version----
+language: en
+version: 1
+revision: 48a74b33-9231-47a8-b0ea-47a033aba51b
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140814T113912
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+48a74b33-9231-47a8-b0ea-47a033aba51b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140814T113923:635436131636000565
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {B4D56D1B-2AFD-4654-9B43-E8AAEDAFA5E7}
+database: master
+path: /sitecore/content/Global/Videos/Clouds
+parent: {332FE5DD-17C3-4C97-A361-F727CE65E7AE}
+name: Clouds
+master: {00000000-0000-0000-0000-000000000000}
+template: {287A0D98-7AF9-4C5D-9EFF-49239108FC09}
+templatekey: Video
+
+----field----
+field: {7647F0A2-D731-4C52-826E-F87F810E77FC}
+name: Video source
+key: video source
+content-length: 109
+
+<file mediaid="{2B57DCB9-FE96-490D-918C-4496BC2911A1}" src="~/media/2B57DCB9FE96490D918C4496BC2911A1.ashx" />
+----field----
+field: {217F6BBA-3108-4A58-B857-E1F792C51922}
+name: Thumbnail
+key: thumbnail
+content-length: 58
+
+<image mediaid="{D1F21CB1-729F-49A1-B86F-6F08468CE2D3}" />
+----version----
+language: en
+version: 1
+revision: feb9e88c-1ecf-4de0-9270-51277eab4fc7
+
+----field----
+field: {7F2DBFA3-D197-47F7-82BB-3C18B4A8AAB9}
+name: Title
+key: title
+content-length: 6
+
+Clouds
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20141126T211712
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+feb9e88c-1ecf-4de0-9270-51277eab4fc7
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20141126T212630:635526339906968554
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

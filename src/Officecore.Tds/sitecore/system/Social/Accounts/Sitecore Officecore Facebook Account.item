@@ -1,0 +1,79 @@
+----item----
+version: 1
+id: {61D0FE52-E7D2-4747-B7F8-54AC5940FF0D}
+database: master
+path: /sitecore/system/Social/Accounts/Sitecore Officecore Facebook Account
+parent: {BD726323-E745-47D0-99F7-D25A870FE211}
+name: Sitecore Officecore Facebook Account
+master: {00000000-0000-0000-0000-000000000000}
+template: {2C0B92B7-6F32-48AC-A880-14A07995F118}
+templatekey: Network Account
+
+----field----
+field: {893CA71D-2CC2-42C0-AAD5-02609D9E8200}
+name: AccessToken
+key: accesstoken
+content-length: 15
+
+168247546646019
+----field----
+field: {205D2427-99AE-4012-8200-011745C48D30}
+name: AccessTokenSecret
+key: accesstokensecret
+content-length: 198
+
+CAADqu3XjxJ8BAJOcLsA8qLv255HhXnXprbQwOCR0ZCzCVYZBzzXs1kTOXQXF4V1Txm5ir7PPIWz6fqf953mOFigAJlaUP2mWZBGhtz1QQOd6KhIXJIoNbWyZCZARbZCJWrXpdMvOHeITpMPRo8ZBKa6k3MPi6V20CGEblf1phIzs0ieqPDyya2YZCl04s4lBkdYZD
+----field----
+field: {8BFA1D0D-46B5-4C99-B40F-EAC683C1C9D3}
+name: LastRenewalDate
+key: lastrenewaldate
+content-length: 16
+
+20150127T200607Z
+----field----
+field: {26491425-AA5C-40F9-9E0B-C766D273C17E}
+name: Application
+key: application
+content-length: 38
+
+{3C596D2E-BB3A-498C-B976-81B714662B15}
+----version----
+language: en
+version: 1
+revision: 6f92dc7c-5a53-4604-93c2-55c51205de8d
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 35
+
+20150127T200608:635579859687673634Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6f92dc7c-5a53-4604-93c2-55c51205de8d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150127T200608:635579859687673634Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

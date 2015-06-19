@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {E793450C-2C5B-440D-AF1B-9F4725965A71}
+database: core
+path: /sitecore/client/Applications/Launchpad/PageSettings/Buttons/Officecore
+parent: {C625DB2F-6DB2-4645-B7F7-733ABFC2CAC6}
+name: Officecore
+master: {00000000-0000-0000-0000-000000000000}
+template: {5EE505EE-8C0C-4CBD-8815-C1B7B1F06516}
+templatekey: LaunchPad-Group
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+450
+----field----
+field: {DEC8D2D5-E3CF-48B6-A653-8E69E2716641}
+name: __Security
+key: __security
+content-length: 116
+
+au|sitecore\Minnie|pe|-item:read|pd|-item:read|ar|sitecore\Sitecore Minimal Page Editor|pe|-item:read|pd|-item:read|
+----version----
+language: en
+version: 1
+revision: ab9e0b56-e6e3-41a9-bab0-86e54951d8de
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150213T142449Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ab9e0b56-e6e3-41a9-bab0-86e54951d8de
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150216T090558:635596743586012429Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

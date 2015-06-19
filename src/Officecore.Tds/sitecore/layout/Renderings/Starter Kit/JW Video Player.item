@@ -1,0 +1,119 @@
+----item----
+version: 1
+id: {4CCE3CE2-6315-484B-9358-B779FBAD09E9}
+database: master
+path: /sitecore/layout/Renderings/Starter Kit/JW Video Player
+parent: {6E77209B-B3A9-4E1D-A0D4-5D763D7345E5}
+name: JW Video Player
+master: {00000000-0000-0000-0000-000000000000}
+template: {F1F1D639-4F54-40C2-8BE0-81266B392CEB}
+templatekey: Xsl Rendering
+
+----field----
+field: {78783F79-1411-4B91-958D-AD81F81E2485}
+name: Path
+key: path
+content-length: 34
+
+/xsl/Starter Kit/video-player.xslt
+----field----
+field: {B5B27AF1-25EF-405C-87CE-369B3A004016}
+name: Datasource Location
+key: datasource location
+content-length: 31
+
+/sitecore/content/Global/Videos
+----field----
+field: {1A7C85E5-DC0B-490D-9187-BB1DBCB4C72F}
+name: Datasource Template
+key: datasource template
+content-length: 62
+
+/sitecore/templates/User Defined/Modules/JW Video Player/Video
+----field----
+field: {A2F5D9DF-8CBA-4A1D-99EB-51ACB94CB057}
+name: Page Editor Buttons
+key: page editor buttons
+content-length: 77
+
+{7715EBFA-F0D3-4082-B386-7B37DA6EFF27}|{5B9A956E-BECF-488A-A069-F6A48B398888}
+----field----
+field: {C7C26117-DBB1-42B2-AB5E-F7223845CCA3}
+name: __Thumbnail
+key: __thumbnail
+content-length: 162
+
+<image mediaid="{B0657C02-35F0-40B3-806F-F7269A68930F}" mediapath="/System/ComponentImages/JW Video Player" src="~/media/B0657C0235F040B3806FF7269A68930F.ashx" />
+----version----
+language: 
+version: 1
+revision: c35a3cfd-0de4-4e3b-b724-4e2d780451b6
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 34
+
+20120731T105851:634793291314439462
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c35a3cfd-0de4-4e3b-b724-4e2d780451b6
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20120815T101935:634806227751890431
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 5736af71-78b2-48f2-ada5-bf847df5e9cd
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20120704T160900
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5736af71-78b2-48f2-ada5-bf847df5e9cd
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20120808T115331:634800236119701483
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

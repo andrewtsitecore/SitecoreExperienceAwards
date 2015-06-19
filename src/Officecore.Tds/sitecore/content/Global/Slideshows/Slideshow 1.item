@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {20685B71-F358-49E6-8D47-D1C5F8019F58}
+database: master
+path: /sitecore/content/Global/Slideshows/Slideshow 1
+parent: {B6CC2CD3-D588-4D45-8914-2A21521A2B1D}
+name: Slideshow 1
+master: {00000000-0000-0000-0000-000000000000}
+template: {6EFA7478-8217-43D0-A4D6-0043626397B4}
+templatekey: Slideshow
+
+----version----
+language: en
+version: 1
+revision: a6a06cbb-b159-4b40-8d02-693a29715adb
+
+----field----
+field: {10E0B392-2BBF-4D7B-B17C-77FBD27390B4}
+name: Interval
+key: interval
+content-length: 4
+
+5000
+----field----
+field: {E4038CAF-77CB-4AF6-9F46-8F4C5C8160C1}
+name: Pause
+key: pause
+content-length: 1
+
+1
+----field----
+field: {99380D58-6E05-478E-AFDD-6A10111D6F24}
+name: Wrap
+key: wrap
+content-length: 1
+
+1
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140127T163541
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a6a06cbb-b159-4b40-8d02-693a29715adb
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140128T102922:635265017621309563
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

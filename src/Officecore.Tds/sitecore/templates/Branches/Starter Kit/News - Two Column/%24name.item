@@ -1,0 +1,51 @@
+----item----
+version: 1
+id: {11C31AB5-828C-4ABE-86AA-4616C7A2CCCC}
+database: master
+path: /sitecore/templates/Branches/Starter Kit/News - Two Column/$name
+parent: {224863E9-88D1-448D-9EB4-96EF566DCC1E}
+name: $name
+master: {00000000-0000-0000-0000-000000000000}
+template: {788EF1BE-B71E-4D59-9276-50519BD4F641}
+templatekey: News Article
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 259
+
+<r xmlns:xsd="http://www.w3.org/2001/XMLSchema" ><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{BC88973F-D93B-47A4-85A0-D51034C457CF}"><r id="{57C4AE1C-2502-4E20-82AA-6244F511D43A}" ph="page-columns" uid="{FE2EE3D8-400C-4FEA-81AE-DD8DC7BEFEC3}" /></d></r>
+----version----
+language: en
+version: 1
+revision: 31503170-73ca-4d28-82a4-f26ae2b4bcb4
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20121004T165628
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+31503170-73ca-4d28-82a4-f26ae2b4bcb4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20121004T165822:634849667025525926
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

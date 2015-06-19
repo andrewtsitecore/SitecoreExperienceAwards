@@ -1,0 +1,113 @@
+----item----
+version: 1
+id: {1C3AB9FC-8445-4C20-8CF0-63D1DD3E07C8}
+database: master
+path: /sitecore/system/Marketing Control Panel/Engagement Plans/Call-back management/Visitors awaiting call-back/Has visitor claimed discount code from Facebook
+parent: {D337A141-06DE-44D9-9976-F2825A40BAA7}
+name: Has visitor claimed discount code from Facebook
+master: {00000000-0000-0000-0000-000000000000}
+template: {0A43A0FE-7E0E-49EF-95D4-E3DE34F4F175}
+templatekey: Engagement Plan Condition
+
+----field----
+field: {E13DCD09-D9BB-43C9-8D7D-438C79D714CA}
+name: Evaluate
+key: evaluate
+content-length: 38
+
+{B81C1F4C-8B83-44D9-902F-448463DBCCBC}
+----field----
+field: {21F3482B-BB14-4555-BA5D-AF20D400D5B9}
+name: Rule
+key: rule
+content-length: 276
+
+<ruleset>
+  <rule uid="{FD810655-A09B-48DF-98BB-0BD5B1FB977B}">
+    <conditions>
+      <condition id="{78CD5498-8723-4645-B88B-12C9388ED92F}" uid="051F9ADFC1C943289761B3719D1C967B" GoalId="{56C6C139-6361-4072-8482-BA2A5A5F21B6}" />
+    </conditions>
+  </rule>
+</ruleset>
+----field----
+field: {D2368879-C784-4031-9B79-6A3BF3CB444E}
+name: Next state
+key: next state
+content-length: 36
+
+c4e41fbd-ea4f-4a71-8646-062c1a36f68a
+----field----
+field: {3F72BC07-DE92-483E-A724-D430769D9BA4}
+name: Designer ID
+key: designer id
+content-length: 36
+
+594722d0-757b-4063-a4e3-8a7a65e0c410
+----field----
+field: {7642ED71-348B-4B88-8634-CC7B28949472}
+name: Origin ID
+key: origin id
+content-length: 36
+
+00000000-0000-0000-0000-000000000000
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 1
+
+1
+----version----
+language: en
+version: 1
+revision: ccf50426-505b-4039-9d90-8e9d29d2efe7
+
+----field----
+field: {06F2D72A-1924-4B9A-BA1E-186CE4E57EFD}
+name: Description
+key: description
+content-length: 0
+
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 48
+
+Has visitor claimed discount code from Facebook?
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 34
+
+20120919T151706:634836646263842050
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ccf50426-505b-4039-9d90-8e9d29d2efe7
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20130806T145612:635113977723425758
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

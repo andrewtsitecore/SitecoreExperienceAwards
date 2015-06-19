@@ -1,0 +1,79 @@
+----item----
+version: 1
+id: {B9BAAE61-4C54-4DD7-883A-6DBD8CB4A913}
+database: master
+path: /sitecore/system/Marketing Control Panel/Engagement Plans/Call-back management/Visitors awaiting call-back/Has visitor answered call-back/Send email blank
+parent: {1FA7A372-8076-4F7F-A392-6E17C2410E39}
+name: Send email blank
+master: {00000000-0000-0000-0000-000000000000}
+template: {8C5EAD00-5F68-4310-AB0C-84F283B5EE0A}
+templatekey: Engagement Automation Action
+
+----field----
+field: {3F72BC07-DE92-483E-A724-D430769D9BA4}
+name: Designer ID
+key: designer id
+content-length: 36
+
+b9baae61-4c54-4dd7-883a-6dbd8cb4a913
+----field----
+field: {7642ED71-348B-4B88-8634-CC7B28949472}
+name: Origin ID
+key: origin id
+content-length: 36
+
+044013a5-8f99-45ff-9361-e8487104e492
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 1
+
+1
+----version----
+language: en
+version: 1
+revision: 301ec0d6-76cd-4b59-8e53-3f1deb2f846e
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 19
+
+Send e-mail (blank)
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 34
+
+20120312T140349:634671578298797051
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+301ec0d6-76cd-4b59-8e53-3f1deb2f846e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20120312T140349:634671578298867065
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

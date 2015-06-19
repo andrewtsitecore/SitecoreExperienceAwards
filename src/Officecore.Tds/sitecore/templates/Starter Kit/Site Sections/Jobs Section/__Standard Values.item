@@ -1,0 +1,112 @@
+----item----
+version: 1
+id: {025E1F4A-6982-45D6-908A-D5AF5B09E9C5}
+database: master
+path: /sitecore/templates/Starter Kit/Site Sections/Jobs Section/__Standard Values
+parent: {051FDA0A-579B-45AB-A302-133B2385FA48}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {051FDA0A-579B-45AB-A302-133B2385FA48}
+templatekey: Jobs Section
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 0
+
+
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 38
+
+{60C0E35E-AD98-4653-9818-F6E6282BDC9D}
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 1947
+
+<r xmlns:xsd="http://www.w3.org/2001/XMLSchema" ><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{BC88973F-D93B-47A4-85A0-D51034C457CF}"><p uid="{77A52A1D-F698-4D2E-B8F0-189BDE047D2E}" key="column-right" md="/sitecore/layout/placeholder settings/column-right" /><p uid="{0745AC5A-7F65-47BD-83E2-58D9F4E102CE}" key="column-left" md="/sitecore/layout/placeholder settings/column-left" /><p uid="{39A5A6A8-2F13-48AB-BBB0-C4A5AC3177F9}" key="content" md="/sitecore/layout/placeholder settings/content" /><p uid="{BB90FC22-BF9B-4610-8625-E3DB56258A15}" key="column-content" md="/sitecore/layout/placeholder settings/column-content" /><p uid="{77FE1430-D9A2-4A4C-9D51-59AE0AFE4FFA}" key="page-columns" md="/sitecore/layout/placeholder settings/page-columns" /><r ds="" id="{F08A7BDB-833E-41AE-9190-12607F3B0147}" par="" ph="page-columns" uid="{F52C6CFC-3C88-49D9-967D-1B0DA2CB081E}" /><r ds="" id="{A0CF0470-0E24-45D6-895F-F20C0DCDA433}" par="" ph="column-left" uid="{1AB59BF4-BE1D-4FD5-9938-4CC423A4796E}" /><r ds="" id="{D2D5630A-72B7-4683-9E6A-819C9A3133C9}" par="" ph="column-content" uid="{6C7922D0-1B68-4DA5-9AB7-E282446D9826}" /><r ds="" id="{7DD24FB5-CFAC-4223-AC3D-72F3E851DFE9}" par="" ph="column-right" uid="{FD49A93A-63F7-461D-9A02-26E9936CE33E}" /><r id="{3F3302BE-59DF-4F23-A378-179537B4B1FD}" ph="banner" uid="{DD0DB1AB-922A-4E36-8110-1DB47D199584}" /></d><d id="{46D2F427-4CE5-4E1F-BA10-EF3636F43534}" l="{7190F2DE-A52E-4CAC-B1E3-49D4D3CD835D}"><r ds="" id="{54B791D9-F6B9-44CA-95CD-66A1D630E329}" par="" ph="page-columns" uid="{AF72D0AF-A0DC-4669-929D-278698200811}" /><r ds="" id="{3615ADA9-8476-4E2F-AE4E-10751E7FA366}" par="" ph="column-content" uid="{44811146-93ED-42A2-B3A2-975EEC02AF99}" /></d><d id="{73966209-F1B6-43CA-853A-F1DB1C9A654B}" l="{A57C19C2-8EE3-4DEC-AA39-0B8D522D59EB}"><r id="{86F838F5-7E87-45BB-876F-C021324AC8B0}" par="TitleField=Title&amp;BodyField=Text" uid="{EA19DF71-E175-4EAC-A3CE-65DA84C60F34}" /></d></r>
+----version----
+language: en
+version: 1
+revision: 88d327db-d49a-4864-bc86-e2bccc59f4c8
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20071205T114715
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+88d327db-d49a-4864-bc86-e2bccc59f4c8
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150312T140106:635617656666644611Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 22
+
+sitecore\virtualssuser
+----version----
+language: ja-JP
+version: 1
+revision: 5b6145d7-71a2-4645-9eae-a3f4c78b284a
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20071205T114715
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5b6145d7-71a2-4645-9eae-a3f4c78b284a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150312T140106:635617656667164624Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 22
+
+sitecore\virtualssuser

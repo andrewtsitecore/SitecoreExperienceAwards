@@ -1,0 +1,79 @@
+----item----
+version: 1
+id: {0AEF7DF3-B008-43AB-B5DE-5FB93078AAD3}
+database: master
+path: /sitecore/layout/Sublayouts/Officecore/Desktop/Global/Desktop-Slideshow
+parent: {089FC940-2C3B-40B6-B417-A2C2E6E7F202}
+name: Desktop-Slideshow
+master: {00000000-0000-0000-0000-000000000000}
+template: {0A98E368-CDB9-4E1E-927C-8E0C24A003FB}
+templatekey: Sublayout
+
+----field----
+field: {E42081B6-8A95-4A11-89CE-DF70ED502F57}
+name: Path
+key: path
+content-length: 66
+
+/layouts/Officecore/Controls/Desktop/Global/Desktop-Slideshow.ascx
+----field----
+field: {B5B27AF1-25EF-405C-87CE-369B3A004016}
+name: Datasource Location
+key: datasource location
+content-length: 35
+
+/sitecore/content/Global/Slideshows
+----field----
+field: {1A7C85E5-DC0B-490D-9187-BB1DBCB4C72F}
+name: Datasource Template
+key: datasource template
+content-length: 49
+
+/sitecore/templates/Branches/Officecore/Slideshow
+----field----
+field: {A2F5D9DF-8CBA-4A1D-99EB-51ACB94CB057}
+name: Page Editor Buttons
+key: page editor buttons
+content-length: 77
+
+{2516D88A-5B46-492F-B6E9-3C4777D55207}|{31A3A929-C599-4DD3-91A6-F4A9487CC8B7}
+----version----
+language: en
+version: 1
+revision: 0ddd7cf6-997f-4166-972e-4c8501d45f6d
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140127T164329
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+0ddd7cf6-997f-4166-972e-4c8501d45f6d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140206T100137:635272776973001168
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

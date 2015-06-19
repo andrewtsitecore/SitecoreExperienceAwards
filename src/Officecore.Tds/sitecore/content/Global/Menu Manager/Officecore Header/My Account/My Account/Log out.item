@@ -1,0 +1,133 @@
+----item----
+version: 1
+id: {4A01C2AC-5D55-4DD8-BAA2-6A77C86AFD6E}
+database: master
+path: /sitecore/content/Global/Menu Manager/Officecore Header/My Account/My Account/Log out
+parent: {5544D601-E086-4E22-AD91-68F82F51E99A}
+name: Log out
+master: {00000000-0000-0000-0000-000000000000}
+template: {49EA1038-7CD6-4EA8-A270-F76007764DB8}
+templatekey: Menu Item
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+500
+----field----
+field: {DEC8D2D5-E3CF-48B6-A653-8E69E2716641}
+name: __Security
+key: __security
+content-length: 50
+
+au|extranet\Anonymous|pe|-item:read|pd|-item:read|
+----version----
+language: en
+version: 1
+revision: 100128ac-3068-4567-9722-1d4617c51d8a
+
+----field----
+field: {576C48FB-4F81-4118-9B11-830E29155259}
+name: Link Text
+key: link text
+content-length: 7
+
+Log out
+----field----
+field: {80DCB938-939F-4604-881E-E80FE5CC07B9}
+name: Link
+key: link
+content-length: 124
+
+<link text="Log Out" linktype="external" url="/layouts/officecore/layouts/logout.aspx?sc_mode=normal" anchor="" target="" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140818T151241
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+100128ac-3068-4567-9722-1d4617c51d8a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150124T171444:635577164840081181Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 7c2fad9e-1d18-4416-9fb4-6774c15d2782
+
+----field----
+field: {576C48FB-4F81-4118-9B11-830E29155259}
+name: Link Text
+key: link text
+content-length: 5
+
+ログアウト
+----field----
+field: {80DCB938-939F-4604-881E-E80FE5CC07B9}
+name: Link
+key: link
+content-length: 129
+
+<link text="" linktype="internal" class="" title="" target='Custom' querystring="" id="{7E055174-F794-421A-AA8F-191706A01496}" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150124T004724Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7c2fad9e-1d18-4416-9fb4-6774c15d2782
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150124T004745:635576572651936460Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,25 @@
+﻿<Project>
+  <PropertyGroup>
+    <Site Server="www.sitecoreexperienceawards.net" UserName="sitecore\admin" IsRemoteSitecore="True" />
+  </PropertyGroup>
+  <File Include="layouts\Officecore\Controls\Desktop\Desktop-Overview.ascx" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{7982ADD2-3F38-41D3-9AB6-6D3E3C83B03C}</Item>
+  </File>
+  <File Include="layouts\Officecore\Controls\Desktop\Desktop-Overview.ascx.cs" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0" />
+  <File Include="layouts\Officecore\Controls\Desktop\Desktop-Overview.ascx.designer.cs" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0" />
+  <File Include="layouts\Officecore\Controls\Desktop\Page-Title-Text.ascx" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{E38906C0-B174-4940-B425-26DAE1B9B036}</Item>
+  </File>
+  <File Include="layouts\Officecore\Controls\Desktop\Page-Title-Text.ascx.cs" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0" />
+  <File Include="layouts\Officecore\Controls\Desktop\Page-Title-Text.ascx.designer.cs" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0" />
+  <File Include="layouts\Officecore\Controls\Desktop\Desktop-Social-Stream.ascx" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{48BA1599-2885-48F9-AEB7-11D06E38D5C4}</Item>
+  </File>
+  <File Include="layouts\Officecore\Controls\Desktop\Desktop-Social-Stream.ascx.cs" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0" />
+  <File Include="layouts\Officecore\Controls\Desktop\Desktop-Social-Stream.ascx.designer.cs" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0" />
+  <File Include="layouts\Officecore\Controls\Desktop\Desktop-Social-Share.ascx" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{BFC1C460-0E1D-4997-89D8-64F0661222F4}</Item>
+  </File>
+  <File Include="layouts\Officecore\Controls\Desktop\Desktop-Social-Share.ascx.cs" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0" />
+  <File Include="layouts\Officecore\Controls\Desktop\Desktop-Social-Share.ascx.designer.cs" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0" />
+</Project>

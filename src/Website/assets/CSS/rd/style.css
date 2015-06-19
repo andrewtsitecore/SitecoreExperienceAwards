@@ -1,0 +1,297 @@
+﻿/* Use only for emergency styles to override current styles on live site */
+/* Remove after added to live stylesheet */
+
+.first.lt-nav {
+    padding: 8px 6px 9px 0;
+}
+
+.lt-nav {
+    padding: 8px 0px 9px 6px;
+}
+
+    .lt-nav > * {
+        padding: 0 10px;
+    }
+
+.left-nav-widget-default {
+    padding: 0;
+}
+
+/* Fix for Anakin Tactical workstream for facets */
+.facet-without-tabs {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+/* Temp fixes for OR-C  */
+.mod-no-results ul li {
+    background: none;
+}
+
+.jl-no-tabs #tabinfo-editor-notes :last-child {
+    padding-bottom: 0;
+}
+
+/* Style fix for jlprod.css for ASAF out of stock fabric*/
+.asaf-save-product-to-cart #basket-info {
+    display: inline-block;
+}
+
+/* Style fix for ipads to show all HTML5 videos which are currently not gaining the visible style*/
+.ipad #myContent {
+    visibility: visible;
+}
+
+/* 20082014 H1 fix for Seach pages */
+#search-results .search-results h1 {
+    font-weight: normal;
+}
+
+.facet-bread-box .facet-container li a.clear-selection { /* Inserts correct checkbox design and adjusts height to allow for wrapped lines of text */
+    background: url(/assets/build/clear-bread-box-selection.gif) no-repeat 0 0 #fff;
+    height: auto;
+    min-height: 15px;
+}
+
+.facet-container li a.clear-selection { /* To be remove onced search is switched to Endecca */
+    height: 15px;
+}
+
+.side-facets .beta .no-results { /* A bug created when switched to Endecca - Search with LHN. When a user types a string with no results the error message was overlaying other content */
+    position: relative !important;
+}
+
+.side-facets .search-box .btn-reset { /* re-aligns clear button on search within search LHN */
+    top: 11px;
+}
+
+.android .side-facets .search-box .btn-reset, .ipad .side-facets .search-box .btn-reset { /* re-aligns clear button on search within search LHN - On ipad and android */
+    top: 18px;
+    right: 4px;
+}
+
+
+/* START Basket Change - Delivery option icons amended to not look like links - to be integrated into jlglobal.css in Jan */
+
+.uk-del {
+    background: url('https://johnlewis.scene7.com/is/image/JohnLewis/basket-del-sprite211014?$alpha_png$') no-repeat -164px -4px #fff;
+}
+
+.no-uk-del {
+    background: url('https://johnlewis.scene7.com/is/image/JohnLewis/basket-del-sprite211014?$alpha_png$') no-repeat -138px -28px #fff;
+}
+
+.coll-store {
+    background: url('https://johnlewis.scene7.com/is/image/JohnLewis/basket-del-sprite211014?$alpha_png$') no-repeat -114px -48px #fff;
+}
+
+.no-coll-store {
+    background: url('https://johnlewis.scene7.com/is/image/JohnLewis/basket-del-sprite211014?$alpha_png$') no-repeat -92px -72px #fff;
+}
+
+
+.coll-plus {
+    background: url('https://johnlewis.scene7.com/is/image/JohnLewis/basket-del-sprite211014?$alpha_png$') no-repeat -69px -94px #fff;
+}
+
+.no-coll-plus {
+    background: url('https://johnlewis.scene7.com/is/image/JohnLewis/basket-del-sprite211014?$alpha_png$') no-repeat -46px -121px #fff;
+}
+
+
+.int-del {
+    background: url('https://johnlewis.scene7.com/is/image/JohnLewis/basket-del-sprite211014?$alpha_png$') no-repeat -24px -144px #fff;
+}
+
+.no-int-del {
+    background: url('https://johnlewis.scene7.com/is/image/JohnLewis/basket-del-sprite211014?$alpha_png$') no-repeat 0px -170px #fff;
+}
+
+    .no-uk-del p, .no-coll-store p, .no-int-del p, .no-coll-plus p {
+        color: #767676;
+        line-height: 1.3;
+        margin: 4px 0 10px 5px;
+    }
+
+.uk-del p, .coll-store p, .coll-plus, .int-del p, .coll-plus p.tooltip-trigger {
+    color: #333333;
+    line-height: 1.3;
+    margin: 4px 0 10px 5px;
+}
+
+/* END Basket Chnage */
+
+
+/* Start Our shop updates - Emma */
+#side-bar .store-address {
+    width: 146px;
+}
+
+    #side-bar .store-address .sat-nav-addr {
+        margin: 7px 0 0 0;
+        font-weight: bold;
+        display: block;
+    }
+/* End Our shop updates - Emma */
+
+
+/* Start Checkout 'place order' button updates - Emma */
+.btn-pmed-plcord {
+    width: 156px;
+}
+/* End Checkout 'place order' button updates - Emma */
+
+
+
+
+
+/* Icon References */
+.icon-telephone:before {
+    content: "\e603";
+}
+
+.icon-arrow-left:before {
+    content: "\e600";
+}
+
+.icon-arrow-right:before {
+    content: "\e621";
+}
+
+.icon-minus-square:before {
+    content: "\e622";
+}
+
+.icon-plus-square:before {
+    content: "\e623";
+}
+
+.icon-tooltip:before {
+    content: "\e624";
+}
+
+.icon-close_icon:before {
+    content: "\e620";
+}
+
+.icon-mouse:before {
+    content: "\e61e";
+}
+
+.icon-gift_card_icon:before {
+    content: "\e61c";
+}
+
+.icon-voucher_icon:before {
+    content: "\e61d";
+}
+
+.icon-arrow-up:before {
+    content: "\e610";
+}
+
+.icon-arrow-down-solid:before {
+    content: "\e61a";
+}
+
+.icon-arrow-down:before {
+    content: "\e61b";
+}
+
+.icon-at-symbol:before {
+    content: "\e60e";
+}
+
+.icon-eco:before {
+    content: "\e60f";
+}
+
+.icon-minus:before {
+    content: "\e618";
+}
+
+.icon-plus:before {
+    content: "\e619";
+}
+
+.icon-express-delivery:before {
+    content: "\e617";
+}
+
+.icon-printer:before {
+    content: "\e616";
+}
+
+.icon-gift:before {
+    content: "\e614";
+}
+
+.icon-calendar:before {
+    content: "\e615";
+}
+
+.icon-wishlist:before {
+    content: "\e601";
+}
+
+.icon-tick-roundal:before {
+    content: "\e602";
+}
+
+.icon-tick:before {
+    content: "\e604";
+}
+
+.icon-collect:before {
+    content: "\e605";
+}
+
+.icon-store-search:before {
+    content: "\e606";
+}
+
+.icon-search:before {
+    content: "\e607";
+}
+
+.icon-secure:before {
+    content: "\e608";
+}
+
+.icon-jl-logo:before {
+    content: "\e609";
+}
+
+.icon-int-del:before {
+    content: "\e60a";
+}
+
+.icon-email:before {
+    content: "\e60b";
+}
+
+.icon-uk-del:before {
+    content: "\e60c";
+}
+
+.icon-basket:before {
+    content: "\e60d";
+}
+
+.icon-johnlewis:before {
+    content: "\e611";
+}
+
+.icon-map-view:before {
+    content: "\e612";
+}
+
+.icon-opening-hours:before {
+    content: "\e613";
+}
+
+.icon-list-view:before {
+    content: "\e61f";
+}
+
+/* END ICONFONT REPLACEMENT */

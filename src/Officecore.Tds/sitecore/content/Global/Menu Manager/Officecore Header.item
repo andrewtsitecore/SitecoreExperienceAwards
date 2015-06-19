@@ -1,0 +1,91 @@
+----item----
+version: 1
+id: {DB81A3B1-87E1-499F-B47E-51017950EEE5}
+database: master
+path: /sitecore/content/Global/Menu Manager/Officecore Header
+parent: {1BB0645A-16A8-45D0-9C6D-28065A5EEAE3}
+name: Officecore Header
+master: {00000000-0000-0000-0000-000000000000}
+template: {E965CFE4-44C9-4CBD-9F51-E0459517F019}
+templatekey: Main Menu
+
+----version----
+language: en
+version: 1
+revision: d8b89467-12e5-4b6f-bde4-d5528b61e765
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140711T103340
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d8b89467-12e5-4b6f-bde4-d5528b61e765
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140818T103556:635439549567148719
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: bf5b42fc-46ab-4d0a-aad4-404593b14b51
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150124T003323Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+bf5b42fc-46ab-4d0a-aad4-404593b14b51
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150124T003323:635576564036058066Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

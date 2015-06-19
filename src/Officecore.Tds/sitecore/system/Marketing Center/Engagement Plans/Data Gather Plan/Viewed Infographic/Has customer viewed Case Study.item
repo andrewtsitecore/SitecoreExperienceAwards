@@ -1,0 +1,113 @@
+----item----
+version: 1
+id: {05447542-EBD2-41A5-8B93-2DA78B73A690}
+database: master
+path: /sitecore/system/Marketing Center/Engagement Plans/Data Gather Plan/Viewed Infographic/Has customer viewed Case Study
+parent: {FFD7B672-39F8-428A-955C-AD174C5F431E}
+name: Has customer viewed Case Study
+master: {00000000-0000-0000-0000-000000000000}
+template: {0A43A0FE-7E0E-49EF-95D4-E3DE34F4F175}
+templatekey: Engagement Plan Condition
+
+----field----
+field: {E13DCD09-D9BB-43C9-8D7D-438C79D714CA}
+name: Evaluate
+key: evaluate
+content-length: 38
+
+{B81C1F4C-8B83-44D9-902F-448463DBCCBC}
+----field----
+field: {21F3482B-BB14-4555-BA5D-AF20D400D5B9}
+name: Rule
+key: rule
+content-length: 276
+
+<ruleset>
+  <rule uid="{FA205866-5EB6-47AE-9B44-382639BF9443}">
+    <conditions>
+      <condition id="{4D290FF3-1587-4FEE-AB37-88768766A9D9}" uid="64E014672F804EBAB794DA0CC57432B4" GoalId="{36B85411-B8BA-4696-9F9B-4C9143294B13}" />
+    </conditions>
+  </rule>
+</ruleset>
+----field----
+field: {D2368879-C784-4031-9B79-6A3BF3CB444E}
+name: Next state
+key: next state
+content-length: 36
+
+6dd70ffb-92dc-46e5-9ff0-b00ea23e83e7
+----field----
+field: {3F72BC07-DE92-483E-A724-D430769D9BA4}
+name: Designer ID
+key: designer id
+content-length: 36
+
+ecbee9aa-7486-49f5-8b50-0d13751b60a7
+----field----
+field: {7642ED71-348B-4B88-8634-CC7B28949472}
+name: Origin ID
+key: origin id
+content-length: 36
+
+00000000-0000-0000-0000-000000000000
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 1
+
+0
+----version----
+language: en
+version: 1
+revision: 6475a3ab-a7e7-4933-8427-57cd1c498486
+
+----field----
+field: {06F2D72A-1924-4B9A-BA1E-186CE4E57EFD}
+name: Description
+key: description
+content-length: 0
+
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 31
+
+Has customer viewed Case Study?
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 34
+
+20140729T194317:635422597976357984
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6475a3ab-a7e7-4933-8427-57cd1c498486
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140729T195053:635422602536790514
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

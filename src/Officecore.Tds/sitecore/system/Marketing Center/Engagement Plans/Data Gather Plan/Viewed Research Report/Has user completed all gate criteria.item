@@ -1,0 +1,113 @@
+----item----
+version: 1
+id: {73A22B6F-AA3C-4FF4-8B42-00270E6279FA}
+database: master
+path: /sitecore/system/Marketing Center/Engagement Plans/Data Gather Plan/Viewed Research Report/Has user completed all gate criteria
+parent: {775FE04E-D66E-447C-9BE2-C6A58897289A}
+name: Has user completed all gate criteria
+master: {00000000-0000-0000-0000-000000000000}
+template: {0A43A0FE-7E0E-49EF-95D4-E3DE34F4F175}
+templatekey: Engagement Plan Condition
+
+----field----
+field: {E13DCD09-D9BB-43C9-8D7D-438C79D714CA}
+name: Evaluate
+key: evaluate
+content-length: 38
+
+{B81C1F4C-8B83-44D9-902F-448463DBCCBC}
+----field----
+field: {21F3482B-BB14-4555-BA5D-AF20D400D5B9}
+name: Rule
+key: rule
+content-length: 276
+
+<ruleset>
+  <rule uid="{F6499050-A6D8-4B35-BEA0-3D15F95C8DE3}">
+    <conditions>
+      <condition id="{4D290FF3-1587-4FEE-AB37-88768766A9D9}" uid="1162F038E50442ABA929EE2F7E07AB2E" GoalId="{C27F8E01-12B1-4D26-BB11-E8E41FB30E7D}" />
+    </conditions>
+  </rule>
+</ruleset>
+----field----
+field: {D2368879-C784-4031-9B79-6A3BF3CB444E}
+name: Next state
+key: next state
+content-length: 36
+
+97263721-13fa-4017-b9bb-a5b3af31050d
+----field----
+field: {3F72BC07-DE92-483E-A724-D430769D9BA4}
+name: Designer ID
+key: designer id
+content-length: 36
+
+fdab4c28-2e69-4126-8a5c-54b696e618af
+----field----
+field: {7642ED71-348B-4B88-8634-CC7B28949472}
+name: Origin ID
+key: origin id
+content-length: 36
+
+00000000-0000-0000-0000-000000000000
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 1
+
+0
+----version----
+language: en
+version: 1
+revision: 662d2f43-8fb9-4853-b0dd-3fee6e103ba0
+
+----field----
+field: {06F2D72A-1924-4B9A-BA1E-186CE4E57EFD}
+name: Description
+key: description
+content-length: 37
+
+Has user completed the gate criteria?
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 37
+
+Has user completed all gate criteria?
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 34
+
+20140730T101519:635423121199259981
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+662d2f43-8fb9-4853-b0dd-3fee6e103ba0
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140730T103114:635423130745390979
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,109 @@
+----item----
+version: 1
+id: {BE45BB90-8BD7-47A1-8C89-4796A17CAB75}
+database: master
+path: /sitecore/content/Home/My-Account/my-interests
+parent: {9B0EFB29-61C2-4771-9E01-1A8471D695A6}
+name: my-interests
+master: {00000000-0000-0000-0000-000000000000}
+template: {1D7ADB59-3AB0-4131-93AB-AADE26297D65}
+templatekey: Simple Item
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 6437
+
+<r xmlns:p="p" xmlns:s="s" p:p="1" s:xsd="http://www.w3.org/2001/XMLSchema"><d id="{46D2F427-4CE5-4E1F-BA10-EF3636F43534}"><r uid="{67402FB3-A87E-45B1-BD25-B6E402CEA262}"><p:d /></r></d><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" p:before="*[1=2]"><p uid="{F4AC3B33-1EF7-431E-855B-5EAC0E97EEBF}" p:before="p[@uid='{4E3D30E9-DC73-468F-B885-670188C85679}']" s:key="content-top-row-front-page" s:md="/sitecore/layout/placeholder settings/content-top-row-front-page" /><p uid="{4E3D30E9-DC73-468F-B885-670188C85679}" p:before="p[@uid='{EA50EFEC-E7C3-4372-919C-E3E317A89B15}']" s:key="content-bottom-row-front-page" s:md="/sitecore/layout/placeholder settings/content-bottom-row-front-page" /><p uid="{EA50EFEC-E7C3-4372-919C-E3E317A89B15}" p:before="r[@uid='{07C95606-3436-494E-BF01-C0747192E99B}']" s:key="column-right-bottom" s:md="/sitecore/layout/placeholder settings/column-right-bottom" /><r uid="{67402FB3-A87E-45B1-BD25-B6E402CEA262}"><p:d /></r><r uid="{C3B75246-FC8D-45F4-9A9B-449C549F212C}" p:before="r[@uid='{A3AE1FF2-9FC3-4989-9643-759D98B78A6E}']" s:id="{3F3302BE-59DF-4F23-A378-179537B4B1FD}" s:mvt="" s:ph="banner"><rls><ruleset><rule uid="{6B457E49-8B85-4EAB-8EF7-918BB67380F1}" s:name="Logged in"><conditions><condition uid="5530E2BCC0FD43E3AE434AA700E1DCBC" s:id="{EA0642FA-500B-4B2F-B264-765E771C516F}" s:except="true" /></conditions><actions><action uid="40B32957296E4638B0E87112AF806C9A" s:id="{25F351A1-712D-45F8-857D-8AD95BB2ACE9}" /></actions></rule><rule uid="{18825BD3-B047-4E6F-94B6-D2E6B7958B45}" s:name="Home Insurance"><conditions><condition uid="C5AC6BB770B24EB69CC98A212A3FD6BB" s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}" s:ProfileName="Finance Product Interest" s:PatternName="Insurance Buyer" /></conditions><actions><action uid="D5AE081E5C8B4F90939950F4B63C5BB3" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{6F0E760C-9C99-4D0F-8C63-05B6C81BB618}" /></actions></rule><rule uid="{B1FBBDBD-0874-4890-9D42-DF76A47258FA}" s:name="Holiday Buyer"><conditions><condition uid="61CE30840E9440C7AEA276FBE1893ED3" s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}" s:ProfileName="Product Interest" s:PatternName="Holiday buyer" /></conditions><actions><action uid="680A13B1894844F99E0E4AC44D146A8B" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{3059794C-A3DF-4F83-9FE1-59465FDFD261}" /></actions></rule><rule uid="{3C4280AB-2610-489F-A454-5FEAF25FDF42}" s:name="Call-back made (with Facebook)"><actions><action uid="2AE5C8EEA7F04B66ABF949805C874C38" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{B0AA06BF-89B4-43DA-9F46-A1DD5A13CEAD}" /></actions><conditions><and uid="39B627C2CD1F461F8E5F6E950CB22158"><condition uid="B0E24661167241AABE9D89CA71D1BD3A" s:id="{4D290FF3-1587-4FEE-AB37-88768766A9D9}" s:GoalId="{7E2341AA-E8A1-4051-9A84-7A1496A70BCC}" /><condition uid="9FF49A3DADBC4AEEBCE93A4468F12C56" s:id="{42BB15DA-D5EF-44D6-9E2F-EB58312ABBD2}" s:CampaignId="{B6CA3741-8510-443A-8A6F-A00BADC5DE53}" /></and></conditions></rule><rule uid="{63BCDF09-FB3D-4375-8F58-47C45D5F5E09}" s:name="Call-back made (no Facebook)"><actions><action uid="A398F154E38441B2951B5E0485D3D7FD" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{246FC001-FAED-45F0-8D7C-B3B7DE0BDFF4}" /></actions><conditions><condition uid="DE3EA7A017114CB1A7E4598C157686CD" s:id="{4D290FF3-1587-4FEE-AB37-88768766A9D9}" s:GoalId="{7E2341AA-E8A1-4051-9A84-7A1496A70BCC}" /></conditions></rule><rule uid="{FE9771FF-1FFE-4E56-983D-06BF2857CADB}" s:name="Registered for Facebook Conference"><conditions><condition uid="42DB337DDBA34E5890BF3D0493C5D855" s:id="{4D290FF3-1587-4FEE-AB37-88768766A9D9}" s:GoalId="{56C6C139-6361-4072-8482-BA2A5A5F21B6}" /></conditions><actions><action uid="F44C6A6783584BACB3DAD3B835DB7126" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{106FC6E9-339E-4262-81F8-29EBD5FCB71D}" /></actions></rule><rule uid="{1007B7DA-D136-44DC-8D81-E02B6A89A0A1}" s:name="Call-back form completed"><actions><action uid="52C5FCCC24A34E98ADF978874B4125F5" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{ED9FD723-A8AE-499F-A151-5D2AAB456FA9}" /></actions><conditions><condition uid="D6DD07215522431AB5DF2C4CC7459A90" s:id="{4D290FF3-1587-4FEE-AB37-88768766A9D9}" s:GoalId="{84B7FB1A-C005-4C4B-B1F0-BB1A464E3D66}" /></conditions></rule><rule uid="{D6B361DD-09DD-49F8-B6E2-13466887A78F}" s:name="Adwords (Mortgages)"><conditions><condition uid="0B409DFA49F1452195E8D32F302384AD" s:id="{42BB15DA-D5EF-44D6-9E2F-EB58312ABBD2}" s:CampaignId="{C520D564-12FA-4108-82AF-4AF73110BE2C}" /></conditions><actions><action uid="E541556BC30B40799B116773547FC4E6" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{5AB48767-52B0-4F6C-BD08-A9FFE5767144}" /></actions></rule><rule uid="{D31F487E-E772-44C0-9D3C-B3F5641FE42C}" s:name="Adwords (Office Supplies)"><actions><action uid="CA7BEB5F483944B6BD921933369E9B68" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{866AF81B-2B25-4665-BD5D-F39999443883}" /></actions><conditions><condition uid="0DE35CE81CE94A619CB5BAF1C36B8310" s:id="{42BB15DA-D5EF-44D6-9E2F-EB58312ABBD2}" s:CampaignId="{6EB3D7B6-2FCB-4BD3-8458-826B21C2D721}" /></conditions></rule><rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default"><conditions><condition uid="B8AED55D70594CCEBBE1A51F8590C2A0" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" /></conditions><actions /></rule></ruleset></rls></r><r uid="{A3AE1FF2-9FC3-4989-9643-759D98B78A6E}" p:before="r[@uid='{558F0348-549B-411D-8879-078C727A1765}']" s:id="{BB3E37B9-EEAA-4DDE-8239-D038FEFD3C91}" s:ph="page-columns" /><r uid="{558F0348-549B-411D-8879-078C727A1765}" p:before="r[@uid='{524E6B31-998B-4E1A-93EE-6BC42E814B7F}']" s:ds="" s:id="{F32A6721-548D-42CB-B8CA-EA136EA9D8DF}" s:par="" s:ph="content"><rls><ruleset><rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default"><conditions><condition uid="C35163F518D34C3383B5FAAEA49218AE" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" /></conditions><actions /></rule></ruleset></rls></r><r uid="{524E6B31-998B-4E1A-93EE-6BC42E814B7F}" s:cnd="" s:ds="{8DB6DEC4-2772-4547-93CC-781A0F601B21}" s:id="{107D9E86-86BE-4564-9102-1B655BF786BD}" s:par="" s:ph="content"><rls><ruleset><rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default"><conditions><condition uid="D54446FA5F704418BD7529EE0BFF7E8C" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" /></conditions><actions /></rule></ruleset></rls></r></d></r>
+----field----
+field: {DEC8D2D5-E3CF-48B6-A653-8E69E2716641}
+name: __Security
+key: __security
+content-length: 50
+
+au|extranet\Anonymous|pe|-item:read|pd|-item:read|
+----version----
+language: en
+version: 1
+revision: 537a03fd-a8a6-4749-a095-2038270b78d9
+
+----field----
+field: {406635BF-4414-469E-9F97-C50FA925C1F4}
+name: Breadcrumb Title
+key: breadcrumb title
+content-length: 12
+
+My interests
+----field----
+field: {8E39CAF5-3021-4BB1-8FAB-E8B35C1C3722}
+name: Menu Title
+key: menu title
+content-length: 12
+
+My interests
+----field----
+field: {4004C407-9C9F-4F47-AA1A-D6BCEDF3C3C4}
+name: Browser Title
+key: browser title
+content-length: 12
+
+My interests
+----field----
+field: {D5A4F329-B904-4D6D-8503-392BD87B18A6}
+name: Title
+key: title
+content-length: 12
+
+My interests
+----field----
+field: {BAC5B3D4-5E16-47A0-A4DB-305B29BC7702}
+name: Text
+key: text
+content-length: 15
+
+
+		<p><br></p>
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 12
+
+My interests
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140722T150736
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+537a03fd-a8a6-4749-a095-2038270b78d9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150312T140102:635617656622792028Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 22
+
+sitecore\virtualssuser
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

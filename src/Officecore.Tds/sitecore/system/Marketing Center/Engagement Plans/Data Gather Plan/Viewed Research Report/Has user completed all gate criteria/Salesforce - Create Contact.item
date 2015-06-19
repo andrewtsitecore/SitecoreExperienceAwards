@@ -1,0 +1,79 @@
+----item----
+version: 1
+id: {D0ED99AD-5276-4BD3-9ABC-5EF73164A424}
+database: master
+path: /sitecore/system/Marketing Center/Engagement Plans/Data Gather Plan/Viewed Research Report/Has user completed all gate criteria/Salesforce - Create Contact
+parent: {73A22B6F-AA3C-4FF4-8B42-00270E6279FA}
+name: Salesforce - Create Contact
+master: {00000000-0000-0000-0000-000000000000}
+template: {8C5EAD00-5F68-4310-AB0C-84F283B5EE0A}
+templatekey: Engagement Automation Action
+
+----field----
+field: {3F72BC07-DE92-483E-A724-D430769D9BA4}
+name: Designer ID
+key: designer id
+content-length: 36
+
+d0ed99ad-5276-4bd3-9abc-5ef73164a424
+----field----
+field: {7642ED71-348B-4B88-8634-CC7B28949472}
+name: Origin ID
+key: origin id
+content-length: 36
+
+983fe886-1dc3-4679-b553-8b70edd094b8
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 1
+
+0
+----version----
+language: en
+version: 1
+revision: 771526a6-f0bf-4fea-886b-c1a8fd3d85d2
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 0
+
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 34
+
+20140730T101826:635423123060314490
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+771526a6-f0bf-4fea-886b-c1a8fd3d85d2
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140730T103114:635423130747742530
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

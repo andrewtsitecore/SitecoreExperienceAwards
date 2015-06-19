@@ -1,0 +1,301 @@
+----item----
+version: 1
+id: {105D0620-B7AF-4B65-AA8D-65EF26E44AD8}
+database: master
+path: /sitecore/content/Home/Contact/Sitecore-Japan
+parent: {D80D72A4-9812-4EC2-8497-EE53445EFE53}
+name: Sitecore-Japan
+master: {00000000-0000-0000-0000-000000000000}
+template: {93D5992B-1890-406D-8C69-2C7E6A75A29D}
+templatekey: Contact Location
+
+----field----
+field: {B0A67B2A-8B07-4E0B-8809-69F751709806}
+name: __Tracking
+key: __tracking
+content-length: 12
+
+<tracking />
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 1350
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{46D2F427-4CE5-4E1F-BA10-EF3636F43534}"><r uid="{E6DE61F3-F8E3-45A8-8FB6-70FEDD4587B1}"><p:d /></r></d><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" p:before="*[1=2]"><p uid="{75184B97-261F-47C6-B3F0-1ACAA81DF399}"><p:d /></p><p uid="{4DA3C2DE-80BD-4097-B8E2-7969899309CE}"><p:d /></p><p uid="{459DD49B-2397-40C0-ADFB-D87DFCC2CA1F}"><p:d /></p><r uid="{342ACDDB-8BAD-47C7-AD05-659B388BD856}" p:before="r[@uid='{063CEECC-4586-46ED-B921-E4F7E60CDEBA}']" s:id="{A0CF0470-0E24-45D6-895F-F20C0DCDA433}" s:ph="/page-columns/column-left" /><r uid="{063CEECC-4586-46ED-B921-E4F7E60CDEBA}" p:before="r[@uid='{0C74FB46-7324-47D3-9355-248D32D07376}']" s:id="{F08A7BDB-833E-41AE-9190-12607F3B0147}" s:ph="page-columns" /><r uid="{0C74FB46-7324-47D3-9355-248D32D07376}" s:id="{86D60284-3A62-4335-ACBE-F22BF06D7981}" s:ph="column-content" /><p uid="{2369CB8C-A223-4B74-8493-AE33A62D1503}"><p:d /></p><p uid="{A53BB11B-CE88-4FDB-A72D-90835AA8531E}"><p:d /></p><r uid="{B4CBFD3D-0C38-40EC-84D3-20D7CE43CA3D}"><p:d /></r><r uid="{5B8196D6-B84E-43D6-BA10-57CBA7750CAE}"><p:d /></r><r uid="{E6C9F172-5899-4056-BFEC-2BCD1D9908AE}"><p:d /></r><r uid="{E6DE61F3-F8E3-45A8-8FB6-70FEDD4587B1}"><p:d /></r><r uid="{D1D4258A-925A-4631-B222-08F65C6A6EA4}"><p:d /></r><r uid="{0B6665F0-5758-428D-9C68-20A20D49E8DE}"><p:d /></r></d></r>
+----version----
+language: en
+version: 1
+revision: cee23b83-edbc-4ace-a41a-2cb7eaeae81e
+
+----field----
+field: {406635BF-4414-469E-9F97-C50FA925C1F4}
+name: Breadcrumb Title
+key: breadcrumb title
+content-length: 14
+
+Sitecore Japan
+----field----
+field: {8E39CAF5-3021-4BB1-8FAB-E8B35C1C3722}
+name: Menu Title
+key: menu title
+content-length: 14
+
+Sitecore Japan
+----field----
+field: {4004C407-9C9F-4F47-AA1A-D6BCEDF3C3C4}
+name: Browser Title
+key: browser title
+content-length: 34
+
+Contact Details for Sitecore Japan
+----field----
+field: {ED35101E-AD69-4774-81F0-805ECCBDEB28}
+name: Name
+key: name
+content-length: 22
+
+Sitecore Japan Co. Ltd
+----field----
+field: {B7A75CDD-D893-4291-B87D-9E6658676947}
+name: Address Line 1
+key: address line 1
+content-length: 27
+
+3-3-10 Nihombashi Kayabacho
+----field----
+field: {013E63A5-3319-4EE0-A825-51AD7C961CB6}
+name: Address Line 2
+key: address line 2
+content-length: 7
+
+Chuo-ku
+----field----
+field: {A23C0EC3-C3C8-4232-A893-99466D6AFA04}
+name: Address Line 3
+key: address line 3
+content-length: 15
+
+103-0025 Tokyo 
+----field----
+field: {3FB95B6E-1924-41B1-8114-0179A8216554}
+name: Phone
+key: phone
+content-length: 12
+
+03-5614-2040
+----field----
+field: {46818789-235D-4CDA-9195-4191BF22AB21}
+name: Fax
+key: fax
+content-length: 12
+
+03-5614-2039
+----field----
+field: {B80B30DE-3BF3-48D9-8B51-BF0A43887704}
+name: Info Email
+key: info email
+content-length: 20
+
+info-jp@sitecore.net
+----field----
+field: {DEA10A73-3805-456D-9A7C-72304EAEFCB2}
+name: Sales Email
+key: sales email
+content-length: 20
+
+info-jp@sitecore.net
+----field----
+field: {AA437881-C360-4886-AEB4-F6E33810E15F}
+name: Lat
+key: lat
+content-length: 9
+
+35.678741
+----field----
+field: {A41DCBA0-8340-43D5-8560-0246DF270B67}
+name: Long
+key: long
+content-length: 9
+
+139.77805
+----field----
+field: {D5A4F329-B904-4D6D-8503-392BD87B18A6}
+name: Title
+key: title
+content-length: 34
+
+Contact Details for Sitecore Japan
+----field----
+field: {BAC5B3D4-5E16-47A0-A4DB-305B29BC7702}
+name: Text
+key: text
+content-length: 0
+
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 14
+
+Sitecore Japan
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20101014T122110
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+cee23b83-edbc-4ace-a41a-2cb7eaeae81e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150312T140101:635617656611331391Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 22
+
+sitecore\virtualssuser
+----version----
+language: ja-JP
+version: 1
+revision: df631794-f328-42ab-a8e0-b463ece02742
+
+----field----
+field: {406635BF-4414-469E-9F97-C50FA925C1F4}
+name: Breadcrumb Title
+key: breadcrumb title
+content-length: 14
+
+Sitecore-Japan
+----field----
+field: {8E39CAF5-3021-4BB1-8FAB-E8B35C1C3722}
+name: Menu Title
+key: menu title
+content-length: 14
+
+Sitecore-Japan
+----field----
+field: {ED35101E-AD69-4774-81F0-805ECCBDEB28}
+name: Name
+key: name
+content-length: 22
+
+Sitecore Japan Co. Ltd
+----field----
+field: {B7A75CDD-D893-4291-B87D-9E6658676947}
+name: Address Line 1
+key: address line 1
+content-length: 27
+
+3-3-10 Nihombashi Kayabacho
+----field----
+field: {013E63A5-3319-4EE0-A825-51AD7C961CB6}
+name: Address Line 2
+key: address line 2
+content-length: 7
+
+Chuo-ku
+----field----
+field: {A23C0EC3-C3C8-4232-A893-99466D6AFA04}
+name: Address Line 3
+key: address line 3
+content-length: 15
+
+103-0025 Tokyo 
+----field----
+field: {3FB95B6E-1924-41B1-8114-0179A8216554}
+name: Phone
+key: phone
+content-length: 12
+
+03-5614-2040
+----field----
+field: {46818789-235D-4CDA-9195-4191BF22AB21}
+name: Fax
+key: fax
+content-length: 12
+
+03-5614-2039
+----field----
+field: {B80B30DE-3BF3-48D9-8B51-BF0A43887704}
+name: Info Email
+key: info email
+content-length: 20
+
+info-jp@sitecore.net
+----field----
+field: {DEA10A73-3805-456D-9A7C-72304EAEFCB2}
+name: Sales Email
+key: sales email
+content-length: 20
+
+info-jp@sitecore.net
+----field----
+field: {D5A4F329-B904-4D6D-8503-392BD87B18A6}
+name: Title
+key: title
+content-length: 14
+
+Sitecore-Japan
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20101014T123136
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+df631794-f328-42ab-a8e0-b463ece02742
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150312T140101:635617656611691408Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 22
+
+sitecore\virtualssuser

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<control xmlns:def="Definition" xmlns="http://schemas.sitecore.net/Visual-Studio-Intellisense" xmlns:shell="http://www.sitecore.net/shell">
+  <code.uCommerce.XmlControls.RulesManager>
+    <FormDialog ID="Dialog" Icon="PeopleV2/32x32/users3.png" Header="Manage your eCommerce rules" TextCssClass="scDialogTextWithPadding" Text="Manage the eCommerce rules. All rules below are active. Visitors to the website can have multiple rules evaluated to true." >
+      <CodeBeside Type="Officecore.Website.code.uCommerce.XmlControls.RulesManager,Officecore.Website"/>
+      <Script Src="/sitecore/shell/Controls/Lib/jQuery/jQuery.noconflict.js"></Script>
+      <Script Src="/sitecore/shell/Controls/CollapsiblePanel/CollapsiblePanel.js"></Script>
+      <Script Src="/sitecore/shell/Applications/WebEdit/Dialogs/Personalization/Personalization.js"></Script>
+      <Script Src="/sitecore/shell/Controls/Lib/scriptaculous/scriptaculous.js?load=effects,dragdrop"></Script>
+      <Stylesheet Src="/sitecore/shell/Applications/WebEdit/Dialogs/Personalization/Personalization.css" DeviceDependant="false" />
+      <Stylesheet Src="/sitecore/shell/Controls/CollapsiblePanel/CollapsiblePanel.css" DeviceDependant="false" />
+      <Stylesheet Src="/sitecore/shell/Controls/DatasourceExamples/DatasourceExamples.css" />
+      <GridPanel Class="holder" Width="100%" Height="100%">
+        <Border GridPanel.Class="top-row" GridPanel.VAlign="top" >
+          <Button Class="edit-button" Header="New Condition" Click="NewConditionClick"></Button>
+        </Border>
+        <Scrollbox Padding="0px" Class="scScrollbox scFixSize scFixSize4" Height="100%" Width="100%" GridPanel.Height="100%" ID="RulesContainer">
+        </Scrollbox>
+        <Border ID="MenuContainer" GridPanel.Class="bottom-row" Visible="false"></Border>
+      </GridPanel>
+    </FormDialog>
+  </code.uCommerce.XmlControls.RulesManager>
+</control>

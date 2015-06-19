@@ -1,0 +1,381 @@
+----item----
+version: 1
+id: {86FD71D7-ADEB-4334-AE9C-3636FB28426A}
+database: master
+path: /sitecore/templates/Starter Kit/Item Types/Site Root/__Standard Values
+parent: {54C60AED-31AF-400E-8106-17C3BF28E3A1}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {54C60AED-31AF-400E-8106-17C3BF28E3A1}
+templatekey: Site Root
+
+----field----
+field: {AC562D43-851E-443E-90E6-7D537CDC08EB}
+name: Powered By Image
+key: powered by image
+content-length: 152
+
+<image mediaid="{8861B61C-88B4-4CB1-A580-59CF9F416DF9}" mediapath="/Images/Logos/poweredbysitecore" src="~/media/Images/Logos/poweredbysitecore.ashx" />
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+500
+----field----
+field: {83798D75-DF25-4C28-9327-E8BAC2B75292}
+name: __Insert Rules
+key: __insert rules
+content-length: 0
+
+
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 350
+
+{1B9B160C-C91F-4E9C-BF50-61AB3D4A1E59}|{4BA61104-AA9C-4E19-90AF-B9FC3046D06B}|{9656BD5C-00EF-4B2A-8D5E-DF6DD7D1ECCB}|{051FDA0A-579B-45AB-A302-133B2385FA48}|{6CCDE3DB-8BA8-41AE-96D6-C11E4775A6B5}|{070924B1-A31A-4F3D-AAAE-B40C4D4FC59C}|{F035F428-BC56-48C3-A1F2-DD22E8ABEE4D}|{FC303F47-008E-48A7-8838-D6F4AF328352}|{B2477E15-F54E-4DA1-B09D-825FF4D13F1D}
+----version----
+language: en
+version: 1
+revision: 53312cb7-5ce0-478e-8d19-ab43f5a12e75
+
+----field----
+field: {406635BF-4414-469E-9F97-C50FA925C1F4}
+name: Breadcrumb Title
+key: breadcrumb title
+content-length: 4
+
+Home
+----field----
+field: {8E39CAF5-3021-4BB1-8FAB-E8B35C1C3722}
+name: Menu Title
+key: menu title
+content-length: 4
+
+Home
+----field----
+field: {C8F0CF43-0D0F-457D-8E59-568815CCD2FC}
+name: Menu Tooltip
+key: menu tooltip
+content-length: 23
+
+Return to the Home page
+----field----
+field: {6437B751-1E64-48D9-B549-C604ACE49732}
+name: Banner Image
+key: banner image
+content-length: 142
+
+<image mediaid="{5242C46B-C54F-4CA8-831A-E4950E630F6D}" mediapath="/Images/Banners/open space" src="~/media/Images/Banners/open space.ashx" />
+----field----
+field: {4D396D25-9269-4C50-9E20-2DEB64C268D9}
+name: Banner Slogan
+key: banner slogan
+content-length: 43
+
+Congratulations, you've created a new site!
+----field----
+field: {1DDA7498-31F0-4ACA-9994-BFF0B4D6F96A}
+name: Show Help Buttons
+key: show help buttons
+content-length: 1
+
+1
+----field----
+field: {1EF5DDAA-50AE-4DD0-9CE5-321CBCB06900}
+name: Show Help Links
+key: show help links
+content-length: 0
+
+
+----field----
+field: {4023A3F1-755A-45CB-B72C-89FEBE6B7880}
+name: Show Split Top Menu
+key: show split top menu
+content-length: 1
+
+1
+----field----
+field: {EB8B3BA9-5689-4F78-B5AB-BE56BB9DA140}
+name: Help Menu Title
+key: help menu title
+content-length: 5
+
+$name
+----field----
+field: {FC439C65-F9B4-4D32-B03C-40E3711CE20B}
+name: Help Menu Tooltip
+key: help menu tooltip
+content-length: 0
+
+
+----field----
+field: {6E3059E1-2D2D-426C-9CE7-414A7AE9297C}
+name: Metatags-Description
+key: metatags-description
+content-length: 5
+
+$name
+----field----
+field: {D5A4F329-B904-4D6D-8503-392BD87B18A6}
+name: Title
+key: title
+content-length: 54
+
+Congratulations!  You have created a new empty site...
+----field----
+field: {BAC5B3D4-5E16-47A0-A4DB-305B29BC7702}
+name: Text
+key: text
+content-length: 58
+
+		<p>Please provide some content when you are ready.</p>
+
+----field----
+field: {1E705182-A86C-4FC7-A0C2-914C1D44FD82}
+name: Top Menu Style
+key: top menu style
+content-length: 38
+
+{D3FA63A5-7613-46E4-A6EA-DFA605B6AD79}
+----field----
+field: {224F18E3-9E1A-496C-B368-10C679974A1E}
+name: Side Menu Style
+key: side menu style
+content-length: 38
+
+{13D9091A-FAC7-4FE0-9F4C-B9FF027B1AEF}
+----field----
+field: {D9889276-F871-46A8-9B66-4E0A0900F35B}
+name: Sitemap Style
+key: sitemap style
+content-length: 38
+
+{EC34A9FF-71EF-4DA4-BE0B-7C1347C5229B}
+----field----
+field: {2933C5A3-45A8-49CD-87AF-E9536922D8E5}
+name: Name
+key: name
+content-length: 5
+
+$name
+----field----
+field: {7ECAC6E2-7C8D-4111-8EBD-13B865D7664F}
+name: Logo
+key: logo
+content-length: 0
+
+
+----field----
+field: {0A0552B6-29CB-472F-BD1A-075501BA1F57}
+name: Theme
+key: theme
+content-length: 38
+
+{D14C4032-66A4-47F6-AAA7-0EBFC21914CB}
+----field----
+field: {85C1A121-93CB-40A7-8438-E5BB0884876D}
+name: Powered By Link
+key: powered by link
+content-length: 105
+
+<link text="Powered by Sitecore" linktype="external" url="http://www.sitecore.net" anchor="" target="" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20071122T113600
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+53312cb7-5ce0-478e-8d19-ab43f5a12e75
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20141002T124821:635478509012292575
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 71054f99-7a5f-48d3-b6b0-84b7e8379c0c
+
+----field----
+field: {406635BF-4414-469E-9F97-C50FA925C1F4}
+name: Breadcrumb Title
+key: breadcrumb title
+content-length: 3
+
+ホーム
+----field----
+field: {8E39CAF5-3021-4BB1-8FAB-E8B35C1C3722}
+name: Menu Title
+key: menu title
+content-length: 3
+
+ホーム
+----field----
+field: {C8F0CF43-0D0F-457D-8E59-568815CCD2FC}
+name: Menu Tooltip
+key: menu tooltip
+content-length: 9
+
+ホームページに戻る
+----field----
+field: {6437B751-1E64-48D9-B549-C604ACE49732}
+name: Banner Image
+key: banner image
+content-length: 142
+
+<image mediaid="{5242C46B-C54F-4CA8-831A-E4950E630F6D}" mediapath="/Images/Banners/open space" src="~/media/Images/Banners/open space.ashx" />
+----field----
+field: {4D396D25-9269-4C50-9E20-2DEB64C268D9}
+name: Banner Slogan
+key: banner slogan
+content-length: 24
+
+おめでとう、あなたは新しいサイトを作成しました！
+----field----
+field: {1DDA7498-31F0-4ACA-9994-BFF0B4D6F96A}
+name: Show Help Buttons
+key: show help buttons
+content-length: 1
+
+1
+----field----
+field: {4023A3F1-755A-45CB-B72C-89FEBE6B7880}
+name: Show Split Top Menu
+key: show split top menu
+content-length: 1
+
+1
+----field----
+field: {EB8B3BA9-5689-4F78-B5AB-BE56BB9DA140}
+name: Help Menu Title
+key: help menu title
+content-length: 5
+
+$name
+----field----
+field: {D5A4F329-B904-4D6D-8503-392BD87B18A6}
+name: Title
+key: title
+content-length: 29
+
+おめでとう！あなたは、新しい空のサイトを作成している...
+----field----
+field: {BAC5B3D4-5E16-47A0-A4DB-305B29BC7702}
+name: Text
+key: text
+content-length: 39
+
+
+		<p>してください一部のコンテンツを準備ができています。 </p>
+
+----field----
+field: {1E705182-A86C-4FC7-A0C2-914C1D44FD82}
+name: Top Menu Style
+key: top menu style
+content-length: 38
+
+{D3FA63A5-7613-46E4-A6EA-DFA605B6AD79}
+----field----
+field: {224F18E3-9E1A-496C-B368-10C679974A1E}
+name: Side Menu Style
+key: side menu style
+content-length: 38
+
+{13D9091A-FAC7-4FE0-9F4C-B9FF027B1AEF}
+----field----
+field: {D9889276-F871-46A8-9B66-4E0A0900F35B}
+name: Sitemap Style
+key: sitemap style
+content-length: 38
+
+{EC34A9FF-71EF-4DA4-BE0B-7C1347C5229B}
+----field----
+field: {2933C5A3-45A8-49CD-87AF-E9536922D8E5}
+name: Name
+key: name
+content-length: 5
+
+$name
+----field----
+field: {7ECAC6E2-7C8D-4111-8EBD-13B865D7664F}
+name: Logo
+key: logo
+content-length: 0
+
+
+----field----
+field: {0A0552B6-29CB-472F-BD1A-075501BA1F57}
+name: Theme
+key: theme
+content-length: 38
+
+{D14C4032-66A4-47F6-AAA7-0EBFC21914CB}
+----field----
+field: {85C1A121-93CB-40A7-8438-E5BB0884876D}
+name: Powered By Link
+key: powered by link
+content-length: 105
+
+<link text="Powered by Sitecore" linktype="external" url="http://www.sitecore.net" anchor="" target="" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20071122T113631
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+71054f99-7a5f-48d3-b6b0-84b7e8379c0c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20141002T124821:635478509012542575
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

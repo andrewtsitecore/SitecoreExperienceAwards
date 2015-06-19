@@ -1,0 +1,204 @@
+----item----
+version: 1
+id: {6B950F08-D735-47DD-9079-1C5085E6B4E7}
+database: master
+path: /sitecore/media library/ComponentImages/Footer
+parent: {90812BF8-1BAD-45C4-A1B4-A8E0E5A956FE}
+name: Footer
+master: {00000000-0000-0000-0000-000000000000}
+template: {F1828A2C-7E5D-4BBD-98CA-320474871548}
+templatekey: Image
+
+----field----
+field: {40E50ED9-BA07-4702-992E-A912738D32DC}
+name: Blob
+key: blob
+content-length: 2812
+
+iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAA
+B3RJTUUH2goZAQEXg9pL7AAAAAd0RVh0QXV0aG9yAKmuzEgAAAAMdEVYdERlc2NyaXB0aW9uABMJ
+ISMAAAAKdEVYdENvcHlyaWdodACsD8w6AAAADnRFWHRDcmVhdGlvbiB0aW1lADX3DwkAAAAJdEVY
+dFNvZnR3YXJlAF1w/zoAAAALdEVYdERpc2NsYWltZXIAt8C0jwAAAAh0RVh0V2FybmluZwDAG+aH
+AAAAB3RFWHRTb3VyY2UA9f+D6wAAAAh0RVh0Q29tbWVudAD2zJa/AAAABnRFWHRUaXRsZQCo7tIn
+AAAG0UlEQVR4nO2aP0gjWRzHv3tkDxJwzkyKWIgYI0RI5a1pAxJW5FJld61SbBGICJvGI4XVslUK
+uW1cCAlYWFhFTeUSlCDYTvashAQcEzwLt3CikTVwBvaKmWSSmH8bXX9y/j5YZN+8efN77/P7vTe6
+efbt279g6PiFOoCnDgsghgUQwwKIYQHEsABiWAAxLIAYFkAMCyCGBRDDAohhAcSwAGJYADEsgBgW
+QAwLIIYFEMMCiGEBxLAAYlgAMSyAGBZADAsghgUQwwKIYQHEsABiWAAxLIAYFkAMCyCGBRDDAohh
+AcSwAGJYADEsgBgWQAwLIIYFEMMCiGEBxLAAYlgAMSyAGBZADAsghgUQwwKIYQHEsABiWAAxLIAY
+FkAMCyCGBRDDAohhAcSwAGJYADEsgBgWQAwLIIYFEMMCiGEBxLAAYlgAMSyAGBZADAsghgUQwwKI
+YQHEsABiWAAxLIAYFkAMCyCGBRDz7J8XDuoYnjRcAcSwAGJYADEsgJjHIMBnyURNfV595HQPvpsA
+R9iayQ7rPz9jLZLnUwvXP3SHI2zdChu69TJ9rIWdEmrvevqM6hoBwClsNba07dkmpPqF+ugDoE+t
+fcAdBXijw+uesn/idEr7OVuzDYSc3WJ5JPiMo6tnauTv80JEnb9TiAQq75saYQilhjObwkj97a17
+tnuWpWGhlsrumR4ztYMAn+WDreSfLeX0psrK7NeVQwDwRmu2Ld5q/0zUUk06a8ipTUzLBQAwfVTb
+ncJWSghFqyVVV6cNeaRXm7FhWKcQCTwfCQzpidaS5Pmr5Yr6cXunrI3/hxGrl9tq46cSPCaHNq/T
+qdelk7q72/RsjWPccJK+1heqVtPq1G4FXDfN9l4d44aT9GWu5aWw9YOt5J8o5dRnpIQj1dM00hOn
+i2rjX8LObGklVs7MC45kKQc4wgPuvavFQ8AJjAq22OnUAgDAZ9TG1fLoqzbsTPV51WEdYev6O9PK
+Qmlp1RiBvr7dMITmjYXYeW+d+yG3fFXIDmUCAG7WXms5qnPYGLDPsj52NTVxDQDOvg7h8bHn+7Fq
+ZSTL+6PPx9XPe+VtvdE44wSSl2swzjgBmOYDWPtU3esLpViyeVjvjFEftp7qsLnP5ROb4Ud/c/dG
+h6bTZ4u3HnevXC9q+8+VbbPLYemdMWJa1Cpgs72A3FFlpGPddaNyfAigshKrvH1ngs/o3rtqTo2f
+jiGUGg4cn/VcK3dHNaHsTxu97TvtL9WO1Q4VkLxcg7De+ALgjVpDThwd37jntXZHeMBduDlqutdn
+1BuT5f1pMRMx6OnfhqPjm9rZ5Rjv8pIzMvZr5w6A6WN2yBY7rV/93OcyAr+pS+N9J6B+426k954A
+vNHG08hndNc2g1sBb++U3ZHqwYlO06yszJ7uhK3rWUFv21OmDoHDr37U2svvJ6r7xrSYyYrNjbiO
+rQ64x7qnf275fC01pI5wUrhBvkPPq/2smMmK+0un7fYWR3jADSAynImgGtL59mFpadW6nh3+AKBQ
+8i+obgyh1NDbUQBYzwonq2evlito3bM1259Kgc3ag4BCyT/bkG2NAZ/7x6sj3+dfQ32WzEy51Ru9
+IZSy4M9bR1NHvNEH3jqo6PrbzJ1xhC1vUfb3svpOYav2Mr6nTP3/Vx/8/wHkPIa/BT1pWAAxLIAY
+FkDMs+/fv1PH8KThCiCGBRDDAohhAcSwAGJYADEsgBgWQAwLIIYFEMMCiGEBxLAAYlgAMU9WQD4d
+j8fj6fZffXkgOnwrIp+O78qwvwx6bC3++fCoAdRBE4sahuiaezNpvvs4D/C1lHtGW/V8Or4r726I
+d10GGooHGwlJgf1l0NOvAG0IlVo6aFXichUlSVEveJDWOuoJ25DL/eXSoChCVupCEV0usyRVU7N1
+eE1h16gv7qYEbyw7u8tVlGQAUKREXLK/DHpsTUP2VJYXigJAFAd7qAB5Ny7fasynqwLViKVEelB/
+rixjLjhX2EhIipRIu+aCwYt0fFeWvxz8bps059PxXVmbYPFgIyE13twbxYKsADAPmoEiAECR9FVo
+E15d3tlub2gtaLnbDCr1jfWP6h01fRQpEZe6Cmg6A9TAjmUA9jEbANjG7JBl+TjvsWkx2F9MmoEL
+M6Bon6Hnq3qvIiXiUu0ZxYsi0GMR6AnROOu6ZcqnW4cHRdHbe0Cb5ovu9akF1XMxmyffBEfVdCA6
+A/o/w/o/eYsXxb7u64jNE5wTq3uQIiXi8o9ImOzzNdQ2ZgcgH+eBpnLo9V5F+rv6AphP3/fLYJvw
+zKN2ER083LqgjfPloKF9UBQbu5kn3wSDwWBwztV0oS3Fg43anP8DZptH7cxjlBEAAAAASUVORK5C
+YII=
+----field----
+field: {22EAC599-F13B-4607-A89D-C091763A467D}
+name: Width
+key: width
+content-length: 3
+
+128
+----field----
+field: {DE2CA9E4-C117-4C8A-A139-1FF4B199D15A}
+name: Height
+key: height
+content-length: 3
+
+128
+----field----
+field: {C06867FE-9A43-4C7D-B739-48780492D06F}
+name: Extension
+key: extension
+content-length: 3
+
+png
+----field----
+field: {6F47A0A5-9C94-4B48-ABEB-42D38DEF6054}
+name: Mime Type
+key: mime type
+content-length: 9
+
+image/png
+----field----
+field: {6954B7C7-2487-423F-8600-436CB3B6DC0E}
+name: Size
+key: size
+content-length: 4
+
+2054
+----field----
+field: {CB09946F-3218-4823-87D2-D5007C199A96}
+name: Dimensions
+key: dimensions
+content-length: 9
+
+128 x 128
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 61
+
+~/media/6B950F08D73547DD90791C5085E6B4E7.ashx?h=16&thn=1&w=16
+----version----
+language: en
+version: 1
+revision: ada603c2-4b02-4a9c-b59e-d4fa5881770a
+
+----field----
+field: {65885C44-8FCD-4A7F-94F1-EE63703FE193}
+name: Alt
+key: alt
+content-length: 6
+
+Footer
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20101025T081630
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ada603c2-4b02-4a9c-b59e-d4fa5881770a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20101025T081631:634235913911378333
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: d5202a1f-8637-4050-be55-cecf81c17d23
+
+----field----
+field: {65885C44-8FCD-4A7F-94F1-EE63703FE193}
+name: Alt
+key: alt
+content-length: 6
+
+Footer
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 34
+
+20101025T081631:634235913910358274
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d5202a1f-8637-4050-be55-cecf81c17d23
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20101025T081631:634235913910608288
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

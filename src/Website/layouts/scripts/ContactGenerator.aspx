@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ContactGenerator.aspx.cs" Inherits="Officecore.Website.layouts.scripts.ContactGenerator" %>

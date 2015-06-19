@@ -1,0 +1,253 @@
+﻿body { font-family: 'Segoe UI Light', 'Segoe UI', Arial !important; }
+
+#toolbox, #header, #menu, #hero, #content, #footer, #copyright {
+    width: 320px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#header {
+    height: 50px;
+}
+
+#header-wrapper {
+    padding-top: 5px;
+    background-color: #000000;
+}
+
+#hero-image-live {
+    height: 150px;
+}
+
+#hero-strapline-wrapper {
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right:0px;
+}
+
+#content h1 {
+    background-color: #000;
+    color: #fff;
+}
+
+.scfForm {
+    padding: 5px;
+}
+
+.nav>li>a {
+    padding: 8px 6px;
+}
+
+#hero-strapline {
+    padding: 12px 10px;
+}
+
+#hero-strapline p {
+    font-size: 1.4em;
+    padding-bottom: 5px;
+}
+
+#nav {
+    padding-top: 10px;
+}
+
+ul {
+    list-style-type: square;
+}
+
+.container {
+    padding-top: 15px;
+}
+
+.badge-basket {
+        opacity: 0.8;
+        top: 0;
+        right: 0;
+        position: absolute;
+        background-color:#F03222;
+    }
+
+.basket {
+        position: relative;
+        float:left;
+        width:53px;
+    }
+
+.cart-images {
+     height:124px;
+     width:104px;
+     float:left;
+}
+
+.mobile-news-content {
+    display: block;
+    padding: 10px;
+}
+
+/*#region CART */
+
+.cart-description {
+    margin-left:120px; 
+    width: 60%;
+}
+
+.cart-panel { 
+    height: 225px; 
+    margin-bottom: 5px; 
+}
+
+/*#endregion */
+
+.dropboxfield {
+    width:165px!important; 
+    border-radius:4px;
+}
+
+.preview-product{
+    float: left; 
+    width: 60%; 
+    margin-top:5px;
+}
+
+#product-description{
+    padding-left:5px; 
+    padding-top:5px; 
+    margin-top:5px; 
+    border-top:1px solid #DDD;
+}
+
+input.checkbox {
+	border: 0 none;
+	display: block;
+	padding-left: 20px;
+	background: transparent url('/assets/images/uCommerce/checkbox_empty.png') left center no-repeat;
+	cursor: pointer;
+}
+
+input.checkbox:hover {
+	background-image: url('/assets/images/uCommerce/checkbox_empty_hover.png');
+}
+
+
+input.checkbox.checked {
+	background-image: url('/assets/images/uCommerce/checkbox_checked.png');
+}
+
+input.checkbox.checked:hover {
+	background-image: url('/assets/images/uCommerce/checkbox_checked_hover.png');
+}
+
+.glyphicon-star, .glyphicon-star-empty {
+    color: #FFD700;
+}
+
+.logo a {
+    border: 0;
+}
+
+a, a:visited, a:active {
+    color: #000000;
+    text-decoration: none;
+    border-bottom: none;
+}
+
+a.btn {
+    color: #ffffff;
+}
+
+    a:hover {
+        color: none;
+        text-decoration: none;
+        border-bottom-style: solid;
+    }
+
+.list-group-item > a{
+    color: #000000;
+
+}
+
+#OrderHistory .table {
+    font-size: 10px;
+}
+
+.table {
+    font-size: 14px;
+}
+
+#orders .panel-body {
+    padding: 2px;
+}
+
+#DesktopAccount, #details, #address {
+    padding: 0px;
+}
+
+#details .panel .panel-body,#address .panel .panel-body {
+    padding: 5px;
+}
+
+.social-login .col-md-4 {
+    padding: 0px;
+}
+
+.mob-table {
+    font-size: 13px;
+}
+
+/*my account styling*/
+.userDetails {
+    font-weight:800; 
+    padding-right:10px;
+}
+
+
+.media-body > .list-group > .list-group-item:first-child {
+  position: relative;
+  display: block;
+  padding: 5px 5px;
+  margin-bottom: -1px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  height:106px;
+}
+
+.media-body > .list-group > .list-group-item {
+  padding: 5px 3px;
+}
+
+.media > .pull-left {
+    margin-right:0px;
+}
+
+/*Product facet tickbox styling, when expanded*/
+#h0h,#h1h,#h2h{
+    margin-left:10px;
+}
+
+
+
+.teaser {
+    width: 33%;
+    float: left;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.teaser-image {
+    height: 38%;
+    border-radius: 2px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.teaser-group {
+    padding: 7px 0px 0px 2px;
+}
+
+#recentnewsbanner {
+    width: 100%
+}
+
+.mobile {
+    padding: 8px 0px 0px 0px;
+}

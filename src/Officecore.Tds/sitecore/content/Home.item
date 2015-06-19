@@ -1,0 +1,828 @@
+----item----
+version: 1
+id: {4E7AB8B1-6A39-4C8C-BF5B-816F8105BFFD}
+database: master
+path: /sitecore/content/Home
+parent: {0DE95AE4-41AB-4D01-9EB0-67441B7C2450}
+name: Home
+master: {00000000-0000-0000-0000-000000000000}
+template: {54C60AED-31AF-400E-8106-17C3BF28E3A1}
+templatekey: Site Root
+
+----field----
+field: {8930C6BD-F83C-4176-BB5E-86F129F87786}
+name: MenuSourceHeader
+key: menusourceheader
+content-length: 38
+
+{DB81A3B1-87E1-499F-B47E-51017950EEE5}
+----field----
+field: {6DF0BFBE-E7FA-4030-9F28-E5C6E77A159C}
+name: MenuSourceFooter
+key: menusourcefooter
+content-length: 38
+
+{7F64A446-03B8-4A38-BFEF-B388B81CF71A}
+----field----
+field: {9F560B4A-7F88-4572-9BE2-CC270B1F6E9F}
+name: MenuSourceMobile
+key: menusourcemobile
+content-length: 38
+
+{2A4E65CE-A687-4521-B0D4-24897D7AD3AC}
+----field----
+field: {813ED0D1-3745-4A77-A973-1C45A63D4593}
+name: Mobile Navigation
+key: mobile navigation
+content-length: 38
+
+{46C46B4F-E2AF-41A3-9026-4ED589444B29}
+----field----
+field: {668A922A-E21F-4FF4-B17B-7C8ECE64E3A7}
+name: Metatags-Predefined keywords
+key: metatags-predefined keywords
+content-length: 311
+
+{DDD2F091-4F64-4145-9C8A-780175D887A9}|{DC39B701-977F-4BB7-9993-7992760302A7}|{2D926CFB-43F6-43F5-930F-7561D79DE8C1}|{706F757F-29BC-4979-A984-87FDEB17BA4F}|{EB98F393-DAB5-4673-9818-351B5E22AD54}|{C1F4E28A-3F63-493E-AA32-7CAB50DF1A40}|{A2E432B2-D048-4FC4-93F3-04D73A122B41}|{8ECAFEB0-3023-4DC4-B3AD-3FD7C1E5F9E8}
+----field----
+field: {AC562D43-851E-443E-90E6-7D537CDC08EB}
+name: Powered By Image
+key: powered by image
+content-length: 198
+
+<image mediaid="{8861B61C-88B4-4CB1-A580-59CF9F416DF9}" mediapath="/Images/Logos/poweredbysitecore" src="~/media/Images/Logos/poweredbysitecore.ashx" alt="" height="" width="" hspace="" vspace="" />
+----field----
+field: {7E76984A-846F-47BC-93BC-DD7D6EE3C52B}
+name: Enable Google Fonts
+key: enable google fonts
+content-length: 1
+
+1
+----field----
+field: {39E39CF3-5170-4A8F-B528-A8ED4E16633D}
+name: Google Font Type
+key: google font type
+content-length: 21
+
+Maven Pro:400,500,700
+----field----
+field: {A332D4A0-DB35-46CE-A974-C353E0D5058F}
+name: Strapline
+key: strapline
+content-length: 39
+
+Search thousands of products quickly...
+----field----
+field: {B0A67B2A-8B07-4E0B-8809-69F751709806}
+name: __Tracking
+key: __tracking
+content-length: 0
+
+
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 22
+
+Network/16x16/home.png
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+275
+----field----
+field: {6FD695E7-7F6D-4CA5-8B49-A829E5950AE9}
+name: __Subitems Sorting
+key: __subitems sorting
+content-length: 38
+
+{44D1A0D2-E17B-4DAA-ADDF-53F2E8F58525}
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 0
+
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 1371
+
+<r xmlns:xsd="http://www.w3.org/2001/XMLSchema" ><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{BC88973F-D93B-47A4-85A0-D51034C457CF}"><r ds="" id="{F08A7BDB-833E-41AE-9190-12607F3B0147}" par="" ph="page-columns" uid="{B61FD6AB-7C63-40DD-98F5-298DC97376BF}" /><r ds="{69EE67AA-CED5-4EF3-A5B0-B441397126E6}" id="{FF3D027B-1790-460A-ACC3-685E1757FA58}" ph="banner" uid="{C3B75246-FC8D-45F4-9A9B-449C549F212C}" /><r id="{5CB03CC2-AF0E-4D15-9B1F-CEBB5B281A2F}" ph="page-footer" uid="{E4DB9AD8-175D-4064-A433-732B98B54109}" /></d><d id="{74437005-A7E6-4450-B6CB-8354859FE1E8}" l="{10601177-0F1E-4E66-B25F-FC8B52ED552F}"><p uid="{48F337A0-D476-44C3-90E3-DD90C32360AF}" key="mobilepageheader" md="/sitecore/layout/Placeholder Settings/mobilepageheader" /><p uid="{8F8450B8-AF83-400D-B3CC-77195890A6CB}" key="mobilepagemenu" md="/sitecore/layout/Placeholder Settings/mobilepagemenu" /><p uid="{C8B23B67-B436-4716-BEE9-E07A88F3B5F3}" key="mobilepagecontent" md="/sitecore/layout/Placeholder Settings/mobilepagecontent" /><r id="{1C6D4FB2-41EB-41F4-A132-4424FE553CA9}" ph="mobilepageheader" uid="{D99D7532-6EC7-497C-AE26-84790DFAEC88}" /><r id="{83925305-1093-4067-9860-AB8D178C735F}" ph="mobilepagemenu" uid="{B5A35B19-16BD-4C0B-A95E-3BA1DAEB5F72}" /><r id="{5A6394F1-33DA-41D4-A39A-AD1045B9DD67}" ph="mobilepagecontent" uid="{8C8A2FA3-5F27-4A21-9DAD-02063E2BFF6E}" /></d></r>
+----field----
+field: {DEC8D2D5-E3CF-48B6-A653-8E69E2716641}
+name: __Security
+key: __security
+content-length: 295
+
+ar|sitecore\Designer|pe|+item:write|pd|+item:write|ar|sitecore\Officecore News Editor|pe|-item:create|-item:write|-item:delete|-item:rename|pd|-item:create|-item:write|-item:delete|-item:rename|ar|sitecore\Author|pe|+item:write|+item:create|pd|+item:rename|+item:write|+item:delete|+item:create|
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 38
+
+{B36B8107-2FF9-4D45-BEBA-D923E2A994FE}
+----field----
+field: {CA9B9F52-4FB0-4F87-A79F-24DEA62CDA65}
+name: __Default workflow
+key: __default workflow
+content-length: 38
+
+{B36B8107-2FF9-4D45-BEBA-D923E2A994FE}
+----version----
+language: 
+version: 1
+revision: 86d2d30e-c4c7-4ecd-8d0a-291d06cc919e
+
+----field----
+field: {406635BF-4414-469E-9F97-C50FA925C1F4}
+name: Breadcrumb Title
+key: breadcrumb title
+content-length: 4
+
+Home
+----field----
+field: {8E39CAF5-3021-4BB1-8FAB-E8B35C1C3722}
+name: Menu Title
+key: menu title
+content-length: 4
+
+Home
+----field----
+field: {C8F0CF43-0D0F-457D-8E59-568815CCD2FC}
+name: Menu Tooltip
+key: menu tooltip
+content-length: 42
+
+Return to the Home page of the sample site
+----field----
+field: {5FEAACEE-3ED6-4069-8670-8A493790036D}
+name: Mobile Theme
+key: mobile theme
+content-length: 38
+
+{9C02A289-3426-48AC-A07E-7BCA05E5E757}
+----field----
+field: {4004C407-9C9F-4F47-AA1A-D6BCEDF3C3C4}
+name: Browser Title
+key: browser title
+content-length: 21
+
+Welcome to Officecore
+----field----
+field: {A0FC3F87-C1AC-4660-8AC6-91A1AD923E89}
+name: Sidebar Title
+key: sidebar title
+content-length: 24
+
+Look here for more info!
+----field----
+field: {3A4543F6-1FC9-41AF-8C43-FA5A748F93A9}
+name: Sidebar Text
+key: sidebar text
+content-length: 163
+
+ 
+<p>This is the sidebar.</p>
+<p>It contains additional information associated with the current page. On this home page, it also shows recent news items below.</p>
+----field----
+field: {6437B751-1E64-48D9-B549-C604ACE49732}
+name: Banner Image
+key: banner image
+content-length: 216
+
+<image mediapath="/Images/Banners/london-pano" src="~/media/3CC1BD86CA32475EB50FDD91A4C9DACE.ashx" height="" mediaid="{E616F9FD-8832-4C4D-AF46-C30673CB8344}" hspace="" width="" alt="Sitecore Flash Intro" vspace="" />
+----field----
+field: {CEA2FFFE-AB8F-4166-83B8-1874DBC363BE}
+name: Banner Header
+key: banner header
+content-length: 18
+
+Own the Experience
+----field----
+field: {4D396D25-9269-4C50-9E20-2DEB64C268D9}
+name: Banner Slogan
+key: banner slogan
+content-length: 61
+
+We have a wide range of products to suit your business needs!
+----field----
+field: {1DDA7498-31F0-4ACA-9994-BFF0B4D6F96A}
+name: Show Help Buttons
+key: show help buttons
+content-length: 1
+
+1
+----field----
+field: {4023A3F1-755A-45CB-B72C-89FEBE6B7880}
+name: Show Split Top Menu
+key: show split top menu
+content-length: 1
+
+1
+----field----
+field: {EB8B3BA9-5689-4F78-B5AB-BE56BB9DA140}
+name: Help Menu Title
+key: help menu title
+content-length: 6
+
+Sample
+----field----
+field: {FC439C65-F9B4-4D32-B03C-40E3711CE20B}
+name: Help Menu Tooltip
+key: help menu tooltip
+content-length: 29
+
+View the provided sample site
+----field----
+field: {6E3059E1-2D2D-426C-9CE7-414A7AE9297C}
+name: Metatags-Description
+key: metatags-description
+content-length: 44
+
+This is my website description and it rocks!
+----field----
+field: {B7C19379-C6BB-4544-A0F6-D5F70BAFC22F}
+name: Metatags-Other keywords
+key: metatags-other keywords
+content-length: 21
+
+Officecore, Brilliant
+----field----
+field: {D5A4F329-B904-4D6D-8503-392BD87B18A6}
+name: Title
+key: title
+content-length: 21
+
+Welcome to Officecore
+----field----
+field: {BAC5B3D4-5E16-47A0-A4DB-305B29BC7702}
+name: Text
+key: text
+content-length: 216
+
+<p>Officecore are dedicated to providing the best possible resources for everything office related. Services, products and advice are all a part of what we do. Please browse through&nbsp;our site for inspiration.</p>
+----field----
+field: {1E705182-A86C-4FC7-A0C2-914C1D44FD82}
+name: Top Menu Style
+key: top menu style
+content-length: 38
+
+{B5604535-6F5F-4C8C-BCA1-1027C3A38684}
+----field----
+field: {224F18E3-9E1A-496C-B368-10C679974A1E}
+name: Side Menu Style
+key: side menu style
+content-length: 38
+
+{13D9091A-FAC7-4FE0-9F4C-B9FF027B1AEF}
+----field----
+field: {D9889276-F871-46A8-9B66-4E0A0900F35B}
+name: Sitemap Style
+key: sitemap style
+content-length: 38
+
+{2C3576CE-C19D-4652-A59E-659C33979185}
+----field----
+field: {2933C5A3-45A8-49CD-87AF-E9536922D8E5}
+name: Name
+key: name
+content-length: 8
+
+Sitecore
+----field----
+field: {7ECAC6E2-7C8D-4111-8EBD-13B865D7664F}
+name: Logo
+key: logo
+content-length: 209
+
+<image mediapath="/Images/Logos/oc-logo" src="~/media/7D7FC0236BA24889B773E90C88FCA7FA.ashx" height="59" mediaid="{F6DA85EB-AD64-45CE-AAC9-DD3FEB22BBF8}" hspace="" width="208" alt="Officecore 4.1" vspace="" />
+----field----
+field: {0A0552B6-29CB-472F-BD1A-075501BA1F57}
+name: Theme
+key: theme
+content-length: 38
+
+{D14C4032-66A4-47F6-AAA7-0EBFC21914CB}
+----field----
+field: {85C1A121-93CB-40A7-8438-E5BB0884876D}
+name: Powered By Link
+key: powered by link
+content-length: 114
+
+<link linktype="internal" url="/Home.aspx" querystring="" target="" id="{4E7AB8B1-6A39-4C8C-BF5B-816F8105BFFD}" />
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 4
+
+Home
+----field----
+field: {41C6CC0E-389F-4D51-9990-FE35417B6666}
+name: __Preview
+key: __preview
+content-length: 347
+
+<p><s date="20121102T153504" id="{4CCE841B-EC1B-4786-8B39-48575D1E0186}"><r id="{2705BB2E-BA57-4F46-AAD2-F8BE2421CFCF}" name="Explorer 9.0" url="http://s3.amazonaws.com/resultcaptures/d0ffdfac-20dd-4c21-a8d7-05e396d287c4.fullpage.png" thumb="http://s3.amazonaws.com/resultcaptures/d0ffdfac-20dd-4c21-a8d7-05e396d287c4.fullpagethumb.png" /></s></p>
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 9907
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{AF5B86D8-DCC5-4269-A1A0-6099E4B266D5}"><p:d /></r><r uid="{D295150E-D426-42C7-BEBD-14272E899BDF}" p:before="r[@uid='{465DFE96-26D1-43F0-97EF-3A00D18C80EF}']" s:ds="{8DB6DEC4-2772-4547-93CC-781A0F601B21}" s:id="{107D9E86-86BE-4564-9102-1B655BF786BD}" s:ph="/page-columns/content"><rls><ruleset><rule uid="{B8CD2A55-BCB4-454A-9E39-214D50B700CF}" s:name="Holiday pattern"><actions><action uid="776EE345744840359FCF51BC05EE7879" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{6F70AEFD-0090-45E0-A506-53B725D15C8E}" /></actions><conditions><condition uid="A3BFF4AE6B444B7FA44A3F55DE345A82" s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}" s:ProfileName="Product Interest" s:PatternName="Holiday buyer" /></conditions></rule><rule uid="{DEC19984-A694-4228-9E86-4CA5AEF73AA3}" s:name="Callback received"><actions><action uid="D3EA17971E8B4F32A1D0BFD4DAF22F14" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{155989FF-29D9-4A3E-8BE8-C70D21F04099}" /></actions><conditions><condition uid="5CCEBB7998F14B418D09AAE3A42AFF06" s:id="{4D290FF3-1587-4FEE-AB37-88768766A9D9}" s:GoalId="{7E2341AA-E8A1-4051-9A84-7A1496A70BCC}" /></conditions></rule><rule uid="{8874002A-BF62-4C33-AF45-4A4D71AF8246}" s:name="Conference"><conditions><or uid="48D2CE6D299C4A7F8508D34F5177AFAB"><condition uid="F290DA3112E3417BBB578895EBB96724" s:id="{D379525C-4DE6-4738-89ED-60CC0B8F91E5}" s:CampaignId="{B6CA3741-8510-443A-8A6F-A00BADC5DE53}" /><condition uid="698C01AA70494F31AB9341B0DF3AB92A" s:id="{42BB15DA-D5EF-44D6-9E2F-EB58312ABBD2}" s:CampaignId="{B6CA3741-8510-443A-8A6F-A00BADC5DE53}" /></or></conditions><actions><action uid="611ACBE874D34111AFE564DB1C4116FD" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{0DE83136-69B8-4B35-9106-05A90B201D32}" /></actions></rule><rule uid="{0FBFBC8E-3F69-45D1-8DA7-214341C9B5A3}" s:name="Requested callback"><actions><action uid="15145D93CA1C4C3ABE6BFC0E0AA5A1B5" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{4CB66E24-13E8-4522-A185-FD22C73DCA31}" /></actions><conditions><condition uid="A31F4D3E18E4485098D39138AE935E35" s:id="{4D290FF3-1587-4FEE-AB37-88768766A9D9}" s:GoalId="{84B7FB1A-C005-4C4B-B1F0-BB1A464E3D66}" /></conditions></rule><rule uid="{19E3A259-9934-470D-85C0-1AD2F76A75B3}" s:name="Office supplies campaign"><actions><action uid="A0868E6F47DC4B9AB5830DBEDB9695B9" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{DC1F326B-6C8C-4110-9145-476956BACB05}" /></actions><conditions><condition uid="C549BA1E34E640D6A6BC785236C6F14A" s:id="{42BB15DA-D5EF-44D6-9E2F-EB58312ABBD2}" s:CampaignId="{6EB3D7B6-2FCB-4BD3-8458-826B21C2D721}" /></conditions></rule><rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default"><conditions><condition uid="176D89D4B9874087B60CE4808EB47BCD" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" /></conditions><actions /></rule></ruleset></rls></r><r uid="{465DFE96-26D1-43F0-97EF-3A00D18C80EF}" p:before="r[@uid='{93A09C7D-7668-4F43-A058-27C0EB46828A}']" s:ds="{D104D1D0-FD4D-42E1-BD58-54F5D34562FA}" s:id="{7B7ADC50-5B73-4D42-BA4C-D670132619EC}" s:ph="banner"><rls><ruleset><rule uid="{8F634380-F793-4699-B673-E0FA1182B7DE}" s:name="Furniture interest"><conditions><condition uid="2363EA5291284E0B8E10D1605098ADFA" s:id="{6E2C286B-DF00-42F4-84BB-BC3D539DEBBF}" s:InterestID="{E886BA54-F1D8-45A3-850A-12FB907EA9AE}" /></conditions><actions><action uid="DCE2111CAEC648DCAE52B089696A7888" s:id="{7B578B65-BD2F-4C7C-9A24-DAE3E98B4F23}" s:RenderingItem="{FF3D027B-1790-460A-ACC3-685E1757FA58}" /><action uid="2AD0AB503DC440CB9A78DB367ECF3CCD" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{8896113D-CCC9-4CFF-8A6C-E06C0656D163}" /></actions></rule><rule uid="{6E5F391A-9F94-41CD-A518-8C640C6C5C92}" s:name="Holiday pattern"><conditions><condition uid="81F14C99DB4A41CCAC29EEF576C98046" s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}" s:ProfileName="Product Interest" s:PatternName="Holiday buyer" /></conditions><actions><action uid="A856419F01854044B93BB0BE37D15683" s:id="{7B578B65-BD2F-4C7C-9A24-DAE3E98B4F23}" s:RenderingItem="{94DA2A43-B99A-4F7E-A9BC-6F0431414376}" /><action uid="68A6F87FA8004CA8942B017B1D68EEEA" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{58E776EF-D34A-40BC-9508-D4F86A90DBD8}" /></actions></rule><rule uid="{9B6BF183-B991-4D36-8EBA-740128B5B13F}" s:name="Callback made"><actions><action uid="EA2C985447844AB7B71F55144F9D01F9" s:id="{7B578B65-BD2F-4C7C-9A24-DAE3E98B4F23}" s:RenderingItem="{FF3D027B-1790-460A-ACC3-685E1757FA58}" /><action uid="EEB4D70A59374ABAACA9F68B93D21DC6" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{B0AA06BF-89B4-43DA-9F46-A1DD5A13CEAD}" /></actions><conditions><condition uid="FDADC7353C454940A7FE81C68B7D3934" s:id="{4D290FF3-1587-4FEE-AB37-88768766A9D9}" s:GoalId="{7E2341AA-E8A1-4051-9A84-7A1496A70BCC}" /></conditions></rule><rule uid="{EA87B94A-5195-473E-931E-012500A1CFF3}" s:name="Returned from Facebook"><actions><action uid="6FA9A01FDEFA4BBA9D27142A047AEDA2" s:id="{7B578B65-BD2F-4C7C-9A24-DAE3E98B4F23}" s:RenderingItem="{FF3D027B-1790-460A-ACC3-685E1757FA58}" /><action uid="4E76194BAD69474F9B24628827EB4882" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{106FC6E9-339E-4262-81F8-29EBD5FCB71D}" /></actions><conditions><or uid="52B44AC1BA3E4ED59F2BD0609C98031A"><condition uid="59A9ADAFF9AC4CC3B7F8225DD02F5314" s:id="{D379525C-4DE6-4738-89ED-60CC0B8F91E5}" s:CampaignId="{B6CA3741-8510-443A-8A6F-A00BADC5DE53}" /><condition uid="31B85958FF5946FD899E1256C7C5E0EB" s:id="{42BB15DA-D5EF-44D6-9E2F-EB58312ABBD2}" s:CampaignId="{B6CA3741-8510-443A-8A6F-A00BADC5DE53}" /></or></conditions></rule><rule uid="{97E923CC-4391-463D-BC8A-8C93E0868B8B}" s:name="Requested callback"><conditions><condition uid="D2CCC22406974C92A625B6C2E87180AF" s:id="{4D290FF3-1587-4FEE-AB37-88768766A9D9}" s:GoalId="{84B7FB1A-C005-4C4B-B1F0-BB1A464E3D66}" /></conditions><actions><action uid="BAF4BDC1AD164AAC88731144D7C911DD" s:id="{7B578B65-BD2F-4C7C-9A24-DAE3E98B4F23}" s:RenderingItem="{FF3D027B-1790-460A-ACC3-685E1757FA58}" /><action uid="67DB40CEBF244A7F870D292E3581FFDB" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{ED9FD723-A8AE-499F-A151-5D2AAB456FA9}" /></actions></rule><rule uid="{E53C0B61-E562-4045-8B01-3EC248491C55}" s:name="Office supplies campaign"><conditions><or uid="7FD2AE2B834E48FABAEA6FB41DD7F6C4"><condition uid="C89AE8C0425349B98B884CF25FE16C7F" s:id="{D379525C-4DE6-4738-89ED-60CC0B8F91E5}" s:CampaignId="{6EB3D7B6-2FCB-4BD3-8458-826B21C2D721}" /><condition uid="0E60D4BBF72E4F1AB5CC8AF4F1D92B00" s:id="{42BB15DA-D5EF-44D6-9E2F-EB58312ABBD2}" s:CampaignId="{6EB3D7B6-2FCB-4BD3-8458-826B21C2D721}" /></or></conditions><actions><action uid="59640D5C615B425A975AF8F791993A94" s:id="{7B578B65-BD2F-4C7C-9A24-DAE3E98B4F23}" s:RenderingItem="{FF3D027B-1790-460A-ACC3-685E1757FA58}" /><action uid="58067C7FAEBA4163B8137A26C786D49F" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{866AF81B-2B25-4665-BD5D-F39999443883}" /></actions></rule><rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default"><conditions><condition uid="7FD24817CE3F46AB88498B3BD90F3D44" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" /></conditions><actions><action uid="5758DA47042A4A1B9BEB58804D1F92A3" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{D104D1D0-FD4D-42E1-BD58-54F5D34562FA}" /></actions></rule></ruleset></rls></r><r uid="{93A09C7D-7668-4F43-A058-27C0EB46828A}" p:before="r[@uid='{1D6C74EE-78F2-4AEA-9BFA-54293C5153D5}']" s:id="{5CB03CC2-AF0E-4D15-9B1F-CEBB5B281A2F}" s:ph="banner"><rls><ruleset><rule uid="{1180FBE3-D66B-4DB1-8D10-CA92D74CD043}" s:name="Reedemed"><conditions><or uid="D11A5B7CF9A3472383F15C33783D6F64"><condition uid="C9703385367149A1A7016D024DA64A2D" s:id="{4D290FF3-1587-4FEE-AB37-88768766A9D9}" s:GoalId="{7E2341AA-E8A1-4051-9A84-7A1496A70BCC}" /><and uid="E86415F43BAE4E2A8C24B349D439D2D8"><condition uid="3C3343B304FC476F9974E2FBAAA14A75" s:id="{D379525C-4DE6-4738-89ED-60CC0B8F91E5}" s:CampaignId="{B6CA3741-8510-443A-8A6F-A00BADC5DE53}" /><condition uid="8E257812C3B94C0FAF8D00475DB8F53C" s:id="{42BB15DA-D5EF-44D6-9E2F-EB58312ABBD2}" s:CampaignId="{B6CA3741-8510-443A-8A6F-A00BADC5DE53}" /></and></or></conditions><actions><action uid="10C821B0DF1749989E8AFBC3DAD6A231" s:id="{25F351A1-712D-45F8-857D-8AD95BB2ACE9}" /></actions></rule><rule uid="{28580165-B78D-414B-A1C4-E4A1F7CD9C9B}" s:name="Social Network"><conditions><condition uid="E5D0933AC95747A48DE67FD2D3B851CC" s:id="{4D290FF3-1587-4FEE-AB37-88768766A9D9}" s:GoalId="{84B7FB1A-C005-4C4B-B1F0-BB1A464E3D66}" /></conditions></rule><rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default"><conditions><condition uid="67A5501F096E4F2BBE55E496DE6AC960" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" /></conditions><actions><action uid="7FDB156BE36F4DA483003A9006F22D88" s:id="{25F351A1-712D-45F8-857D-8AD95BB2ACE9}" /></actions></rule></ruleset></rls></r><r uid="{1D6C74EE-78F2-4AEA-9BFA-54293C5153D5}"><rls><ruleset><rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default"><conditions><condition uid="177E1F88BE9647DDAEC52D196C3351B2" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" /></conditions><actions /></rule></ruleset></rls></r><r uid="{C3B75246-FC8D-45F4-9A9B-449C549F212C}"><p:d /></r><r uid="{486E885E-30BC-4CF6-928A-09D567A47075}" s:id="{48BA1599-2885-48F9-AEB7-11D06E38D5C4}" s:ph="/page-columns/content" /></d><d id="{74437005-A7E6-4450-B6CB-8354859FE1E8}"><r uid="{8C8A2FA3-5F27-4A21-9DAD-02063E2BFF6E}"><p:d /></r><r uid="{26BD35B9-B2CE-430A-B6E0-F0DDD0767FEA}" p:before="r[@uid='{23F1613B-5D57-406B-AEE5-68A5D58C2513}']" s:id="{30738779-AE65-4394-BED0-11B886279C9A}" s:ph="mobilepagecontent" /><r uid="{23F1613B-5D57-406B-AEE5-68A5D58C2513}" s:id="{5A6394F1-33DA-41D4-A39A-AD1045B9DD67}" s:ph="mobilepagecontent" /></d></r>
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 16
+
+20141231T090000Z
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20120918T144923Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+86d2d30e-c4c7-4ecd-8d0a-291d06cc919e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150311T090831:635616617114144682Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 15
+
+sitecore\audrey
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 0
+
+
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
+----version----
+language: en
+version: 4
+revision: 07c44f30-994c-42c2-b356-1555e1680b16
+
+----field----
+field: {8E39CAF5-3021-4BB1-8FAB-E8B35C1C3722}
+name: Menu Title
+key: menu title
+content-length: 4
+
+Home
+----field----
+field: {C8F0CF43-0D0F-457D-8E59-568815CCD2FC}
+name: Menu Tooltip
+key: menu tooltip
+content-length: 42
+
+Return to the Home page of the sample site
+----field----
+field: {5FEAACEE-3ED6-4069-8670-8A493790036D}
+name: Mobile Theme
+key: mobile theme
+content-length: 38
+
+{9C02A289-3426-48AC-A07E-7BCA05E5E757}
+----field----
+field: {4004C407-9C9F-4F47-AA1A-D6BCEDF3C3C4}
+name: Browser Title
+key: browser title
+content-length: 21
+
+Welcome to Officecore
+----field----
+field: {A0FC3F87-C1AC-4660-8AC6-91A1AD923E89}
+name: Sidebar Title
+key: sidebar title
+content-length: 24
+
+Look here for more info!
+----field----
+field: {3A4543F6-1FC9-41AF-8C43-FA5A748F93A9}
+name: Sidebar Text
+key: sidebar text
+content-length: 163
+
+ 
+<p>This is the sidebar.</p>
+<p>It contains additional information associated with the current page. On this home page, it also shows recent news items below.</p>
+----field----
+field: {6437B751-1E64-48D9-B549-C604ACE49732}
+name: Banner Image
+key: banner image
+content-length: 216
+
+<image mediapath="/Images/Banners/london-pano" src="~/media/3CC1BD86CA32475EB50FDD91A4C9DACE.ashx" height="" mediaid="{E616F9FD-8832-4C4D-AF46-C30673CB8344}" hspace="" width="" alt="Sitecore Flash Intro" vspace="" />
+----field----
+field: {CEA2FFFE-AB8F-4166-83B8-1874DBC363BE}
+name: Banner Header
+key: banner header
+content-length: 18
+
+Own the Experience
+----field----
+field: {4D396D25-9269-4C50-9E20-2DEB64C268D9}
+name: Banner Slogan
+key: banner slogan
+content-length: 61
+
+We have a wide range of products to suit your business needs!
+----field----
+field: {F1698936-FF99-47A7-B9FA-3786FF2DC7C1}
+name: Banner Link
+key: banner link
+content-length: 0
+
+
+----field----
+field: {1DDA7498-31F0-4ACA-9994-BFF0B4D6F96A}
+name: Show Help Buttons
+key: show help buttons
+content-length: 1
+
+1
+----field----
+field: {1EF5DDAA-50AE-4DD0-9CE5-321CBCB06900}
+name: Show Help Links
+key: show help links
+content-length: 0
+
+
+----field----
+field: {4023A3F1-755A-45CB-B72C-89FEBE6B7880}
+name: Show Split Top Menu
+key: show split top menu
+content-length: 1
+
+1
+----field----
+field: {EB8B3BA9-5689-4F78-B5AB-BE56BB9DA140}
+name: Help Menu Title
+key: help menu title
+content-length: 6
+
+Sample
+----field----
+field: {FC439C65-F9B4-4D32-B03C-40E3711CE20B}
+name: Help Menu Tooltip
+key: help menu tooltip
+content-length: 29
+
+View the provided sample site
+----field----
+field: {6E3059E1-2D2D-426C-9CE7-414A7AE9297C}
+name: Metatags-Description
+key: metatags-description
+content-length: 44
+
+This is my website description and it rocks!
+----field----
+field: {B7C19379-C6BB-4544-A0F6-D5F70BAFC22F}
+name: Metatags-Other keywords
+key: metatags-other keywords
+content-length: 21
+
+Officecore, Brilliant
+----field----
+field: {D5A4F329-B904-4D6D-8503-392BD87B18A6}
+name: Title
+key: title
+content-length: 21
+
+Welcome to Officecore
+----field----
+field: {BAC5B3D4-5E16-47A0-A4DB-305B29BC7702}
+name: Text
+key: text
+content-length: 216
+
+<p>Officecore are dedicated to providing the best possible resources for everything office related. Services, products and advice are all a part of what we do. Please browse through&nbsp;our site for inspiration.</p>
+----field----
+field: {1E705182-A86C-4FC7-A0C2-914C1D44FD82}
+name: Top Menu Style
+key: top menu style
+content-length: 38
+
+{B5604535-6F5F-4C8C-BCA1-1027C3A38684}
+----field----
+field: {224F18E3-9E1A-496C-B368-10C679974A1E}
+name: Side Menu Style
+key: side menu style
+content-length: 38
+
+{13D9091A-FAC7-4FE0-9F4C-B9FF027B1AEF}
+----field----
+field: {D9889276-F871-46A8-9B66-4E0A0900F35B}
+name: Sitemap Style
+key: sitemap style
+content-length: 38
+
+{2C3576CE-C19D-4652-A59E-659C33979185}
+----field----
+field: {2933C5A3-45A8-49CD-87AF-E9536922D8E5}
+name: Name
+key: name
+content-length: 8
+
+Sitecore
+----field----
+field: {7ECAC6E2-7C8D-4111-8EBD-13B865D7664F}
+name: Logo
+key: logo
+content-length: 209
+
+<image mediapath="/Images/Logos/oc-logo" src="~/media/7D7FC0236BA24889B773E90C88FCA7FA.ashx" height="59" mediaid="{F6DA85EB-AD64-45CE-AAC9-DD3FEB22BBF8}" hspace="" width="208" alt="Officecore 4.1" vspace="" />
+----field----
+field: {0A0552B6-29CB-472F-BD1A-075501BA1F57}
+name: Theme
+key: theme
+content-length: 38
+
+{D14C4032-66A4-47F6-AAA7-0EBFC21914CB}
+----field----
+field: {85C1A121-93CB-40A7-8438-E5BB0884876D}
+name: Powered By Link
+key: powered by link
+content-length: 114
+
+<link linktype="internal" url="/Home.aspx" querystring="" target="" id="{4E7AB8B1-6A39-4C8C-BF5B-816F8105BFFD}" />
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 4
+
+Home
+----field----
+field: {41C6CC0E-389F-4D51-9990-FE35417B6666}
+name: __Preview
+key: __preview
+content-length: 347
+
+<p><s date="20121102T153504" id="{4CCE841B-EC1B-4786-8B39-48575D1E0186}"><r id="{2705BB2E-BA57-4F46-AAD2-F8BE2421CFCF}" name="Explorer 9.0" url="http://s3.amazonaws.com/resultcaptures/d0ffdfac-20dd-4c21-a8d7-05e396d287c4.fullpage.png" thumb="http://s3.amazonaws.com/resultcaptures/d0ffdfac-20dd-4c21-a8d7-05e396d287c4.fullpagethumb.png" /></s></p>
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 952
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{B61FD6AB-7C63-40DD-98F5-298DC97376BF}"><p:d /></r><r uid="{C3B75246-FC8D-45F4-9A9B-449C549F212C}"><p:d /></r><r uid="{6210E579-30EC-4306-BFF5-75AF296B42A7}" p:before="r[@uid='{64C2EDEE-76DB-473B-8AC9-1419B69F3559}']" s:id="{F08A7BDB-833E-41AE-9190-12607F3B0147}" s:ph="page-columns" /><r uid="{64C2EDEE-76DB-473B-8AC9-1419B69F3559}" s:ds="{C7442439-03EF-4A0A-BF3D-E543C1DFB00A}" s:id="{FF3D027B-1790-460A-ACC3-685E1757FA58}" s:ph="banner" /></d><d id="{74437005-A7E6-4450-B6CB-8354859FE1E8}"><r uid="{8C8A2FA3-5F27-4A21-9DAD-02063E2BFF6E}"><p:d /></r><r uid="{26BD35B9-B2CE-430A-B6E0-F0DDD0767FEA}" p:before="r[@uid='{23F1613B-5D57-406B-AEE5-68A5D58C2513}']" s:id="{30738779-AE65-4394-BED0-11B886279C9A}" s:ph="mobilepagecontent" /><r uid="{23F1613B-5D57-406B-AEE5-68A5D58C2513}" s:id="{5A6394F1-33DA-41D4-A39A-AD1045B9DD67}" s:ph="mobilepagecontent" /></d></r>
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 16
+
+20141231T090000Z
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20120918T144923Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+07c44f30-994c-42c2-b356-1555e1680b16
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150424T134848:635654801281484604Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
+----version----
+language: ja-JP
+version: 1
+revision: 44176fe7-36aa-41e3-a3dd-c631c61265ae
+
+----field----
+field: {C8F0CF43-0D0F-457D-8E59-568815CCD2FC}
+name: Menu Tooltip
+key: menu tooltip
+content-length: 17
+
+サンプルサイトのホームページに戻る
+----field----
+field: {A0FC3F87-C1AC-4660-8AC6-91A1AD923E89}
+name: Sidebar Title
+key: sidebar title
+content-length: 11
+
+詳しくはこちらを見て！
+----field----
+field: {3A4543F6-1FC9-41AF-8C43-FA5A748F93A9}
+name: Sidebar Text
+key: sidebar text
+content-length: 90
+
+<p>これは、サイドバーです。 </p><p>これは、追加情報を現在のページに関連付けられています。このホームページで、それはまた次の最近のニュースの項目を示しています。 </p>
+----field----
+field: {6437B751-1E64-48D9-B549-C604ACE49732}
+name: Banner Image
+key: banner image
+content-length: 212
+
+<image alt="Sitecore Flash Intro" height="" width="" hspace="" vspace="" mediaid="{18369EAE-04A5-41E5-B594-BF68E071EB0C}" mediapath="/Images/Banners/sitecore key" src="~/media/Images/Banners/sitecore key.ashx" />
+----field----
+field: {4D396D25-9269-4C50-9E20-2DEB64C268D9}
+name: Banner Slogan
+key: banner slogan
+content-length: 57
+
+顧客の引用、あるいはあなたの訪問者の興味をキャプチャを提供するあなたの会社のスローガンを示し、この領域を使用して！
+----field----
+field: {EB8B3BA9-5689-4F78-B5AB-BE56BB9DA140}
+name: Help Menu Title
+key: help menu title
+content-length: 4
+
+サンプル
+----field----
+field: {FC439C65-F9B4-4D32-B03C-40E3711CE20B}
+name: Help Menu Tooltip
+key: help menu tooltip
+content-length: 15
+
+プロフィール提供サンプルサイト
+----field----
+field: {D5A4F329-B904-4D6D-8503-392BD87B18A6}
+name: Title
+key: title
+content-length: 15
+
+ようこそ訓練サンプルサイトへ！
+----field----
+field: {BAC5B3D4-5E16-47A0-A4DB-305B29BC7702}
+name: Text
+key: text
+content-length: 67
+
+<p>我々は、訓練中に例として、このサイトを使用する。 </p><p>閲覧インスピレーションを得るため、このサイトを通じて。 </p>
+----field----
+field: {D9889276-F871-46A8-9B66-4E0A0900F35B}
+name: Sitemap Style
+key: sitemap style
+content-length: 38
+
+{2C3576CE-C19D-4652-A59E-659C33979185}
+----field----
+field: {2933C5A3-45A8-49CD-87AF-E9536922D8E5}
+name: Name
+key: name
+content-length: 8
+
+Sitecore
+----field----
+field: {7ECAC6E2-7C8D-4111-8EBD-13B865D7664F}
+name: Logo
+key: logo
+content-length: 195
+
+<image mediapath="/Images/Logos/oc-logo" src="~/media/7D7FC0236BA24889B773E90C88FCA7FA.ashx" height="68" mediaid="{4FCF4155-DFF9-4DB9-A82C-22BD6BDE9F42}" hspace="" width="235" alt="" vspace="" />
+----field----
+field: {0A0552B6-29CB-472F-BD1A-075501BA1F57}
+name: Theme
+key: theme
+content-length: 38
+
+{89F48D3E-86F0-4C08-8466-5A5B5B5B4705}
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 4
+
+Home
+----field----
+field: {41C6CC0E-389F-4D51-9990-FE35417B6666}
+name: __Preview
+key: __preview
+content-length: 347
+
+<p><s date="20121102T153504" id="{4CCE841B-EC1B-4786-8B39-48575D1E0186}"><r id="{2705BB2E-BA57-4F46-AAD2-F8BE2421CFCF}" name="Explorer 9.0" url="http://s3.amazonaws.com/resultcaptures/d0ffdfac-20dd-4c21-a8d7-05e396d287c4.fullpage.png" thumb="http://s3.amazonaws.com/resultcaptures/d0ffdfac-20dd-4c21-a8d7-05e396d287c4.fullpagethumb.png" /></s></p>
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 186
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{C3B75246-FC8D-45F4-9A9B-449C549F212C}" s:ds="{D104D1D0-FD4D-42E1-BD58-54F5D34562FA}" /></d></r>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20071123T143113
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+44176fe7-36aa-41e3-a3dd-c631c61265ae
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150124T003228:635576563481360170Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

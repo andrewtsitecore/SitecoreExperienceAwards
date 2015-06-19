@@ -1,0 +1,86 @@
+----item----
+version: 1
+id: {09F7346F-737C-49E7-8F41-AEE1BAEBE4D8}
+database: master
+path: /sitecore/system/Social/Obsolete Messages/6/A/8/8/Home_en/201306240933099764854
+parent: {6A88257C-0648-469B-8843-E3257353F957}
+name: 201306240933099764854
+master: {00000000-0000-0000-0000-000000000000}
+template: {D7851F00-E869-4F93-81F5-B5338EFF58A9}
+templatekey: Facebook Message
+
+----field----
+field: {F990AABD-AE0C-4560-AB10-5B76962FA211}
+name: Message obsolete
+key: message obsolete
+content-length: 49
+
+Get a discount on Office Supplies with Officecore
+----field----
+field: {1820BF83-7008-4979-8DFC-3841DF0C2CBD}
+name: Link
+key: link
+content-length: 124
+
+<link linktype="internal" url="/Home.aspx" querystring="sc_lang=en" target="" id="{4E7AB8B1-6A39-4C8C-BF5B-816F8105BFFD}" />
+----field----
+field: {2A318490-5DF3-4ED5-AE00-7BCCB9E9E3ED}
+name: Campaign
+key: campaign
+content-length: 38
+
+{0BFFAF94-F523-452A-9F2A-1FA3292D4647}
+----field----
+field: {663688E8-167B-44DE-9A8B-8C55664A8BF1}
+name: Link Image
+key: link image
+content-length: 151
+
+<image mediaid="{DC7AB7CB-A4A7-4358-8ACC-A73E2D2011EA}" mediapath="/Images/Products/Black Goose" src="~/media/DC7AB7CBA4A743588ACCA73E2D2011EA.ashx" />
+----field----
+field: {6CB377BB-F091-455A-B070-3B6ED6834D33}
+name: Link Title
+key: link title
+content-length: 22
+
+Black Goose Lamp Deals
+----version----
+language: en
+version: 1
+revision: 5748a9ad-6eb4-4787-a3ec-e244c6ac0a6c
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130624T103310
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5748a9ad-6eb4-4787-a3ec-e244c6ac0a6c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20130624T103310:635076667900684907
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script type="text/javascript">
+        function checkConnection()
+        {
+            if(navigator.onLine)
+            {
+                location.href = getParameterByName("site");
+            }
+            else
+            {
+                location.href = "/assets/facebook/facebookoffline.htm";
+            }
+        }
+
+        function getParameterByName(name) {
+            name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+            var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+                results = regex.exec(location.search);
+            return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+        }
+
+    </script>
+</head>
+<body onload="checkConnection()">
+
+</body>
+</html>
